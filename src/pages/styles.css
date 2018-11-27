@@ -1,0 +1,244 @@
+
+
+@media screen and (min-width : 769px){
+    .top{
+        background-image:url("../assets/background_all.jpg");
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+    }
+    .baseMobile{
+        display:none;
+    }
+    .baseDesktop{
+        margin-bottom:30%;
+        z-index: 1;
+    }
+    .header{
+        margin-right:5%;
+    }
+    .logo1{
+        margin-left:-3%;
+    }
+
+    .topNavLinkDesktop{
+        display: inline-block;
+        color: #C1C6CE;
+        text-align: center;
+        margin-top: 2%;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+    .topNavLinkDesktop:hover{
+        display: inline-block;
+        color: #C1C6CE;
+        text-align: center;
+        margin-top: 2%;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: 0.2s;
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+    .signupLink{
+        display: inline-block;
+        color: #FCA311 !important;
+        box-shadow: inset 0 0 0 1px #fca311;
+        border-radius:5px;
+        text-align: center;
+        margin-top: 5%;
+        padding-left: 14px;
+        padding-right:14px;
+        padding-top:10px;
+        padding-bottom:10px;
+        text-decoration: none;
+        transition: 0.3s;
+        font-size: 17px;
+    } 
+    .signupLink:hover{
+        background-color:#fca311;
+        color:white !important;
+        text-decoration:none;
+        cursor:pointer;
+    }
+    .modal-x{
+        float:right;
+        background-color: transparent;
+        color:#C1C6CE;
+        border:none;
+        margin-bottom:1%;
+        border-radius:3px;
+    }
+    .modal-x:hover{
+        box-shadow: 0px 0px 1px 0px #ADB5C1;
+        cursor: pointer;
+    }
+    .ReactModal__Content {
+        opacity: 0;
+      }      
+    .ReactModal__Content--after-open{
+        opacity:1;
+        transition: opacity 150ms;
+        height:80%;
+        width:90%;
+        margin:auto;
+        margin-top:6%
+    }
+    .ReactModal__Content--before-close {
+        opacity: 0;
+      }
+}
+@media screen and (max-width : 769px){
+    .top{
+        background-image:url("../assets/background_all.jpg");
+        background-size:200% 105%;
+        background-repeat:no-repeat;
+    }
+    .divider{
+        display:none;
+    }
+    .spacer{
+       display:none;
+    }
+    .baseDesktop{
+        display:none;
+    }
+    .baseMobile{
+        margin-bottom:30%;
+        z-index: 1;
+    }
+    .footer{
+        flex-direction: column;
+        flex-wrap:wrap;
+    }
+    .footer-connext{
+        flex-grow:1;
+        margin-right:5%;
+    }
+    /*
+    .footer-copy{
+        width: 100% !important;
+        margin-left:18% !important;
+        float:left !important;
+    }
+    .footer-company-resources{
+        margin-top: 3%;
+    } */
+
+    
+#sidebarMenu {
+    height: auto;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    margin-top: 0%;
+    transition: transform 250ms ease-in-out;
+    background: #002868
+  }
+  
+  .sidebarMenuInner {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+  }
+  
+  .sidebarMenuInner li {
+    list-style: none;
+    color: #C1C6CE;
+    font-family: 'proxima-nova', sans-serif;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+  }
+  
+  .sidebarMenuInner li span {
+    display: block;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.50);
+    
+  }
+  
+  .sidebarMenuInner li a {
+    color: #C1C6CE;
+    font-family: 'proxima-nova', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 0;
+  }
+  .hamburger {
+    padding: 15px 15px;
+    display: inline-block;
+    cursor: pointer;
+    transition-property: opacity, filter;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    margin-top:15%;
+    margin-left:5%;
+    overflow: visible; }
+    .hamburger:hover {
+      opacity: 0.7; }
+    .hamburger.is-active:hover {
+      opacity: 0.7; }
+    .hamburger.is-active .hamburger-inner,
+    .hamburger.is-active .hamburger-inner::before,
+    .hamburger.is-active .hamburger-inner::after {
+      background-color: #C1C6CE; }
+  
+  .hamburger-box {
+    width: 30px;
+    height: 18px;
+    display: inline-block;
+    position: relative; }
+  
+  .hamburger-inner {
+    display: block;
+    top: 50%;
+    margin-top: -2px; }
+    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+      width: 30px;
+      height: 3px;
+      background-color: #C1C6CE;
+      border-radius: 4px;
+      position: absolute;
+      transition-property: transform;
+      transition-duration: 0.15s;
+      transition-timing-function: ease; }
+    .hamburger-inner::before, .hamburger-inner::after {
+      content: "";
+      display: block; }
+    .hamburger-inner::before {
+      top: -10px; }
+    .hamburger-inner::after {
+      bottom: -10px; }
+      .hamburger--3dy .hamburger-box {
+        perspective: 80px; }
+      
+      .hamburger--3dy .hamburger-inner {
+        transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1); }
+        .hamburger--3dy .hamburger-inner::before, .hamburger--3dy .hamburger-inner::after {
+          transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1); }
+      
+      .hamburger--3dy.is-active .hamburger-inner {
+        background-color: transparent !important;
+        transform: rotateX(-180deg); }
+        .hamburger--3dy.is-active .hamburger-inner::before {
+          transform: translate3d(0, 10px, 0) rotate(45deg); }
+        .hamburger--3dy.is-active .hamburger-inner::after {
+          transform: translate3d(0, -10px, 0) rotate(-45deg); }
+}
+
+.footer{
+    position:relative;
+    bottom:0;
+    height:3%;
+    display:block;
+    background-color:#282B2E;
+    z-index: 0;
+}

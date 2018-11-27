@@ -1,0 +1,33 @@
+{
+  "name": "Connext",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@glorious/demo": "^0.7.0",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.3",
+    "prismjs": "^1.15.0",
+    "react": "^16.4.2",
+    "react-animated-number": "^0.4.4",
+    "react-delay": "^0.1.0",
+    "react-dom": "^16.4.2",
+    "react-hamburger-button": "0.0.1",
+    "react-light-accordion": "^0.1.4",
+    "react-modal": "^3.6.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.5",
+    "react-scroll": "^1.7.10",
+    "react-scroll-into-view": "^1.5.0",
+    "react-scroll-to": "^2.0.0-alpha.1",
+    "react-scrollable-anchor": "^0.6.1",
+    "react-slick": "^0.23.2",
+    "reactstrap": "^5.0.0-beta.2",
+    "scroll-into-view-if-needed": "^2.2.20"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

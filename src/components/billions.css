@@ -1,0 +1,43 @@
+@media screen and (max-width : 760px){
+    .explainer{
+        flex-direction: column;
+    }
+    .explainer1{
+        width:100% ;
+        margin-top: 6%;
+    }
+    .explainer2{
+        width:100% ;
+        margin-bottom:8%;
+    }
+    .layer{
+        margin-left:5%;
+        margin-top:5%;
+    }
+    .payments{
+        text-align:right;
+        margin-left:40%;
+        margin-top:-8%;
+    }
+}
+
+@media screen and (min-width : 760px){
+    .explainer{
+        flex-direction:row;
+        flex-wrap:wrap;
+    }
+    .explainer1{
+        width:45%;
+    }
+    .explainer2{
+        width:45%;
+    }
+    .layer{
+        margin-left:5%;
+        margin-top:5%;
+    }
+    .payments{
+        margin-left:5%;
+        margin-top:-8%;
+    }
+}
