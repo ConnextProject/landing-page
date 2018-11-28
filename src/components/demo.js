@@ -221,7 +221,8 @@ class Demo extends Component {
                 <div className="card-graphics-2" style={{}}>
                     <img src={step2} style={{ width:"180px"}}></img>
                 </div>
-                <div className="card-text-2" style={{}}>
+                <div className="card-text-2">
+                <div className="user1" style={{}}>
                 User 1's <br />Thread Balance <br />
                 <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={2}
                     style={{
@@ -238,7 +239,7 @@ class Demo extends Component {
                     duration={50} /> 
                     {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>
-                <div className="card-text-2" style={{}}>
+                <div className="user2" style={{}}>
                 User 2's <br /> Thread Balance <br /> 
                 <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={2}
                     style={{
@@ -254,6 +255,7 @@ class Demo extends Component {
                     )}
                     duration={50} /> 
                     {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
+                </div>
                 </div>
             </div>
         </div>

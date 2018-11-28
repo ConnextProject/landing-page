@@ -77,12 +77,19 @@
         margin-left:-80px;
     }
     .card-text-2{
-        float:right;
-        padding-left:5%;
-        width:40%;
+        display:flex;
+        flex-direction:row;
+        width:80%;
         margin-top:2%;
-        margin-left:20%;
         font-size:16px;
+        margin-left:30%;
+    }
+    .user1{
+        float:left;
+    }
+    .user2{
+        padding-left:5%;
+        float:left;
     }
     .card-graphics-3{
         width:15%;
