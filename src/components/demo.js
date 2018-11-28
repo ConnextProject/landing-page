@@ -3,12 +3,13 @@ import AnimatedNumber from 'react-animated-number';
 import './demo.css';
 import spinner from '../assets/spinner.gif';
 import greencheck from '../assets/greencheck.png';
-import step1 from '../assets/step1.png';
-import step2 from '../assets/step2.png';
-import step3 from '../assets/step3.png';
-import step4A from '../assets/step4A.png';
-import step4B from '../assets/step4B.jpg';
-import bullet from '../assets/bullet.jpg';
+import step1 from '../assets/step1.svg';
+import step2 from '../assets/step2.svg';
+import step3 from '../assets/step3.svg';
+import step4A from '../assets/step4A.svg';
+import step4B from '../assets/step4B.svg';
+import bullet from '../assets/bullet.svg';
+import dai from '../assets/dai.png';
 
 
 class Demo extends Component {
@@ -132,10 +133,10 @@ class Demo extends Component {
                     fontFamily: "'proxima-nova',sans-serif",
                     color:"#0F1012"}}>
         <div>
-            <h3 style={{fontWeight:"lighter",
+            <h1 style={{fontWeight:"lighter",
                         fontFamily: "Comfortaa",
                         color:"#0F1012",
-                        fontSize:"36px"}}>How it works</h3>
+                        fontSize:"36px"}}>How it works</h1>
             <br />
             <p  className="subhead" style={{margin:"auto"}}>Let's walk through a typical payment flow</p>
         </div>
@@ -160,11 +161,11 @@ class Demo extends Component {
                                     fontWeight:"bold",
                                     fontFamily:"comfortaa",
                                     color:"#08B22D",
-                                    transition: '0.8s ease-out',
+                                    transition: '0.1s ease-out',
                                     transitionProperty:
                                         'background-color, color, opacity'
                                 }}
-                                duration={500}/> DAI </div>
+                                duration={500}/> <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> </div>
                                  }
                     </div>
                     <div style={{width:"20%", float:"none", marginTop:"-60px",marginLeft:"-30px"}}>
@@ -172,8 +173,8 @@ class Demo extends Component {
                     </div>
                 </div>
             </div>
-            <div style={{width:"20%"}}>
-                <img src={bullet} alt="bullet" />
+            <div className="bullet" >
+                <img className="bullet-sub" src={bullet} alt="bullet" />
             </div>
             <div className="step-paragraph" style={{textAlign:"left"}}>
                 <h4 style={{fontWeight:"lighter",
@@ -205,8 +206,8 @@ class Demo extends Component {
                 </p>
                 <button className="demo-button" onClick={this.handleThreadSubmit}>Pay another user</button>
             </div>
-            <div style={{width:"20%"}}>
-                <img src={bullet} alt="bullet" />
+            <div className="bullet">
+                <img className="bullet-sub" src={bullet} alt="bullet" />
             </div>
             <div xs="5" className="step2card" style={{   border: "5px solid #fff",
                             borderRadius: "20px",
@@ -233,7 +234,7 @@ class Demo extends Component {
                     }}frameStyle={perc => (
                         perc === 100 ? {}:{color: '#08B22D'} 
                     )}
-                    duration={500} /> DAI
+                    duration={500} /> <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} />
                 </div>
                 <div style={{float:"right",width:"40%",marginTop:"2%",fontSize:"16px"}}>
                 User 2's <br /> Thread Balance <br /> 
@@ -249,11 +250,11 @@ class Demo extends Component {
                     }}frameStyle={perc => (
                         perc === 100 ? {}:{color: '#F22424'} 
                     )}
-                    duration={500} /> DAI
+                    duration={500} /> <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} />
                 </div>
             </div>
         </div>
-        <div className="step-wrapper" style={{marginTop:"5%", display:"flex",marginLeft:"-6%"}}>
+        <div className="step-wrapper" style={{marginTop:"5%", display:"flex"}}>
 
             <div className="step3card" style={{   border: "5px solid #fff",
                             borderRadius: "20px",
@@ -262,7 +263,8 @@ class Demo extends Component {
                             fontWeight:"lighter",
                             fontFamily: "'proxima-nova',sans-serif",
                             color:"#0F1012",
-                            height:"150px"}}>
+                            height:"150px",
+                            marginLeft:"-10%"}}>
                 <div style={{marginLeft:"-45px", marginTop:"-40px", width:"15%"}}>
                     <img src={step3} style={{ width:"150px"}}></img>
                 </div>
@@ -281,7 +283,7 @@ class Demo extends Component {
                     }}frameStyle={perc => (
                         perc === 100 ? {}:{color: '#08B22D'} 
                     )}
-                    duration={500} />&nbsp;DAI
+                    duration={500} />&nbsp;<img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} />
                 </div>                
                 <div style={{marginLeft:"2%",fontSize:"16px",paddingRight:"2%",borderRight:"1px solid #C1C6CE"}}>
                 User 2's <br />Thread Balance
@@ -298,7 +300,7 @@ class Demo extends Component {
                     }} frameStyle={perc => ( 
                         perc === 100 ? {}:{color: '#F22424'} 
                     )}
-                    duration={500} />&nbsp;DAI
+                    duration={500} />&nbsp;<img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} />
                 </div>
                 <div style={{margin:"auto"}}>Total <br/>transactions
                 <br/>
@@ -317,8 +319,8 @@ class Demo extends Component {
                     duration={500} />
                 </div>               
             </div>
-            <div style={{width:"20%"}}>
-                <img src={bullet} alt="bullet" />
+            <div className="bullet" >
+                <img className="bullet-sub" src={bullet} alt="bullet" style={{margin:"auto"}}/>
             </div>
             <div className="step-paragraph-3" style={{textAlign:"left"}}>
                 <h4 style={{fontWeight:"lighter",
@@ -342,8 +344,8 @@ class Demo extends Component {
                 </p>
                 <button className="demo-button" onClick={this.cashOut}>Cash out</button>
             </div>
-            <div style={{width:"20%"}}>
-                <img src={bullet} alt="bullet" />
+            <div className="bullet-4">
+                <img className="bullet-sub" src={bullet} alt="bullet" />
             </div>
             <div className="step4card" style={{   border: "5px solid #fff",
                             borderRadius: "20px",
@@ -376,7 +378,7 @@ class Demo extends Component {
                                     }} frameStyle={perc => (
                                         perc === 100 ? {}:{color: '#F22424'} 
                                     )}
-                                    duration={500} />DAI 
+                                    duration={500} /><img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> 
                             </div>
                         }
                     </div>
@@ -398,7 +400,7 @@ class Demo extends Component {
                             }} frameStyle={perc => (
                                 perc === 100 ? {}:{color: '#08B22D'} 
                             )}
-                            duration={500} />&nbsp;DAI
+                            duration={500} />&nbsp;<img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} />
                         </div>
                         }
                     </div>

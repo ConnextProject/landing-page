@@ -21,14 +21,14 @@ scrollToMyRef = () => {
 
   render() {
     return (
-      <div className="team-toplevel" style={{}}>
+      <div className="team-toplevel" style={{marginTop:"5%"}}>
             <div className="team-header" style={{textAlign:"center", margin:"auto"}}>
                                                   
-              <h2 style={{
+              <h1 style={{
                         fontFamily: "Comfortaa",
-                        color:"#0F1012"}}>
+                        color:"#FFF"}}>
                 Team
-              </h2>
+              </h1>
             </div>
           <div className="bio-container" style={{display:"flex",width:"100%"}}>
               <div className="bio-pic" >

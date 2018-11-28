@@ -34,7 +34,7 @@
 }
 @media screen and (min-width : 769px){
     .bio-container{
-        margin-top:3%;
+        margin-top:15%;
         flex-direction:row;
         flex-wrap:wrap;
         align-items:flex-start;

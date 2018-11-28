@@ -16,8 +16,8 @@
     }
     .payments{
         text-align:right;
-        margin-left:40%;
-        margin-top:-8%;
+        margin-left:15%;
+        margin-top:6%;
     }
 }
 
@@ -27,6 +27,7 @@
         flex-wrap:wrap;
     }
     .explainer1{
+        margin-top:5%;
         width:45%;
     }
     .explainer2{

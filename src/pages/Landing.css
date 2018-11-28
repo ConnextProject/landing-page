@@ -5,9 +5,9 @@
     align-content:flex-start;
   }
   .computer-header{
-    margin-top:-2%;
-    margin-left:6%;
-    width:90%;
+    margin-top:-18%;
+    margin-left:35%;
+    width:400%;
   }
   .usecase-mobile{
       display:none;
@@ -33,7 +33,7 @@
       justify-content: flex-start;
       align-content:flex-start;
       flex-direction: column;
-      margin-bottom:100%;
+      margin-bottom:140%;
     }
     .usecase-desktop{
         display:none;
@@ -51,7 +51,7 @@
     }
     .computer-header{
       margin-top:-25%;
-      width:100%;
+      width:110%;
     }
     .gettingstarted-button{
       width:100% !important;

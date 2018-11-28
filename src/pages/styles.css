@@ -2,9 +2,10 @@
 
 @media screen and (min-width : 769px){
     .top{
-        background-image:url("../assets/background_all.jpg");
-        background-size:100% 100%;
+        background-image:url("../assets/background_all.svg");
+        background-size:cover;
         background-repeat:no-repeat;
+        background-position: 0 10%;
     }
     .baseMobile{
         display:none;
@@ -91,9 +92,10 @@
 }
 @media screen and (max-width : 769px){
     .top{
-        background-image:url("../assets/background_all.jpg");
-        background-size:200% 105%;
+        background-image:url("../assets/background_all.svg");
+        background-size:cover;
         background-repeat:no-repeat;
+        background-position:0 0;;
     }
     .divider{
         display:none;

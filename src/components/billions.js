@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import './billions.css';
-import payments from "../assets/payments.jpg";
-import layer2 from "../assets/layer2.jpg";
+import payments from "../assets/payments.svg";
+import layer2 from "../assets/layer.svg";
 
 
 class Explainer extends Component{
@@ -11,9 +11,9 @@ class Explainer extends Component{
                                                 display:"flex", 
                                                 marginBottom:"10%"}}>
                 <div className="layer" style={{width:"40%", order:"1"}}>
-                    <img src={layer2} alt="layer2" style={{width:"190px"}}/>
+                    <img src={layer2} alt="layer2" style={{width:"250px"}}/>
                 </div>
-                <div className="explainer1"style={{ marginLeft:"5%", textAlign:"left",order:"2", marginBottom:"25%"}}>
+                <div className="explainer1"style={{ marginLeft:"5%", textAlign:"left",order:"2", marginBottom:"20%"}}>
                     <h3 style={{fontWeight:"lighter",
                                 fontFamily: "Comfortaa",
                                 color:"#FCA311"}}>
@@ -36,7 +36,7 @@ class Explainer extends Component{
                     We enable the transaction throughput and speed needed to make this a reality.
                 </div>
                 <div className="payments" style={{width:"40%",order:"4"}}>
-                    <img src={payments} alt="payments" style={{width:"190px"}}/>
+                    <img src={payments} alt="payments" style={{width:"250px"}}/>
                 </div>
             </div>
         )

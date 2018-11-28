@@ -4,7 +4,7 @@ import Demo from "../components/demo";
 import BestFor from "../components/bestfor";
 import Viable from "../components/viable";
 import Explainer from "../components/billions";
-import computer_header from "../assets/computer_header.png";
+import computer_header from "../assets/computer_header.svg";
 
 class Landing extends Component {
 
@@ -37,16 +37,16 @@ class Landing extends Component {
             <img className="computer-header" src={computer_header} alt="computer header"></img>
           </div>
         </div>
-        <div style={{marginBottom: "22%"}}>
+        <div style={{marginBottom: "19%"}}>
           <Explainer />
         </div>
-        <div style={{marginBottom:"16%"}}>
+        <div>
           <Viable />
         </div>
-        <div style={{marginBottom: "10%"}}>
+        <div style={{marginBottom: "18%"}}>
           <Demo />
         </div>
-        <div style={{marginBottom:"22%"}}>
+        <div style={{marginBottom:"24%"}}>
           <BestFor/>
         </div>
         <div style={{textAlign:"center"}}>

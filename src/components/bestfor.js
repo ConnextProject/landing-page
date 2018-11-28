@@ -6,6 +6,10 @@ import {
     Row,
     Col
   } from "reactstrap";
+import icon1 from "../assets/icon1.svg";
+import icon2 from "../assets/icon2.svg";
+import icon3 from "../assets/icon3.svg";
+import icon4 from "../assets/icon4.svg";
 
 
 class BestFor extends Component {
@@ -21,11 +25,11 @@ class BestFor extends Component {
                                               fontWeight:"lighter",
                                               fontFamily: "'proxima-nova',sans-serif",
                                               color:"#0F1012"}}>
-                <h3 style={{fontWeight:"lighter",
+                <h1 style={{fontWeight:"lighter",
                                   fontFamily: "Comfortaa",
                                   color:"#0F1012"}}>
-                  What is Connext best for?
-                </h3>
+                  What is Indra best for?
+                </h1>
             </div>
             <div className="usecase-desktop">
               <Slider {...settings}>
@@ -33,18 +37,17 @@ class BestFor extends Component {
                     <Row>
                     <Col xs="8">
                     <p style={{textAlign:"right"}}>
-                    <span style={{color:"#FCA311"}} >CONTENT PAYMENTS</span>
-                    <br />
+                    <h5 style={{color:"#FCA311"}} >CONTENT PAYMENTS</h5>
                     <br />
                       By reducing your transaction costs to almost zero, 
-                      Connext empowers streamers and creators to seamlessly monetize their content, 
+                      Indra empowers streamers and creators to seamlessly monetize their content, 
                       no matter how low the price.
                       </p>
                       </Col>
-                    <Col xs="0" style={{borderLeft:"thin solid", color:"#0F1012"}}>
+                    <Col className="divider" xs="0" >
                     </Col>
                       <Col xs="3">
-                      pic goes here
+                        <img className="icon1" src={icon1} alt="icon1" />
                       </Col>
                       </Row>
                   </div>
@@ -52,18 +55,17 @@ class BestFor extends Component {
                     <Row>
                     <Col xs="8">
                     <p style={{textAlign:"right"}}>
-                    <span style={{color:"#FCA311"}} >P2P MARKETPLACES</span>
-                    <br />
+                    <h5 style={{color:"#FCA311"}} >P2P MARKETPLACES</h5>
                     <br />
                       Controlling user funds and managing payouts is risky and takes work. 
-                      Connext lets you make your marketplace truly peer-to-peer, so you can 
+                      Indra lets you make your marketplace truly peer-to-peer, so you can 
                       focus on what really matters.
                     </p>
                       </Col>
-                      <Col xs="0" style={{borderLeft:"thin solid", color:"#0F1012"}}>
+                      <Col className="divider" xs="0" >
                     </Col>
                       <Col xs="3">
-                      pic goes here
+                         <img className="icon4" src={icon4} alt="icon1" />                      
                       </Col>
                       </Row>
                   </div>
@@ -71,18 +73,17 @@ class BestFor extends Component {
                     <Row>
                     <Col xs="8">
                     <p style={{textAlign:"right"}}>
-                    <span style={{color:"#FCA311"}} >IOT INTERACTIONS</span>
+                    <h5 style={{color:"#FCA311"}} >MACHINE INTERACTIONS</h5>
                     <br />
-                    <br />
-                      Built from the ground up to enable automation, Connext Hubs let 
+                      Built from the ground up to enable automation, Indra lets
                       IoT devices interact frictionlessly, maintaining the security of 
                       your blockchain architecture. Beep boop.
                     </p>
                       </Col>
-                      <Col xs="0" style={{borderLeft:"thin solid", color:"#0F1012"}}>
+                      <Col className="divider" xs="0" >
                     </Col>
                       <Col xs="3">
-                      pic goes here
+                      <img className="icon2" src={icon2} alt="icon1" />
                       </Col>
                       </Row>
                   </div>
@@ -90,18 +91,17 @@ class BestFor extends Component {
                     <Row>
                     <Col xs="8">
                     <p style={{textAlign:"right"}}>
-                    <span style={{color:"#FCA311"}} >DECENTRALIZED EXCHANGE</span>
+                    <h5 style={{color:"#FCA311"}} >DECENTRALIZED EXCHANGE</h5>
                     <br />
-                    <br />
-                      Using a Connext Hub to clear transactions, decentralized exchanges 
+                      Using Indra to clear transactions, decentralized exchanges 
                       can retain their non-custodial architecture, but enable activities 
                       like high frequency trading.
                     </p>
                       </Col>
-                      <Col xs="0" style={{borderLeft:"thin solid", color:"#0F1012"}}>
+                      <Col className="divider" xs="0" >
                     </Col>
                       <Col xs="3">
-                      pic goes here
+                      <img className="icon3" src={icon3} alt="icon1" />
                       </Col>
                       </Row>
                   </div>
@@ -111,14 +111,13 @@ class BestFor extends Component {
             <div className="wrap" style={{ textAlign:"center"}}>
                   <Row>
                     <Col>
-                      pic goes here
+                    <img className="icon1m" src={icon1} alt="icon1" />
                       </Col>
                     </Row>
                     <Row>
                     <Col>
                     <p style={{textAlign:"center"}}>
-                    <span style={{color:"#FCA311"}} >CONTENT PAYMENTS</span>
-                    <br />
+                    <h5 style={{color:"#FCA311"}} >CONTENT PAYMENTS</h5>
                     <br />
                     By reducing your transaction costs to almost zero, 
                       Connext empowers streamers and creators to seamlessly monetize their content, 
@@ -130,14 +129,13 @@ class BestFor extends Component {
                   <div className="wrap" style={{textAlign:"center"}}>
                     <Row>
                     <Col>
-                      pic goes here
+                    <img className="icon4m" src={icon4} alt="icon1" />  
                       </Col>
                     </Row>
                     <Row>
                     <Col>
                     <p style={{textAlign:"center"}}>
-                    <span style={{color:"#FCA311"}} >P2P MARKETPLACES</span>
-                    <br />
+                    <h5 style={{color:"#FCA311"}} >P2P MARKETPLACES</h5>
                     <br />
                       Controlling user funds and managing payouts is risky and takes work. 
                       Connext lets you make your marketplace truly peer-to-peer, so you can 
@@ -149,14 +147,13 @@ class BestFor extends Component {
                   <div className="wrap" style={{textAlign:"center"}}>
                   <Row>
                     <Col>
-                      pic goes here
+                    <img className="icon2m" src={icon2} alt="icon1" />  
                       </Col>
                     </Row>
                     <Row>
                     <Col>
                     <p style={{textAlign:"center"}}>
-                    <span style={{color:"#FCA311"}} >IOT INTERACTIONS</span>
-                    <br />
+                    <h5 style={{color:"#FCA311"}} >MACHINE PAYMENTS</h5>
                     <br />
                     Built from the ground up to enable automation, Connext Hubs let 
                       IoT devices interact frictionlessly, maintaining the security of 
@@ -168,14 +165,13 @@ class BestFor extends Component {
                   <div className="wrap" style={{textAlign:"center"}}>
                   <Row>
                     <Col>
-                      pic goes here
+                    <img className="icon3m" src={icon3} alt="icon1" />  
                       </Col>
                     </Row>
                     <Row>
                     <Col>
                     <p style={{textAlign:"center"}}>
-                    <span style={{color:"#FCA311"}} >DECENTRALIZED EXCHANGE</span>
-                    <br />
+                    <h5 style={{color:"#FCA311"}} >DECENTRALIZED EXCHANGE</h5>
                     <br />
                     Using a Connext Hub to clear transactions, decentralized exchanges 
                       can retain their non-custodial architecture, but enable activities 

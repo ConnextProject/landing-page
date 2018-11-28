@@ -8,7 +8,7 @@ import Demo from "../components/demo";
 import './styles.css';
 import logoHorizontal from '../assets/logoHorizontal.png';
 import logoWhiteHorizontal from '../assets/logoWhiteHorizontal.png';
-import background_all from "../assets/background_all.jpg";
+import background_all from "../assets/background_all.svg";
 
 
 Modal.setAppElement('#root'); 
