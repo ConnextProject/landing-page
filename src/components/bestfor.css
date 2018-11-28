@@ -33,6 +33,10 @@
     .wrap{
       padding: 3% 3% 3% 3%;
     }
+    .learn-more{
+      margin-top:8%;
+      text-align:center
+   }
   }
   
 @media screen and (max-width : 760px){
@@ -43,25 +47,38 @@
       width:100px;
       padding-left:0%;
       padding-top:10%;
+      padding-bottom:5%;
     }
     .icon2m{
       width:100px;
-      padding-left:10%;
-      padding-top:17.5%;
+      padding-left:0%;
+      padding-top:10%;
+      padding-bottom:5%;
     }
     .icon3m{
       width:100px;
-      padding-left:10%;
-      padding-top:17.5%;
+      padding-left:0%;
+      padding-top:10%;
+      padding-bottom:5%;
     }
     .icon4m{
       width:100px;
-      padding-left:10%;
-      padding-top:17.5%;
+      padding-left:0%;
+      padding-top:10%;
+      padding-bottom:5%;
     }
     .usecase-mobile{
       margin-bottom:120%;
     }
+    .learn-more{
+       display:none;
+    }
+    .learn-more-mobile{
+      text-align:center;
+      margin-top:10%;
+      padding-bottom:25%;
+      z-index:50;
+   }
 }
 
 .slick-slide {

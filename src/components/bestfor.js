@@ -176,8 +176,15 @@ class BestFor extends Component {
                       </Col>
                       </Row>
                   </div>
+            <div className="learn-more-mobile" style={{}}>
+              <button  className="demo-button" outline style={{ margin:"auto"}}>
+                  <a href="https://docs.connext.network" style={{textDecoration:"none",color:"inherit"}}>
+                      Learn More
+                  </a>
+              </button>
+            </div>
             </Container>
-            <div style={{marginTop:"8%", textAlign:"center"}}>
+            <div className="learn-more" style={{}}>
               <button  className="demo-button" outline style={{ margin:"auto"}}>
                   <a href="https://docs.connext.network" style={{textDecoration:"none",color:"inherit"}}>
                       Learn More

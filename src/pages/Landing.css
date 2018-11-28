@@ -26,6 +26,9 @@
     flex-direction:column;
     width:35%;
   }
+  .bestfor{
+    margin-bottom:24%;
+  }
 }
 
   @media screen and (max-width : 760px){
@@ -33,14 +36,14 @@
       justify-content: flex-start;
       align-content:flex-start;
       flex-direction: column;
-      margin-bottom:140%;
+      margin-bottom:100%;
     }
     .usecase-desktop{
         display:none;
     }
     .headline{
       width:100%;
-      margin-bottom:50%; 
+      margin-bottom:40%; 
       display:block;
     }
     .headerbuttons{
@@ -63,6 +66,12 @@
       float:left;
       margin-left:0;
       margin-top:3%;
+    }
+    .bestfor{
+      margin-bottom:0%;
+    }
+    .landing-cta{
+      position:relative;
     }
   }
 
