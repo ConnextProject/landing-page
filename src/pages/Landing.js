@@ -14,12 +14,12 @@ class Landing extends Component {
       <div className="landing-toplevel" style={{paddingTop:"6%"}}>
         <div className="above-fold" style={{display:"flex"}}>
           <div className="headline" style={{color:"#fff"}}>
-              <h2 style={{fontFamily:"Comfortaa", fontWeight:"bold", fontSize:"36px"}}>Unlocking <br/><span style={{fontWeight:"normal"}}>the</span> micropayment<br/> economy</h2>
+              <h1 style={{fontFamily:"Comfortaa", fontWeight:"bold"}}>Unlocking <br/><span style={{fontWeight:"normal"}}>the</span> micropayment<br/> economy</h1>
               <br />
               <p className="tagline" style={{fontWeight:"lighter",
                                 fontSize:"16px",
                                 fontFamily: "'proxima-nova',sans-serif",
-                                color:"#FFF"}}>
+                                color:"#FFF"}}> 
                 Connext is a state channel network that enables cheap, low latency payments on Ethereum. 
                 Our open source infrastructure makes it easy for developers to build the P2P applications of the future.
               </p>
@@ -37,7 +37,7 @@ class Landing extends Component {
             <img className="computer-header" src={computer_header} alt="computer header"></img>
           </div>
         </div>
-        <div style={{marginBottom: "19%"}}>
+        <div style={{marginBottom: "15%"}}>
           <Explainer />
         </div>
         <div>

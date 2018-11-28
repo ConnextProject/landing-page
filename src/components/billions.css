@@ -27,7 +27,7 @@
         flex-wrap:wrap;
     }
     .explainer1{
-        margin-top:5%;
+        margin-top:10%;
         width:45%;
     }
     .explainer2{
@@ -39,6 +39,6 @@
     }
     .payments{
         margin-left:5%;
-        margin-top:-8%;
+        margin-top:-15%;
     }
 }

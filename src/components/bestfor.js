@@ -38,7 +38,6 @@ class BestFor extends Component {
                     <Col xs="8">
                     <p style={{textAlign:"right"}}>
                     <h5 style={{color:"#FCA311"}} >CONTENT PAYMENTS</h5>
-                    <br />
                       By reducing your transaction costs to almost zero, 
                       Indra empowers streamers and creators to seamlessly monetize their content, 
                       no matter how low the price.
@@ -56,7 +55,6 @@ class BestFor extends Component {
                     <Col xs="8">
                     <p style={{textAlign:"right"}}>
                     <h5 style={{color:"#FCA311"}} >P2P MARKETPLACES</h5>
-                    <br />
                       Controlling user funds and managing payouts is risky and takes work. 
                       Indra lets you make your marketplace truly peer-to-peer, so you can 
                       focus on what really matters.
@@ -74,7 +72,6 @@ class BestFor extends Component {
                     <Col xs="8">
                     <p style={{textAlign:"right"}}>
                     <h5 style={{color:"#FCA311"}} >MACHINE INTERACTIONS</h5>
-                    <br />
                       Built from the ground up to enable automation, Indra lets
                       IoT devices interact frictionlessly, maintaining the security of 
                       your blockchain architecture. Beep boop.
@@ -92,7 +89,6 @@ class BestFor extends Component {
                     <Col xs="8">
                     <p style={{textAlign:"right"}}>
                     <h5 style={{color:"#FCA311"}} >DECENTRALIZED EXCHANGE</h5>
-                    <br />
                       Using Indra to clear transactions, decentralized exchanges 
                       can retain their non-custodial architecture, but enable activities 
                       like high frequency trading.

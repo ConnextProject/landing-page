@@ -18,9 +18,9 @@
     .bullet:after { content: '';
         position: absolute;
         border-right: 1px #282b2e solid;
-        height: 300px;
+        height: 285px;
         width: 200px;
-        transform: translate(-110%,30%);
+        transform: translate(-110%,25%);
         z-index:-1;
       }
 
@@ -58,13 +58,56 @@
     }
     .step3card{
         width:45%;
+        margin-left:-10%;
     }
     .step4card{
-        width:35%;
+        width:42%;
         height:8%
+    }
+    .card-graphics-1{
+        width:20%;
+        float:none; 
+        margin-top:-60px;
+        margin-left:-30px;
+    }
+    .card-graphics-2{
+        width:15%;
+        float:none; 
+        margin-top:-50px;
+        margin-left:-80px;
+    }
+    .card-text-2{
+        float:right;
+        padding-left:5%;
+        width:40%;
+        margin-top:2%;
+        margin-left:20%;
+        font-size:16px;
+    }
+    .card-graphics-3{
+        width:15%;
+        float:none; 
+        margin-top:-55px;
+        margin-left:-90px;
+    }
+    .card-text-3{
+        padding-left:18%
+    }
+    .card-graphics-4B{
+        width:10%;
+        float:none; 
+        margin-top:12px;
+        margin-left:-24px;
+    }
+    .card-graphics-4A{
+        width:20%;
+        float:none; 
+        margin-top:-28px;
+        margin-left:-28px;
     }
 
   }
+
   
     @media screen and (max-width : 760px){
         .subhead{
@@ -89,6 +132,7 @@
             order:2;
         }
         .step3card{
+            margin-left:0;
             margin-top:10%;
             margin-bottom:10%;
             width:100%;
@@ -116,6 +160,55 @@
         .step-wrapper-reverse{
             flex-direction:column;
         }
+        .card-graphics-1{
+            display:none;
+            width:20%;
+            float:none; 
+            margin-top:-60px;
+            margin-left:-30px;
+        }
+        .card-text-1{
+            margin-left:30%;
+        }
+        .card-graphics-2{
+            display:none;
+            width:15%;
+            float:none; 
+            margin-top:-50px;
+            margin-left:-80px;
+        }
+        .card-text-2{
+            margin:auto;
+        }
+        .card-graphics-3{
+            display:none;
+            width:15%;
+            float:none; 
+            margin-top:-55px;
+            margin-left:-90px;
+        }
+        .card-text-3{
+            margin:auto;
+        }
+        .card-text-3b{
+            margin:auto;
+            padding-left:2%;
+        }
+        .card-graphics-4B{
+            display:none;
+            width:10%;
+            float:none; 
+            margin-top:12px;
+            margin-left:-24px;
+        }
+        .card-graphics-4A{
+            display:none;
+            width:20%;
+            float:none; 
+            margin-top:-28px;
+            margin-left:-28px;
+        }
+
 
     }
 

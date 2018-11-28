@@ -5,7 +5,7 @@
     align-content:flex-start;
   }
   .computer-header{
-    margin-top:-18%;
+    margin-top:-10%;
     margin-left:35%;
     width:400%;
   }
@@ -20,7 +20,7 @@
 
   }
   .headline{
-    margin-top:0%;
+    margin-top:5%;
     margin-bottom:35%; 
     display:flex;
     flex-direction:column;

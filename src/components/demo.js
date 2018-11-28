@@ -135,8 +135,7 @@ class Demo extends Component {
         <div>
             <h1 style={{fontWeight:"lighter",
                         fontFamily: "Comfortaa",
-                        color:"#0F1012",
-                        fontSize:"36px"}}>How it works</h1>
+                        color:"#0F1012"}}>How it works</h1>
             <br />
             <p  className="subhead" style={{margin:"auto"}}>Let's walk through a typical payment flow</p>
         </div>
@@ -148,27 +147,29 @@ class Demo extends Component {
                             height:"150px"
 
                             }}>
-                <div style={{display:"flex"}}>
+                <div className="card-text-1" style={{display:"flex"}}>
                     <div style={{width:"70%", marginLeft:"0%", marginTop:"3%", fontSize:"16px"}}>
                             User 1's Channel Balance 
                             <br />
                         { this.state.showSpinner ? 
-                            <img src={spinner} alt="orange loading spinner" style={{margin:"auto",width:"50px"}}/> 
-                            : <div>
+                            <img src={spinner} alt="orange loading spinner" style={{marginTop:"25px",width:"50px"}}/> 
+                            : <div style={{marginLeft:"8%",marginTop:"2%"}}>
                             <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={2}
                                 style={{
                                     fontSize:"60px",
                                     fontWeight:"bold",
                                     fontFamily:"comfortaa",
                                     color:"#08B22D",
-                                    transition: '0.1s ease-out',
+                                    transition: '0.8s ease-out',
                                     transitionProperty:
                                         'background-color, color, opacity'
                                 }}
-                                duration={500}/> <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> </div>
+                                duration={50}/> 
+                                {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} />  */}
+                                </div>
                                  }
                     </div>
-                    <div style={{width:"20%", float:"none", marginTop:"-60px",marginLeft:"-30px"}}>
+                    <div className="card-graphics-1" style={{}}>
                         <img src={step1} style={{ width:"150px"}}></img>
                     </div>
                 </div>
@@ -217,10 +218,10 @@ class Demo extends Component {
                             color:"#0F1012",
                             height:"150px",
                             display:"flex"}}>
-                <div style={{width:"20%", float:"none",marginLeft:"-80px",marginTop:"-53px"}}>
+                <div className="card-graphics-2" style={{}}>
                     <img src={step2} style={{ width:"180px"}}></img>
                 </div>
-                <div style={{float:"right", width:"40%",marginTop:"2%",marginLeft:"20%",fontSize:"16px"}}>
+                <div className="card-text-2" style={{}}>
                 User 1's <br />Thread Balance <br />
                 <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={2}
                     style={{
@@ -234,9 +235,10 @@ class Demo extends Component {
                     }}frameStyle={perc => (
                         perc === 100 ? {}:{color: '#08B22D'} 
                     )}
-                    duration={500} /> <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} />
+                    duration={50} /> 
+                    {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>
-                <div style={{float:"right",width:"40%",marginTop:"2%",fontSize:"16px"}}>
+                <div className="card-text-2" style={{}}>
                 User 2's <br /> Thread Balance <br /> 
                 <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={2}
                     style={{
@@ -250,7 +252,8 @@ class Demo extends Component {
                     }}frameStyle={perc => (
                         perc === 100 ? {}:{color: '#F22424'} 
                     )}
-                    duration={500} /> <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} />
+                    duration={50} /> 
+                    {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>
             </div>
         </div>
@@ -263,12 +266,11 @@ class Demo extends Component {
                             fontWeight:"lighter",
                             fontFamily: "'proxima-nova',sans-serif",
                             color:"#0F1012",
-                            height:"150px",
-                            marginLeft:"-10%"}}>
-                <div style={{marginLeft:"-45px", marginTop:"-40px", width:"15%"}}>
+                            height:"150px"}}>
+                <div className="card-graphics-3" style={{}}>
                     <img src={step3} style={{ width:"150px"}}></img>
                 </div>
-                <div style={{marginLeft:"12%",fontSize:"16px"}}>
+                <div className="card-text-3" style={{}}>
                 User 1's <br />Thread Balance
                 <br />
                 <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={2}
@@ -283,9 +285,10 @@ class Demo extends Component {
                     }}frameStyle={perc => (
                         perc === 100 ? {}:{color: '#08B22D'} 
                     )}
-                    duration={500} />&nbsp;<img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} />
+                    duration={200} />&nbsp;
+                    {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>                
-                <div style={{marginLeft:"2%",fontSize:"16px",paddingRight:"2%",borderRight:"1px solid #C1C6CE"}}>
+                <div style={{marginLeft:"2%",fontSize:"16px",paddingRight:"4%",borderRight:"1px solid #C1C6CE"}}>
                 User 2's <br />Thread Balance
                 <br />
                 <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={2}
@@ -300,9 +303,10 @@ class Demo extends Component {
                     }} frameStyle={perc => ( 
                         perc === 100 ? {}:{color: '#F22424'} 
                     )}
-                    duration={500} />&nbsp;<img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} />
+                    duration={200} />&nbsp;
+                    {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>
-                <div style={{margin:"auto"}}>Total <br/>transactions
+                <div className="card-text-3b" style={{}}>Total <br/>transactions
                 <br/>
                 <AnimatedNumber component="text" value={this.state.txCount} stepPrecision={0}
                     style={{
@@ -316,7 +320,7 @@ class Demo extends Component {
                     }} frameStyle={perc => (
                         perc === 100 ? {}:{color: '#08B22D'} 
                     )}
-                    duration={500} />
+                    duration={200} />
                 </div>               
             </div>
             <div className="bullet" >
@@ -356,7 +360,7 @@ class Demo extends Component {
                             color:"#0F1012",
                             display:"flex",
                             height:"125px"}}>
-                <div style={{width:"10%", marginLeft:"-7%", marginTop:"4%"}}>
+                <div className="card-graphics-4B" style={{}}>
                     <img src={step4B} alt="step4B" style={{width:"85px"}} />
                 </div>
                     <div style={{fontSize:"16px",marginLeft:"10%"}}>
@@ -378,7 +382,8 @@ class Demo extends Component {
                                     }} frameStyle={perc => (
                                         perc === 100 ? {}:{color: '#F22424'} 
                                     )}
-                                    duration={500} /><img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> 
+                                    duration={50} />
+                                    {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} />  */}
                             </div>
                         }
                     </div>
@@ -400,11 +405,12 @@ class Demo extends Component {
                             }} frameStyle={perc => (
                                 perc === 100 ? {}:{color: '#08B22D'} 
                             )}
-                            duration={500} />&nbsp;<img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} />
+                            duration={50} />&nbsp;
+                            {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                         </div>
                         }
                     </div>
-                    <div style={{width:"20%", float:"none",marginTop:"-24px",marginLeft:"-20px"}}>
+                    <div className="card-graphics-4A" style={{}}>
                         <img src={step4A} style={{ width:"200px"}}></img>
                     </div>
             </div>

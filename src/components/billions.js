@@ -11,7 +11,7 @@ class Explainer extends Component{
                                                 display:"flex", 
                                                 marginBottom:"10%"}}>
                 <div className="layer" style={{width:"40%", order:"1"}}>
-                    <img src={layer2} alt="layer2" style={{width:"250px"}}/>
+                    <img src={layer2} alt="layer2" style={{width:"300px"}}/>
                 </div>
                 <div className="explainer1"style={{ marginLeft:"5%", textAlign:"left",order:"2", marginBottom:"20%"}}>
                     <h3 style={{fontWeight:"lighter",
