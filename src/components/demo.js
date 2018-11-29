@@ -152,12 +152,12 @@ class Demo extends Component {
                            <h5> User 1's Channel Balance </h5>
                         { this.state.showSpinner ? 
                             <img src={spinner} alt="orange loading spinner" style={{marginTop:"25px",width:"50px"}}/> 
-                            : <div style={{marginLeft:"8%",marginTop:"2%"}}>
+                            : <div style={{marginLeft:"8%",marginTop:"-5%"}}>
                             <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={2}
                                 style={{
                                     fontSize:"60px",
-                                    fontWeight:"bold",
-                                    fontFamily:"comfortaa",
+                                    fontSize:"80px",
+                                    fontFamily:"'proxima-nova-semibold', sans-serif",
                                     color:"#08B22D",
                                     transition: '0.8s ease-out',
                                     transitionProperty:
@@ -169,7 +169,7 @@ class Demo extends Component {
                                  }
                     </div>
                     <div className="card-graphics-1" style={{}}>
-                        <img src={step1} style={{ width:"150px"}}></img>
+                        <img src={step1} style={{ width:"250px"}}></img>
                     </div>
                 </div>
             </div>
@@ -217,7 +217,7 @@ class Demo extends Component {
                             color:"#0F1012",
                             display:"flex"}}>
                 <div className="card-graphics-2" style={{}}>
-                    <img src={step2} style={{ width:"180px"}}></img>
+                    <img src={step2} style={{ width:"220px"}}></img>
                 </div>
                 <div className="card-text-2">
                 <div className="user1" style={{}}>
@@ -225,8 +225,8 @@ class Demo extends Component {
                 <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={2}
                     style={{
                         color:"#F22424",
-                        fontSize:"60px",
-                        fontFamily:"Comfortaa",
+                        fontSize:"70px",
+                        fontFamily:"'proxima-nova-semibold', sans-serif",
                         fontWeight:"bold",
                         transition: '0.8s ease-out',
                         transitionProperty:
@@ -242,8 +242,8 @@ class Demo extends Component {
                 <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={2}
                     style={{
                         color:"#08B22D",
-                        fontSize:"60px",
-                        fontFamily:"Comfortaa",
+                        fontSize:"70px",
+                        fontFamily:"'proxima-nova-semibold', sans-serif",
                         fontWeight:"bold",
                         transition: '0.8s ease-out',
                         transitionProperty:
@@ -274,8 +274,8 @@ class Demo extends Component {
                 <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={2}
                     style={{
                         color:"#F22424",
-                        fontSize:"60px",
-                        fontFamily:"Comfortaa",
+                        fontSize:"70px",
+                        fontFamily:"'proxima-nova-semibold', sans-serif",
                         fontWeight:"bold",
                         transition: '0.8s ease-out',
                         transitionProperty:
@@ -291,8 +291,8 @@ class Demo extends Component {
                 <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={2}
                     style={{
                         color:"#08B22D",
-                        fontSize:"60px",
-                        fontFamily:"Comfortaa",
+                        fontSize:"70px",
+                        fontFamily:"'proxima-nova-semibold', sans-serif",
                         fontWeight:"bold",
                         transition: '0.8s ease-out',
                         transitionProperty:
@@ -308,8 +308,8 @@ class Demo extends Component {
                 <AnimatedNumber component="text" value={this.state.txCount} stepPrecision={0}
                     style={{
                         color:"#F22424",
-                        fontSize:"60px",
-                        fontFamily:"Comfortaa",
+                        fontSize:"70px",
+                        fontFamily:"'proxima-nova-semibold', sans-serif",
                         fontWeight:"bold",
                         transition: '0.8s ease-out',
                         transitionProperty:
@@ -320,7 +320,7 @@ class Demo extends Component {
                     duration={200} />
                 </div>               
             </div>
-            <div className="bullet" >
+            <div className="bullet-3" >
                 <img className="bullet-sub" src={bullet} alt="bullet" style={{margin:"auto"}}/>
             </div>
             <div className="step-paragraph-3" style={{textAlign:"left"}}>
@@ -369,8 +369,8 @@ class Demo extends Component {
                                 <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={2}
                                     style={{
                                         color:"#F22424",
-                                        fontSize:"60px",
-                                        fontFamily:"Comfortaa",
+                                        fontSize:"70px",
+                                        fontFamily:"'proxima-nova-semibold', sans-serif",
                                         fontWeight:"bold",
                                         transition: '0.8s ease-out',
                                         transitionProperty:
@@ -392,9 +392,8 @@ class Demo extends Component {
                         <AnimatedNumber component="text" value={this.state.onChainBalanceB} stepPrecision={2}
                             style={{
                                 color:"#F22424",
-                                fontSize:"60px",
-                                fontFamily:"Comfortaa",
-                                fontWeight:"bold",
+                                fontSize:"70px",
+                                fontFamily:"'proxima-nova-semibold', sans-serif",
                                 transition: '0.8s ease-out',
                                 transitionProperty:
                                     'background-color, color, opacity',

@@ -1,3 +1,8 @@
+@font-face{
+    font-family:'proxima-nova-semibold';
+    src:url("../fonts/proxima-nova-semibold.otf")
+}
+
 @media screen and (min-width : 760px){
     .subhead{
         width:30%;
@@ -5,10 +10,17 @@
     .bullet{
         width:20%;
         align-items: baseline;
+        z-index:2;
+    }
+    .bullet-3{
+        width:20%;
+        align-items: baseline;
+        z-index:2;      
     }
     .bullet-4{
         width:20%;
         align-items: baseline;
+        z-index:2;
     }
     
     .bullet-sub{
@@ -18,11 +30,19 @@
     .bullet:after { content: '';
         position: absolute;
         border-right: 1px #282b2e solid;
-        height: 300px;
+        height: 430px;
         width: 200px;
-        transform: translate(-110%,25%);
+        transform: translate(-110%,20%);
         z-index:-1;
       }
+    .bullet-3:after { content: '';
+        position: absolute;
+        border-right: 1px #282b2e solid;
+        height: 400px;
+        width: 200px;
+        transform: translate(-110%,20%);
+        z-index:-1;
+    }
 
     /* .bullet:before { content: '';
         position: absolute;
@@ -45,22 +65,26 @@
     }
     .step-paragraph{
         width:35%;
+        font-size:x-large;
     }
     .step-paragraph-3{
         width:35%;
+        font-size:x-large;
     }
     .step1card{
-        width:35%;
-
+        width:40%;
+        margin-left:-5%;
+        padding:0% 2% 2% 0%;
     }
     .step2card{
-        height:150px;
+        height:180px;
         width:45%;
     }
     .step3card{
         height:180px;
         width:55%;
         margin-left:-20%;
+        padding:2% 2% 0% 0%;
     }
     .step4card{
         width:45%;
@@ -69,14 +93,14 @@
     .card-graphics-1{
         width:20%;
         float:none; 
-        margin-top:-60px;
-        margin-left:-30px;
+        margin-top:-90px;
+        margin-left:-90px;
     }
     .card-graphics-2{
         width:15%;
         float:none; 
-        margin-top:-50px;
-        margin-left:-80px;
+        margin-top:-65px;
+        margin-left:-90px;
     }
     .card-text-2{
         display:flex;
@@ -96,14 +120,14 @@
     .card-graphics-3{
         width:15%;
         float:none; 
-        margin-top:-38px;
+        margin-top:-60px;
         margin-left:-35px;
     }
     .card-text-3{
         padding-left:6%
     }
     .card-text-3b{
-        padding:3% 3% 3% 3%;
+        padding:0% 0% 3% 3%;
     }
     .card-graphics-4B{
         width:0%;
