@@ -18,7 +18,7 @@ class Landing extends Component {
               <br />
               <p className="tagline" style={{fontWeight:"lighter",
                                 fontFamily: "'proxima-nova',sans-serif",
-                                fontSize:"20px",
+                                fontSize:"x-large",
                                 color:"#FFF"}}> 
                 Connext is a state channel network that enables cheap, low latency payments on Ethereum. 
                 Our open source infrastructure makes it easy for developers to build the P2P applications of the future.

@@ -5,8 +5,8 @@
     align-content:flex-start;
   }
   .computer-header{
-    margin-top:-11%;
-    margin-left:0%;
+    padding-top:2%;
+    padding-left:10%;
     width:400%;
   }
   .usecase-mobile{
@@ -24,16 +24,16 @@
     margin-bottom:30%; 
     display:flex;
     flex-direction:column;
-    width:40%;
+    width:42%;
   }
   .tagline{
     width:90%;
   }
   .bestfor{
-    margin-bottom:24%;
+    padding-bottom:30%;
   }
   .explainer{
-    margin-bottom:15%;
+    margin-bottom:20%;
   }
 }
 

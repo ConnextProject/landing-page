@@ -25,13 +25,18 @@
     .explainer{
         flex-direction:row;
         flex-wrap:wrap;
+        padding-top:5%;
     }
     .explainer1{
-        margin-top:10%;
+        padding-top:10%;
         width:45%;
+        font-size: x-large;
+        padding-bottom:10%;
     }
     .explainer2{
         width:45%;
+        font-size: x-large;
+        padding-bottom:10%;
     }
     .layer{
         margin-left:5%;
