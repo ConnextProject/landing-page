@@ -120,7 +120,6 @@ render() {
                 <Switch>
                   <Route exact path="/" component={Landing} />
                   <Route path="/team" component={Team} />
-                  <Route path="/jobs" component={Jobs} />
                   <Route path="/demo" component={Demo} />
                 </Switch>
             </div>

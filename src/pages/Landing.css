@@ -5,8 +5,8 @@
     align-content:flex-start;
   }
   .computer-header{
-    margin-top:-10%;
-    margin-left:35%;
+    margin-top:-11%;
+    margin-left:0%;
     width:400%;
   }
   .usecase-mobile{
@@ -24,10 +24,16 @@
     margin-bottom:30%; 
     display:flex;
     flex-direction:column;
-    width:35%;
+    width:40%;
+  }
+  .tagline{
+    width:90%;
   }
   .bestfor{
     margin-bottom:24%;
+  }
+  .explainer{
+    margin-bottom:15%;
   }
 }
 
@@ -36,7 +42,7 @@
       justify-content: flex-start;
       align-content:flex-start;
       flex-direction: column;
-      margin-bottom:100%;
+      margin-bottom:150%;
     }
     .usecase-desktop{
         display:none;
@@ -69,6 +75,12 @@
     }
     .bestfor{
       margin-bottom:0%;
+    }
+    .explainer{
+      margin-bottom:40%;
+    }
+    .viable{
+      margin-bottom:40%;
     }
     .landing-cta{
       position:relative;

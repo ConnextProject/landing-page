@@ -149,8 +149,7 @@ class Demo extends Component {
                             }}>
                 <div className="card-text-1" style={{display:"flex"}}>
                     <div style={{width:"70%", marginLeft:"0%", marginTop:"3%", fontSize:"16px"}}>
-                            User 1's Channel Balance 
-                            <br />
+                           <h5> User 1's Channel Balance </h5>
                         { this.state.showSpinner ? 
                             <img src={spinner} alt="orange loading spinner" style={{marginTop:"25px",width:"50px"}}/> 
                             : <div style={{marginLeft:"8%",marginTop:"2%"}}>
@@ -216,14 +215,13 @@ class Demo extends Component {
                             fontWeight:"lighter",
                             fontFamily: "'proxima-nova',sans-serif",
                             color:"#0F1012",
-                            height:"150px",
                             display:"flex"}}>
                 <div className="card-graphics-2" style={{}}>
                     <img src={step2} style={{ width:"180px"}}></img>
                 </div>
                 <div className="card-text-2">
                 <div className="user1" style={{}}>
-                User 1's <br />Thread Balance <br />
+                <h5>User 1's <br />Thread Balance</h5>
                 <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={2}
                     style={{
                         color:"#F22424",
@@ -240,7 +238,7 @@ class Demo extends Component {
                     {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>
                 <div className="user2" style={{}}>
-                User 2's <br /> Thread Balance <br /> 
+                <h5>User 2's <br /> Thread Balance </h5>
                 <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={2}
                     style={{
                         color:"#08B22D",
@@ -267,14 +265,12 @@ class Demo extends Component {
                             display: "flex",
                             fontWeight:"lighter",
                             fontFamily: "'proxima-nova',sans-serif",
-                            color:"#0F1012",
-                            height:"150px"}}>
+                            color:"#0F1012"}}>
                 <div className="card-graphics-3" style={{}}>
-                    <img src={step3} style={{ width:"150px"}}></img>
+                    <img src={step3} style={{ width:"160px"}}></img>
                 </div>
                 <div className="card-text-3" style={{}}>
-                User 1's <br />Thread Balance
-                <br />
+                <h5>User 1's Thread Balance</h5>
                 <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={2}
                     style={{
                         color:"#F22424",
@@ -291,8 +287,7 @@ class Demo extends Component {
                     {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>                
                 <div style={{marginLeft:"2%",fontSize:"16px",paddingRight:"4%",borderRight:"1px solid #C1C6CE"}}>
-                User 2's <br />Thread Balance
-                <br />
+                <h5>User 2's Thread Balance</h5>
                 <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={2}
                     style={{
                         color:"#08B22D",
@@ -308,8 +303,8 @@ class Demo extends Component {
                     duration={200} />&nbsp;
                     {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>
-                <div className="card-text-3b" style={{}}>Total <br/>transactions
-                <br/>
+                <div className="card-text-3b" style={{}}>
+                <h5>Total <br/>transactions</h5> 
                 <AnimatedNumber component="text" value={this.state.txCount} stepPrecision={0}
                     style={{
                         color:"#F22424",
@@ -360,13 +355,12 @@ class Demo extends Component {
                             fontSize:24,
                             fontFamily: "'proxima-nova',sans-serif",
                             color:"#0F1012",
-                            display:"flex",
-                            height:"125px"}}>
+                            display:"flex"}}>
                 <div className="card-graphics-4B" style={{}}>
                     <img src={step4B} alt="step4B" style={{width:"85px"}} />
                 </div>
-                    <div style={{fontSize:"16px",marginLeft:"10%"}}>
-                        User 2's <br />Channel Balance
+                    <div className="card-text-4" style={{fontSize:"16px",marginLeft:"10%"}}>
+                        <h5>User 2's <br />Channel Balance</h5>
                         { this.state.showSpinner ? 
                             <img src={spinner} alt="orange loading spinner" style={{margin:"auto",width:"50px"}}/> 
                             : 
@@ -389,8 +383,8 @@ class Demo extends Component {
                             </div>
                         }
                     </div>
-                    <div style={{marginLeft:"2%",fontSize:"16px"}}>
-                        User 2's <br />Wallet Balance
+                    <div className="card-text-4" style={{marginLeft:"2%",fontSize:"16px"}}>
+                        <h5>User 2's <br />Wallet Balance</h5>
                         { this.state.showSpinner ? 
                             <img src={spinner} alt="orange loading spinner" style={{margin:"auto",width:"50px"}}/> 
                         : 
@@ -413,7 +407,7 @@ class Demo extends Component {
                         }
                     </div>
                     <div className="card-graphics-4A" style={{}}>
-                        <img src={step4A} style={{ width:"200px"}}></img>
+                        <img src={step4A} style={{ width:"250px"}}></img>
                     </div>
             </div>
         </div>

@@ -18,7 +18,7 @@
     .bullet:after { content: '';
         position: absolute;
         border-right: 1px #282b2e solid;
-        height: 285px;
+        height: 300px;
         width: 200px;
         transform: translate(-110%,25%);
         z-index:-1;
@@ -54,15 +54,17 @@
 
     }
     .step2card{
+        height:150px;
         width:45%;
     }
     .step3card{
-        width:45%;
-        margin-left:-10%;
+        height:180px;
+        width:55%;
+        margin-left:-20%;
     }
     .step4card{
-        width:42%;
-        height:8%
+        width:45%;
+        height:150px;
     }
     .card-graphics-1{
         width:20%;
@@ -94,29 +96,36 @@
     .card-graphics-3{
         width:15%;
         float:none; 
-        margin-top:-55px;
-        margin-left:-90px;
+        margin-top:-38px;
+        margin-left:-35px;
     }
     .card-text-3{
-        padding-left:18%
+        padding-left:6%
+    }
+    .card-text-3b{
+        padding:3% 3% 3% 3%;
     }
     .card-graphics-4B{
-        width:10%;
+        width:0%;
         float:none; 
-        margin-top:12px;
-        margin-left:-24px;
+        margin-top:45px;
+        margin-left:-45px;
+        padding-right:6%
     }
     .card-graphics-4A{
         width:20%;
         float:none; 
-        margin-top:-28px;
-        margin-left:-28px;
+        margin-top:-38px;
+        margin-left:-44px;
+    }
+    .card-text-4{
+        padding-right:3%
     }
 
   }
 
   
-    @media screen and (max-width : 760px){
+@media screen and (max-width : 760px){
         .subhead{
             width:80%;
         }
@@ -133,11 +142,13 @@
             order:2;
         }
         .step2card{
+            height:160px;
             margin-top:10%;
-            margin-left:auto;
+            margin-left:-20%;
             margin-right:auto;
             margin-bottom:10%;
-            width:100%;
+            width:120%;
+            height:180px;
             order:2;
         }
         .step3card{
@@ -145,6 +156,7 @@
             margin-right:auto;
             margin-top:10%;
             margin-bottom:10%;
+            height:180px;
             width:100%;
             order:2;
         }
@@ -180,7 +192,8 @@
             margin-left:-30px;
         }
         .card-text-1{
-            margin-left:30%;
+            justify-content: center;
+            margin:auto; 
         }
         .card-graphics-2{
             display:none;
@@ -189,14 +202,11 @@
             margin-top:-50px;
             margin-left:-80px;
         }
-        .card-text-2{
-            margin:auto;
-        }
+
         .card-text-2{
             display:flex;
             flex-direction:row;
             width:80%;
-            font-size:16px;
             margin:auto;
         }
         .user1{
@@ -218,7 +228,7 @@
         }
         .card-text-3b{
             margin:auto;
-            padding-left:2%;
+            padding:2% 2% 2% 2%;
         }
         .card-graphics-4B{
             display:none;
