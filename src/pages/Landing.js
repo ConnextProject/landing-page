@@ -49,7 +49,7 @@ class Landing extends Component {
         <div className="bestfor">
           <BestFor/>
         </div>
-        <div className="landing-cta" style={{textAlign:"center"}}>
+        <div className="landing-cta" style={{textAlign:"center", paddingTop:"-10%"}}>
           <h2 style={{fontFamily:"Comfortaa", marginBottom:"5%", color:"#FFF"}}>Want to get started?</h2>
             <a className="signupnow-button" href="https://discord.gg/yKkzZZm" style={{textDecoration:"none"}}>
               Sign up now
