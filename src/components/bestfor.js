@@ -46,7 +46,7 @@ class BestFor extends Component {
                     <Col className="divider" xs="0" >
                     </Col>
                       <Col xs="3">
-                        <img className="icon1" src={icon1} alt="icon1" />
+                        <img className="icon1" src={icon1} alt="White outline of video game controller on orange circle background" />
                       </Col>
                       </Row>
                   </div>
@@ -63,7 +63,7 @@ class BestFor extends Component {
                       <Col className="divider" xs="0" >
                     </Col>
                       <Col xs="3">
-                         <img className="icon4" src={icon4} alt="icon1" />                      
+                         <img className="icon4" src={icon4} alt="White outline of car on orange circle background" />                      
                       </Col>
                       </Row>
                   </div>
@@ -80,7 +80,7 @@ class BestFor extends Component {
                       <Col className="divider" xs="0" >
                     </Col>
                       <Col xs="3">
-                      <img className="icon2" src={icon2} alt="icon1" />
+                      <img className="icon2" src={icon2} alt="White outline of robot on orange circle background" />
                       </Col>
                       </Row>
                   </div>
@@ -97,7 +97,7 @@ class BestFor extends Component {
                       <Col className="divider" xs="0" >
                     </Col>
                       <Col xs="3">
-                      <img className="icon3" src={icon3} alt="icon1" />
+                      <img className="icon3" src={icon3} alt="White outline of two figures exchanging money on orange circle background" />
                       </Col>
                       </Row>
                   </div>
@@ -107,7 +107,7 @@ class BestFor extends Component {
             <div className="wrap" style={{ textAlign:"center"}}>
                   <Row>
                     <Col>
-                    <img className="icon1m" src={icon1} alt="icon1" />
+                    <img className="icon1m" src={icon1} alt="White outline of video game controller on orange circle background" />
                       </Col>
                     </Row>
                     <Row>
@@ -125,7 +125,7 @@ class BestFor extends Component {
                   <div className="wrap" style={{textAlign:"center"}}>
                     <Row>
                     <Col>
-                    <img className="icon4m" src={icon4} alt="icon1" />  
+                    <img className="icon4m" src={icon4} alt="White outline of car on orange circle background" />  
                       </Col>
                     </Row>
                     <Row>
@@ -143,7 +143,7 @@ class BestFor extends Component {
                   <div className="wrap" style={{textAlign:"center"}}>
                   <Row>
                     <Col>
-                    <img className="icon2m" src={icon2} alt="icon1" />  
+                    <img className="icon2m" src={icon2} alt="White outline of robot on orange circle background" />  
                       </Col>
                     </Row>
                     <Row>
@@ -161,7 +161,7 @@ class BestFor extends Component {
                   <div className="wrap" style={{textAlign:"center"}}>
                   <Row>
                     <Col>
-                    <img className="icon3m" src={icon3} alt="icon1" />  
+                    <img className="icon3m" src={icon3} alt="White outline of two figures exchanging money on orange circle background" />  
                       </Col>
                     </Row>
                     <Row>

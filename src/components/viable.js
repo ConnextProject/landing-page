@@ -19,7 +19,7 @@ class Viable extends Component{
                         color:"#0F1012",
                         display:"flex"}}> 
             <div className="viable-block-pic" style={{marginBottom:"6%"}}>
-              <img className="developer" src={developer} alt="developer image" />
+              <img className="developer" src={developer} alt="Developer wearing blue shirt and gray pants seated coding on laptop" />
             </div>
             <div className="viable-block-1" style={{marginBottom:"6%"}}>
                 <h4 style={{color:"#FCA311"}} >DEVELOPER FOCUSED</h4>

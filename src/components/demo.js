@@ -177,12 +177,12 @@ class Demo extends Component {
                                  }
                     </div>
                     <div className="card-graphics-1" style={{}}>
-                        <img src={step1} style={{ width:"250px"}}></img>
+                        <img src={step1} alt="Brown-haired woman in yellow shirt and turqoise pants gesturing with her arm" style={{ width:"250px"}}></img>
                     </div>
                 </div>
             </div>
             <div className="bullet" >
-                <img className="bullet-sub" src={bullet} alt="bullet" />
+                <img className="bullet-sub" src={bullet} alt="Orange bullet point" />
             </div>
             <div className="step-paragraph" style={{textAlign:"left"}}>
                 <h4 style={{fontWeight:"lighter",
@@ -215,7 +215,7 @@ class Demo extends Component {
                 <button className="demo-button" onClick={this.handleThreadSubmit}>Make a payment</button>
             </div>
             <div className="bullet">
-                <img className="bullet-sub" src={bullet} alt="bullet" />
+                <img className="bullet-sub" src={bullet} alt="Orange bullet point" />
             </div>
             <div xs="5" className="step2card" style={{   border: "5px solid #fff",
                             borderRadius: "20px",
@@ -225,7 +225,7 @@ class Demo extends Component {
                             color:"#0F1012",
                             display:"flex"}}>
                 <div className="card-graphics-2" style={{}}>
-                    <img src={step2} style={{ width:"220px"}}></img>
+                    <img src={step2} alt="brown-haired woman in yellow shirt holding smartphone" style={{ width:"220px"}}></img>
                 </div>
                 <div className="card-text-2">
                 <div className="user1" style={{}}>
@@ -275,7 +275,7 @@ class Demo extends Component {
                             fontFamily: "'proxima-nova',sans-serif",
                             color:"#0F1012"}}>
                 <div className="card-graphics-3" style={{}}>
-                    <img src={step3} style={{ width:"160px"}}></img>
+                    <img src={step3} alt="Black-haired man holding ERC20 token logos" style={{ width:"160px"}}></img>
                 </div>
                 <div className="card-text-3" style={{}}>
                 <h5>Alice's Thread Balance</h5>
@@ -329,7 +329,7 @@ class Demo extends Component {
                 </div>               
             </div>
             <div className="bullet-3" >
-                <img className="bullet-sub" src={bullet} alt="bullet" style={{margin:"auto"}}/>
+                <img className="bullet-sub" src={bullet} alt="Orange bullet point" style={{margin:"auto"}}/>
             </div>
             <div className="step-paragraph-3" style={{textAlign:"left"}}>
                 <h4 style={{fontWeight:"lighter",
@@ -354,7 +354,7 @@ class Demo extends Component {
                 <button className="demo-button" onClick={this.cashOut}>Cash out</button>
             </div>
             <div className="bullet-4">
-                <img className="bullet-sub" src={bullet} alt="bullet" />
+                <img className="bullet-sub" src={bullet} alt="Orange bullet point" />
             </div>
             <div className="step4card" style={{   border: "5px solid #fff",
                             borderRadius: "20px",
@@ -365,7 +365,7 @@ class Demo extends Component {
                             color:"#0F1012",
                             display:"flex"}}>
                 <div className="card-graphics-4B" style={{}}>
-                    <img src={step4B} alt="step4B" style={{width:"85px"}} />
+                    <img src={step4B} alt="Phone with Ethereum and ERC20 token logos" style={{width:"85px"}} />
                 </div>
                     <div className="card-text-4" style={{fontSize:"16px",marginLeft:"10%"}}>
                         <h5>Bob's <br />Channel Balance</h5>
@@ -414,7 +414,7 @@ class Demo extends Component {
                         }
                     </div>
                     <div className="card-graphics-4A" style={{}}>
-                        <img src={step4A} style={{ width:"250px"}}></img>
+                        <img src={step4A} alt="Black-haired man in blue shirt and dark blue overalls gestures with his arm" style={{ width:"250px"}}></img>
                     </div>
             </div>
         </div>

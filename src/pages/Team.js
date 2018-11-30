@@ -32,7 +32,7 @@ scrollToMyRef = () => {
             </div>
           <div className="bio-container" style={{display:"flex",width:"100%"}}>
               <div className="bio-pic" >
-                <img src={arjun} alt="Arjun bitmoji" style={{
+                <img src={arjun} alt="Arjun bitmoji - signpost labeled 'it me' points to brown-haired man" style={{
                                                               width:"110px",
                                                               border: "5px solid #fff",
                                                               borderRadius: "20px",
@@ -60,7 +60,8 @@ scrollToMyRef = () => {
                 Game theory nerd, dad joke enthusiast, and occasional sleeper. 
               </div>
             <div className="bio-pic" sm={{ size: '1', offset: 1}}>
-                <img src={layne} alt="layne bitmoji" style={{
+                <img src={layne} alt="Layne bitmoji - blonde woman standing next to cardboard box on conveyer belt, saying 'ship it'" 
+                                                        style={{
                                                               width:"110px",
                                                               border: "5px solid #fff",
                                                               borderRadius: "20px",
@@ -88,7 +89,7 @@ scrollToMyRef = () => {
                  Pre-crypto: healthcare, venture banking, and bioengineering. 
               </div>
             <div className="bio-pic" sm={{ size: '1', offset: 1}}>
-                <img src={rahul} alt="rahul bitmoji" style={{
+                <img src={rahul} alt="Rahul bitmoji - brown-haired man with light bulb above his head" style={{
                                                               width:"110px",
                                                               border: "5px solid #fff",
                                                               borderRadius: "20px",
@@ -115,7 +116,7 @@ scrollToMyRef = () => {
                 Jiu-jitsu, yoga, and snowboarding enthusiast. Formerly an electrical engineer at Tesla.
               </div>
             <div className="bio-pic" sm={{ size: '1', offset: 1}}>
-                <img src={hunter} alt="hunter bitmoji" style={{
+                <img src={hunter} alt="Hunter bitmoji - blonde-haired man carrying cup of coffee and whistling" style={{
                                                               width:"110px",
                                                               border: "5px solid #fff",
                                                               borderRadius: "20px",
