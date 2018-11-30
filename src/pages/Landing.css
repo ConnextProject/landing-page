@@ -45,7 +45,7 @@
       justify-content: flex-start;
       align-content:flex-start;
       flex-direction: column;
-      margin-bottom:150%;
+      margin-bottom:130%;
     }
     .usecase-desktop{
         display:none;
@@ -90,6 +90,7 @@
     }
     .landing-cta{
       position:relative;
+      margin-top:-40%;
     }
   }
 

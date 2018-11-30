@@ -93,9 +93,9 @@
 @media screen and (max-width : 769px){
     .top{
         background-image:url("../assets/background_all.svg");
-        background-size:605%;
+        background-size:cover;
         background-repeat:no-repeat;
-        background-position:0 0;;
+        background-position:0 0;
     }
     .divider{
         display:none;

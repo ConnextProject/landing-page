@@ -7,22 +7,22 @@
     }
     .icon1{
       width:150px;
-      margin-left:10%;
+      margin-left:14%;
       margin-top:6%;
     }
     .icon2{
       width:150px;
-      margin-left:10%;
+      margin-left:14%;
       margin-top:6%;
     }
     .icon3{
       width:150px;
-      margin-left:10%;
+      margin-left:14%;
       margin-top:6%;
     }
     .icon4{
       width:150px;
-      margin-left:10%;
+      margin-left:14%;
       margin-top:6%;
     }
     .divider{
@@ -74,7 +74,7 @@
     .learn-more-mobile{
       text-align:center;
       margin-top:10%;
-      padding-bottom:25%;
+      padding-bottom:120%;
       z-index:50;
    }
 }

@@ -6,7 +6,7 @@ import layne from '../assets/layne.jpeg';
 import rahul from '../assets/rahul.png';
 import hunter from '../assets/hunter.png';
 
-class Team extends Component {
+class Team extends Component { 
   constructor(props) {
     super(props)
     this.myRef = React.createRef();
@@ -57,7 +57,7 @@ scrollToMyRef = () => {
                                                 display:"inline-block",
                                                 verticalAlign:"middle"}}>
                 Physicist turned smart contract developer and systems architect. 
-                Game theory nerd, dad joke enthusiast and occasional sleeper. 
+                Game theory nerd, dad joke enthusiast, and occasional sleeper. 
               </div>
             <div className="bio-pic" sm={{ size: '1', offset: 1}}>
                 <img src={layne} alt="layne bitmoji" style={{
@@ -156,7 +156,7 @@ scrollToMyRef = () => {
                 <a onClick={this.scrollToMyRef}><img src={arrow} alt="down arrow" style={{width:"30px", height:"30px"}}></img></a>
             </div>
           </div>
-          <div className="team-cta" style={{marginTop:"5%",display:"flex"}}>
+          <div className="team-cta" style={{display:"flex"}}>
                 <div ref={this.myRef} style={{textAlign:"center", paddingBottom:"2.5%"}}>
                   <h2 style={{fontWeight:"lighter",
                             fontFamily: "comfortaa",
