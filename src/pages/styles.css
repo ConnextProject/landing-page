@@ -11,6 +11,8 @@
         display:none;
     }
     .baseDesktop{
+        width:95%;
+        margin:auto;
         margin-bottom:30%;
         z-index: 1;
     }
@@ -97,6 +99,10 @@
         background-image:url("../assets/background_all.svg");
         background-size:cover;
         background-position:0 0;
+    }
+    .baseMobile{
+        width:95%;
+        margin:auto;
     }
     .divider{
         display:none;

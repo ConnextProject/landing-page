@@ -28,7 +28,7 @@ class BestFor extends Component {
                 <h1 style={{fontWeight:"lighter",
                                   fontFamily: "Comfortaa",
                                   color:"#0F1012"}}>
-                  What is Indra best for?
+                  What is Connext best for?
                 </h1>
             </div>
             <div className="usecase-desktop">
@@ -84,14 +84,13 @@ class BestFor extends Component {
                       </Col>
                       </Row>
                   </div>
-                  <div className="wrap" style={{width:"50%", textAlign:"center"}}>
+                  <div className="wrap" style={{width:"60%", textAlign:"center"}}>
                     <Row>
                     <Col xs="8">
                     <p style={{textAlign:"right", paddingRight:"5%"}}>
-                    <h5 style={{color:"#FCA311"}} >DECENTRALIZED EXCHANGE</h5>
-                      Using Indra to clear transactions, decentralized exchanges 
-                      can retain their non-custodial architecture, but enable activities 
-                      like high frequency trading.
+                    <h5 style={{color:"#FCA311"}} >RECURRING PAYMENTS</h5>
+                      Using Indra to clear transactions, recurring payment protocols can give users
+                      immense flexibility in paying their bills.
                     </p>
                       </Col>
                       <Col className="divider" xs="0" >
@@ -167,11 +166,10 @@ class BestFor extends Component {
                     <Row>
                     <Col>
                     <p style={{textAlign:"center"}}>
-                    <h5 style={{color:"#FCA311"}} >DECENTRALIZED EXCHANGE</h5>
+                    <h5 style={{color:"#FCA311"}} >RECURRING PAYMENTS</h5>
                     <br />
-                    Using a Connext Hub to clear transactions, decentralized exchanges 
-                      can retain their non-custodial architecture, but enable activities 
-                      like high frequency trading.
+                    Using Indra to clear transactions, recurring payment protocols can give users
+                      immense flexibility in paying their bills.
                     </p>
                       </Col>
                       </Row>

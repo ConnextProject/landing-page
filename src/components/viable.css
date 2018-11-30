@@ -10,8 +10,14 @@
         width:100%;
     }
     .viable-block-pic{
-        margin-left:-13%;
+        margin-left:-16%;
         width:320px;
+    }
+    .viable-header{
+        margin-left:-8%;
+        margin-bottom:-28%;
+        width:120%;
+        font-size:30px;
     }
     .divider{
         display:none;
@@ -26,14 +32,16 @@
     .viable-block{
         width:27%;
         margin-top:5%;
+        padding:0% 2% 0% 2%;
     }
     .viable-block-1{
         width:27%;
         margin-top:5%;
-        padding-left:2%;
+        padding-left:1%;
     }
     .viable-block-pic{
         width:30%;
+        margin-left:-2.5%;
     }
     .developer{
         width:130%;

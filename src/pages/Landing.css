@@ -1,11 +1,14 @@
 
 @media screen and (min-width : 760px){
+  .landing-toplevel{
+    margin:auto;
+  }
   .above-fold{
     justify-content: flex-start;
     align-content:flex-start;
   }
   .computer-header{
-    padding-top:2%;
+    margin-top:-40%;
     padding-left:10%;
     width:400%;
   }
@@ -20,8 +23,8 @@
 
   }
   .headline{
-    margin-top:5%;
-    margin-bottom:25%; 
+    margin-top:0%;
+    margin-bottom:15%; 
     display:flex;
     flex-direction:column;
     width:42%;
@@ -45,7 +48,7 @@
       justify-content: flex-start;
       align-content:flex-start;
       flex-direction: column;
-      padding-bottom:130%;
+      padding-bottom:100%;
     }
     .usecase-desktop{
         display:none;
@@ -62,8 +65,8 @@
       vertical-align: top;
     }
     .computer-header{
-      padding-top:-25%;
-      width:110%;
+      margin-top:-33%;
+      width:100%;
     }
     .gettingstarted-button{
       width:100% !important;

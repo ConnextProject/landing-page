@@ -8,7 +8,7 @@ class Viable extends Component{
         return(
         <div className="viable">
           <div style={{width:"100%",textAlign:"center"}}>
-            <h1 style={{fontFamily: "Comfortaa",
+            <h1 className="viable-header" style={{fontFamily: "Comfortaa",
                               color:"#0F1012"}}>
               Making blockchain viable
             </h1>

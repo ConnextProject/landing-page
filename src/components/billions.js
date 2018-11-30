@@ -11,33 +11,34 @@ class Explainer extends Component{
                                                 display:"flex", 
                                                 marginBottom:"10%"}}>
                 <div className="layer" style={{width:"40%", order:"1"}}>
-                    <img src={layer2} alt="Illustration of blockchain (blue) with a new 
-                                            (orange) block being added" style={{width:"300px"}}/>
+                    <img src={payments} alt="Illustration of a blockchain (blue) with ERC20 token logos above" style={{width:"250px"}}/>
                 </div>
-                <div className="explainer1"style={{ marginLeft:"5%", textAlign:"left",order:"2", marginBottom:"20%"}}>
+                <div className="explainer1"style={{ textAlign:"left",order:"2", marginBottom:"20%"}}>
                     <h2 style={{
                                 fontFamily: "Comfortaa",
                                 color:"#FCA311"}}>
-                    Practical Blockchain Transactions
-                    </h2>
-                    Indra, our core offering, lets you easily set up and use a state channel hub. 
-                    By securely moving transactions to a networked, trustless, off-chain layer, 
-                    Indra minimizes the transaction fees and latency that hinder UX and 
-                    prevent dApps from scaling. Compatible with Ethereum and all ERC20 tokens.
-                </div>
-                <div className="explainer2"style={{marginRight:"0%",textAlign:"right",order:"3"}}>
-                    <h2 style={{
-                                fontFamily: "Comfortaa",
-                                color:"#FCA311"}}>
-                        Payments Reinvented
+                    Payments Reinvented
                     </h2>
                     Modern payment systems struggle to handle peer-to-peer payments, especially
                     micropayments. We believe that the future of the economy is peer-to-peer, and that
                     most assets, applications, and ecosystems will be secured by blockchains.
                     We enable the transaction throughput and speed needed to make this a reality.
+                    
+                </div>
+                <div className="explainer2"style={{marginRight:"0%",textAlign:"left",order:"3"}}>
+                    <h2 style={{
+                                fontFamily: "Comfortaa",
+                                color:"#FCA311"}}>
+                    Meet Indra
+                    </h2>
+                    Indra, our flagship offering, makes it easy to set up and use a payment channel hub. 
+                    By securely moving transactions to a trustless, off-chain layer, 
+                    we minimize the transaction fees and latency that hinder UX and 
+                    prevent Ethereum applications from scaling. Compatible with Ethereum and all ERC20 tokens.
                 </div>
                 <div className="payments" style={{width:"40%",order:"4"}}>
-                    <img src={payments} alt="Illustration of a blockchain (blue) with ERC20 token logos above" style={{width:"250px"}}/>
+                    <img src={layer2} alt="Illustration of blockchain (blue) with a new 
+                                            (orange) block being added" style={{width:"300px"}}/>
                 </div>
             </div>
         )

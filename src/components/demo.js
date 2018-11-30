@@ -192,8 +192,7 @@ class Demo extends Component {
                     STEP 1
                 </h4>
                 <p>
-                    First, Alice deposits some DAI to their friendly neighborhood Connext Hub. Let's give them a hand. 
-                    Now, watch their channel balance increase.
+                    First, Alice deposits some DAI to their friendly neighborhood Connext Hub.
                 </p>
                 <button className="demo-button" onClick={this.handleDepositSubmit}>
                     Deposit money to channel
@@ -208,9 +207,8 @@ class Demo extends Component {
                     STEP 2
                 </h4>
                 <p>
-                    Now, it's time for Alice to pay someone! The counterparty is also connected to the hub, so they can open a thread 
+                    Bob is also connected to the hub, so Alice can open a thread 
                     and pay them directly. 
-                    You'll see one balance increase, and the other decrease.
                 </p>
                 <button className="demo-button" onClick={this.handleThreadSubmit}>Make a payment</button>
             </div>
@@ -275,7 +273,7 @@ class Demo extends Component {
                             fontFamily: "'proxima-nova',sans-serif",
                             color:"#0F1012"}}>
                 <div className="card-graphics-3" style={{}}>
-                    <img src={step3} alt="Black-haired man holding ERC20 token logos" style={{ width:"160px"}}></img>
+                    <img src={step3} alt="Black-haired man holding ERC20 token logos" style={{ width:"200px"}}></img>
                 </div>
                 <div className="card-text-3" style={{}}>
                 <h5>Alice's Thread Balance</h5>
@@ -294,7 +292,7 @@ class Demo extends Component {
                     duration={200} />&nbsp;
                     {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>                
-                <div style={{marginLeft:"2%",fontSize:"16px",paddingRight:"4%",borderRight:"1px solid #C1C6CE"}}>
+                <div className="card-text-3a" style={{fontSize:"16px",borderRight:"1px solid #C1C6CE"}}>
                 <h5>Bob's Thread Balance</h5>
                 <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={2}
                     style={{
@@ -312,7 +310,7 @@ class Demo extends Component {
                     {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>
                 <div className="card-text-3b" style={{}}>
-                <h5>Total <br/>transactions</h5> 
+                <h5>Total transactions</h5> 
                 <AnimatedNumber component="text" value={this.state.txCount} stepPrecision={0}
                     style={{
                         color:"#F22424",
@@ -337,8 +335,7 @@ class Demo extends Component {
                                 color:"#FCA311"}}>
                     STEP 3
                 </h4>
-                <p>Payments through a Connext Hub are instant and free, so your users can go ahead and pay as frequently
-                    as they want. Try making a lot of payments!
+                <p>Payments through a Connext Hub are off-chain and don't use gas. Try making a lot of payments!
                 </p>
                 <button className="demo-button"onClick={this.handleDrain}>Make more payments</button>
             </div>
@@ -349,7 +346,6 @@ class Demo extends Component {
                                     fontFamily: "Comfortaa",
                                     color:"#FCA311"}}>STEP 4</h4>
                 <p style={{textAlign:"right"}}>Now Bob wants to withdraw their money to use on a site that hasn't integrated Connext. Sad face.
-                    Press "Cash out" and watch the money flow into their wallet!
                 </p>
                 <button className="demo-button" onClick={this.cashOut}>Cash out</button>
             </div>
@@ -365,7 +361,7 @@ class Demo extends Component {
                             color:"#0F1012",
                             display:"flex"}}>
                 <div className="card-graphics-4B" style={{}}>
-                    <img src={step4B} alt="Phone with Ethereum and ERC20 token logos" style={{width:"85px"}} />
+                    <img src={step4B} alt="Phone with Ethereum and ERC20 token logos" style={{width:"200px"}} />
                 </div>
                     <div className="card-text-4" style={{fontSize:"16px",marginLeft:"10%"}}>
                         <h5>Bob's <br />Channel Balance</h5>
@@ -391,7 +387,7 @@ class Demo extends Component {
                             </div>
                         }
                     </div>
-                    <div className="card-text-4" style={{marginLeft:"2%",fontSize:"16px"}}>
+                    <div className="card-text-4" style={{marginLeft:"0%",fontSize:"16px"}}>
                         <h5>Bob's <br />Wallet Balance</h5>
                         { this.state.showSpinner ? 
                             <img src={spinner} alt="orange loading spinner" style={{margin:"auto",width:"50px"}}/> 
@@ -413,9 +409,9 @@ class Demo extends Component {
                         </div>
                         }
                     </div>
-                    <div className="card-graphics-4A" style={{}}>
+                    {/* <div className="card-graphics-4A" style={{}}>
                         <img src={step4A} alt="Black-haired man in blue shirt and dark blue overalls gestures with his arm" style={{ width:"250px"}}></img>
-                    </div>
+                    </div> */}
             </div>
         </div>
         </div>
