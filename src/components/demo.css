@@ -285,9 +285,12 @@
     padding: 1% 1% 1% 1%;
 }
 .demo-button:hover{
+    cursor:pointer;
     background-color:#fca311;
     color:#fff;
     opacity:0.8;
     box-shadow: none;
 }
-
+.demo-button:focus{
+    outline:none;
+}

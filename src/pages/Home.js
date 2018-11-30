@@ -66,7 +66,7 @@ render() {
             (<div id="sidebarMenu" style={{top:"0",zIndex:2}}>
               <ul className="sidebarMenuInner" onClick={this.toggleMenu} style={{
                 position:'relative',
-                listStyleType: 'none',
+                listStyleType: 'none', 
                 margin: '1%',
                 padding: '0',
                 overflow: 'hidden',

@@ -26,7 +26,7 @@ class Landing extends Component {
               <br />
               <div className="header-buttons">
               <a className="gettingstarted-button" href="https://docs.connext.network" style={{textDecoration:"none",color:"#FFF"}}>
-                Get Started
+                Read the Docs
               </a>
               <a className="joincommunity-button" href="https://discord.gg/yKkzZZm" style={{textDecoration:"none",color:"#002868"}}>
                 Join the community

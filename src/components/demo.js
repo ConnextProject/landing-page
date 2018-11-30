@@ -99,31 +99,40 @@ class Demo extends Component {
         var txCount = this.state.txCount;
         var balanceA = this.state.balanceA;
         var totalTx = +(parseFloat(balanceA / price).toFixed(0));
-        console.log(this.state.balanceA)
-        console.log(this.state.balanceB)
-        console.log(this.state.toPay)
-        this.setState(({ balanceB }) => ({
-            balanceB: (balanceB + balanceA)
-        }))
-        this.setState(({ balanceA }) => ({
-            balanceA: (0)
-        }))
-        this.setState(({ txCount }) => ({
-            txCount: txCount + totalTx
-        }))
+        if(this.state.balanceA < price){
+            alert("Insufficient funds! Please deposit more.")
+        }else{
+            console.log(this.state.balanceA)
+            console.log(this.state.balanceB)
+            console.log(this.state.toPay)
+            this.setState(({ balanceB }) => ({
+                balanceB: (balanceB + balanceA)
+            }))
+            this.setState(({ balanceA }) => ({
+                balanceA: (0)
+            }))
+            this.setState(({ txCount }) => ({
+                txCount: txCount + totalTx
+            }))
+            event.preventDefault();
+          }
         }
     
         async cashOut(){
-            this.setState({showSpinner:true});
-            await this.sleep(3000);
-            this.setState({showSpinner:false});
-            var balanceB = this.state.balanceB;
-            this.setState(({onChainBalanceB}) =>({
-                onChainBalanceB: balanceB
-            }));
-            this.setState(({ balanceB }) => ({
-                balanceB: 0
-            }));
+            if (this.state.balanceB==0){
+                alert("No channel balance to withdraw!")
+            }else{
+                this.setState({showSpinner:true});
+                await this.sleep(3000);
+                this.setState({showSpinner:false});
+                var balanceB = this.state.balanceB;
+                this.setState(({onChainBalanceB}) =>({
+                    onChainBalanceB: balanceB
+                }));
+                this.setState(({ balanceB }) => ({
+                    balanceB: 0
+                }));
+            }
         }
 
       render() {
@@ -136,8 +145,7 @@ class Demo extends Component {
             <h1 style={{fontWeight:"lighter",
                         fontFamily: "Comfortaa",
                         color:"#0F1012"}}>How it works</h1>
-            <br />
-            <p  className="subhead" style={{margin:"auto"}}>Let's walk through a typical payment flow</p>
+            <h6  className="subhead" style={{margin:"auto"}}>Let's walk through a typical payment flow</h6>
         </div>
         <div className="step-wrapper" style={{display:"flex",}}>
             <div className="step1card" style={{   border: "5px solid #fff",
@@ -149,7 +157,7 @@ class Demo extends Component {
                             }}>
                 <div className="card-text-1" style={{display:"flex"}}>
                     <div style={{width:"70%", marginLeft:"0%", marginTop:"3%", fontSize:"16px"}}>
-                           <h5> User 1's Channel Balance </h5>
+                           <h5> Alice's Channel Balance </h5>
                         { this.state.showSpinner ? 
                             <img src={spinner} alt="orange loading spinner" style={{marginTop:"25px",width:"50px"}}/> 
                             : <div style={{marginLeft:"8%",marginTop:"-5%"}}>
@@ -184,8 +192,8 @@ class Demo extends Component {
                     STEP 1
                 </h4>
                 <p>
-                    First, your user deposits funds to their friendly neighborhood Connext Hub. Let's give them a hand. 
-                    The example here is 50 DAI, but this could be ETH or any ERC-20 token. Now, watch their channel balance increase.
+                    First, Alice deposits some DAI to their friendly neighborhood Connext Hub. Let's give them a hand. 
+                    Now, watch their channel balance increase.
                 </p>
                 <button className="demo-button" onClick={this.handleDepositSubmit}>
                     Deposit money to channel
@@ -200,11 +208,11 @@ class Demo extends Component {
                     STEP 2
                 </h4>
                 <p>
-                    Now, it's time for your user to pay someone! The counterparty is also connected to the hub, so they can open a thread 
+                    Now, it's time for Alice to pay someone! The counterparty is also connected to the hub, so they can open a thread 
                     and pay them directly. 
                     You'll see one balance increase, and the other decrease.
                 </p>
-                <button className="demo-button" onClick={this.handleThreadSubmit}>Pay another user</button>
+                <button className="demo-button" onClick={this.handleThreadSubmit}>Make a payment</button>
             </div>
             <div className="bullet">
                 <img className="bullet-sub" src={bullet} alt="bullet" />
@@ -221,7 +229,7 @@ class Demo extends Component {
                 </div>
                 <div className="card-text-2">
                 <div className="user1" style={{}}>
-                <h5>User 1's <br />Thread Balance</h5>
+                <h5>Alice's <br />Thread Balance</h5>
                 <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={2}
                     style={{
                         color:"#F22424",
@@ -238,7 +246,7 @@ class Demo extends Component {
                     {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>
                 <div className="user2" style={{}}>
-                <h5>User 2's <br /> Thread Balance </h5>
+                <h5>Bob's <br /> Thread Balance </h5>
                 <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={2}
                     style={{
                         color:"#08B22D",
@@ -270,7 +278,7 @@ class Demo extends Component {
                     <img src={step3} style={{ width:"160px"}}></img>
                 </div>
                 <div className="card-text-3" style={{}}>
-                <h5>User 1's Thread Balance</h5>
+                <h5>Alice's Thread Balance</h5>
                 <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={2}
                     style={{
                         color:"#F22424",
@@ -287,7 +295,7 @@ class Demo extends Component {
                     {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>                
                 <div style={{marginLeft:"2%",fontSize:"16px",paddingRight:"4%",borderRight:"1px solid #C1C6CE"}}>
-                <h5>User 2's Thread Balance</h5>
+                <h5>Bob's Thread Balance</h5>
                 <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={2}
                     style={{
                         color:"#08B22D",
@@ -340,7 +348,7 @@ class Demo extends Component {
                 <h4 style={{fontWeight:"lighter",
                                     fontFamily: "Comfortaa",
                                     color:"#FCA311"}}>STEP 4</h4>
-                <p style={{textAlign:"right"}}>Now User 2 wants to withdraw their money to use on a dApp that hasn't integrated Connext. Sad face.
+                <p style={{textAlign:"right"}}>Now Bob wants to withdraw their money to use on a site that hasn't integrated Connext. Sad face.
                     Press "Cash out" and watch the money flow into their wallet!
                 </p>
                 <button className="demo-button" onClick={this.cashOut}>Cash out</button>
@@ -360,7 +368,7 @@ class Demo extends Component {
                     <img src={step4B} alt="step4B" style={{width:"85px"}} />
                 </div>
                     <div className="card-text-4" style={{fontSize:"16px",marginLeft:"10%"}}>
-                        <h5>User 2's <br />Channel Balance</h5>
+                        <h5>Bob's <br />Channel Balance</h5>
                         { this.state.showSpinner ? 
                             <img src={spinner} alt="orange loading spinner" style={{margin:"auto",width:"50px"}}/> 
                             : 
@@ -384,7 +392,7 @@ class Demo extends Component {
                         }
                     </div>
                     <div className="card-text-4" style={{marginLeft:"2%",fontSize:"16px"}}>
-                        <h5>User 2's <br />Wallet Balance</h5>
+                        <h5>Bob's <br />Wallet Balance</h5>
                         { this.state.showSpinner ? 
                             <img src={spinner} alt="orange loading spinner" style={{margin:"auto",width:"50px"}}/> 
                         : 

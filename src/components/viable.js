@@ -8,10 +8,9 @@ class Viable extends Component{
         return(
         <div className="viable">
           <div style={{width:"100%",textAlign:"center"}}>
-            <h1 style={{fontWeight:"lighter",
-                              fontFamily: "Comfortaa",
+            <h1 style={{fontFamily: "Comfortaa",
                               color:"#0F1012"}}>
-              Making blockchain viable.
+              Making blockchain viable
             </h1>
           </div>
           <div className="viable-text" style={{textAlign:"center",
@@ -23,7 +22,7 @@ class Viable extends Component{
               <img className="developer" src={developer} alt="developer image" />
             </div>
             <div className="viable-block-1" style={{marginBottom:"6%"}}>
-                <h5 style={{color:"#FCA311"}} >DEVELOPER FOCUSED</h5>
+                <h4 style={{color:"#FCA311"}} >DEVELOPER FOCUSED</h4>
                 <br />
                 We obsess about creating the optimal developer experience by shipping 
                 modular, intuitive, and robust integration paths. Check out our docs to get started.
@@ -31,14 +30,14 @@ class Viable extends Component{
             <div className="divider">
             </div> 
             <div className="viable-block" style={{marginBottom:"6%"}}>
-                <h5 style={{color:"#FCA311"}} >TRUSTLESS</h5>
+                <h4 style={{color:"#FCA311"}} >TRUSTLESS</h4>
                 <br />
                 Our formally verified framework eliminates all counterparty risk. 
                 This means your applicaction always preserves the security guarantees of the blockchain.
             </div>     
             <div className="divider"></div>  
             <div className="viable-block" style={{marginBottom:"6%"}}>
-              <h5 style={{color:"#FCA311"}} >OPEN SOURCE</h5>
+              <h4 style={{color:"#FCA311"}} >OPEN SOURCE</h4>
               <br />
               We strongly support open source software and permissionless development. 
               We welcome any feedback and contributions to our repositories.

@@ -93,7 +93,7 @@
 @media screen and (max-width : 769px){
     .top{
         background-image:url("../assets/background_all.svg");
-        background-size:635%;
+        background-size:700%;
         background-repeat:no-repeat;
         background-position:0 0;;
     }
@@ -210,7 +210,7 @@
       border-radius: 4px;
       position: absolute;
       transition-property: transform;
-      transition-duration: 0.15s;
+      transition-duration: 0.1s;
       transition-timing-function: ease; }
     .hamburger-inner::before, .hamburger-inner::after {
       content: "";
