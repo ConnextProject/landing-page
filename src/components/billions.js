@@ -18,12 +18,12 @@ class Explainer extends Component{
                     <h2 style={{
                                 fontFamily: "Comfortaa",
                                 color:"#FCA311"}}>
-                        Indra: A Layer on Top of the Blockchain
+                    Practical Blockchain Transactions
                     </h2>
                     Indra, our core offering, lets you easily set up and use a state channel hub. 
                     By securely moving transactions to a networked, trustless, off-chain layer, 
-                    we minimize the transaction fees and latency that hinder UX and 
-                    prevent dApps from scaling. We interoperate with Ethereum and all ERC20 tokens.
+                    Indra minimizes the transaction fees and latency that hinder UX and 
+                    prevent dApps from scaling. Compatible with Ethereum and all ERC20 tokens.
                 </div>
                 <div className="explainer2"style={{marginRight:"0%",textAlign:"right",order:"3"}}>
                     <h2 style={{
