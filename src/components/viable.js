@@ -27,7 +27,7 @@ class Viable extends Component{
                 We obsess about creating the optimal developer experience by shipping 
                 modular, intuitive, and robust integration paths. Check out our docs to get started.
             </div>    
-            <div className="divider">
+            <div className="divider-v">
             </div> 
             <div className="viable-block" style={{marginBottom:"6%"}}>
                 <h4 style={{color:"#FCA311"}} >TRUSTLESS</h4>
@@ -35,7 +35,7 @@ class Viable extends Component{
                 Our formally verified framework eliminates all counterparty risk. 
                 This means your applicaction always preserves the security guarantees of the blockchain.
             </div>     
-            <div className="divider"></div>  
+            <div className="divider-v"></div>  
             <div className="viable-block" style={{marginBottom:"6%"}}>
               <h4 style={{color:"#FCA311"}} >OPEN SOURCE</h4>
               <br />

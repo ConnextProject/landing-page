@@ -36,7 +36,7 @@ class BestFor extends Component {
                   <div className="wrap" style={{width:"50%", textAlign:"center"}}>
                     <Row>
                     <Col xs="8">
-                    <p style={{textAlign:"right"}}>
+                    <p style={{textAlign:"right", paddingRight:"5%"}}>
                     <h5 style={{color:"#FCA311"}} >CONTENT PAYMENTS</h5>
                       By reducing your transaction costs to almost zero, 
                       Indra empowers streamers and creators to seamlessly monetize their content, 
@@ -53,7 +53,7 @@ class BestFor extends Component {
                   <div className="wrap" style={{width:"50%", textAlign:"center"}}>
                     <Row>
                     <Col xs="8">
-                    <p style={{textAlign:"right"}}>
+                    <p style={{textAlign:"right", paddingRight:"5%"}}>
                     <h5 style={{color:"#FCA311"}} >P2P MARKETPLACES</h5>
                       Controlling user funds and managing payouts is risky and takes work. 
                       Indra lets you make your marketplace truly peer-to-peer, so you can 
@@ -70,7 +70,7 @@ class BestFor extends Component {
                   <div className="wrap" style={{width:"50%", textAlign:"center"}}>
                     <Row>
                     <Col xs="8">
-                    <p style={{textAlign:"right"}}>
+                    <p style={{textAlign:"right", paddingRight:"5%"}}>
                     <h5 style={{color:"#FCA311"}} >MACHINE INTERACTIONS</h5>
                       Built from the ground up to enable automation, Indra lets
                       IoT devices interact frictionlessly, maintaining the security of 
@@ -87,7 +87,7 @@ class BestFor extends Component {
                   <div className="wrap" style={{width:"50%", textAlign:"center"}}>
                     <Row>
                     <Col xs="8">
-                    <p style={{textAlign:"right"}}>
+                    <p style={{textAlign:"right", paddingRight:"5%"}}>
                     <h5 style={{color:"#FCA311"}} >DECENTRALIZED EXCHANGE</h5>
                       Using Indra to clear transactions, decentralized exchanges 
                       can retain their non-custodial architecture, but enable activities 

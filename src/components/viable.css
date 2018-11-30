@@ -38,7 +38,7 @@
     .developer{
         width:130%;
     }
-    .divider{
+    .divider-v{
         margin:0 2% 0 2%;
         border-right:1px solid black;
         border-image: linear-gradient(to bottom,rgba(25.9,27.8,30.2,0) 15%, rgba(25.9,27.8,30.2,1) 15%,rgba(25.9,27.8,30.2,1) 60%,rgba(25.9,27.8,30.2,0) 60%);

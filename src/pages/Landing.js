@@ -43,7 +43,7 @@ class Landing extends Component {
         <div className="viable">
           <Viable />
         </div>
-        <div style={{marginBottom: "18%"}}>
+        <div className="demo" >
           <Demo />
         </div>
         <div className="bestfor">
