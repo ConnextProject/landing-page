@@ -184,13 +184,13 @@ class BestFor extends Component {
               </button>
             </div>
             </Container>
-            <div className="learn-more" style={{}}>
+            {/* <div className="learn-more" style={{}}>
               <button  className="demo-button" outline style={{ margin:"auto"}}>
                   <a href="https://docs.connext.network" style={{textDecoration:"none",color:"inherit"}}>
                       Learn More
                   </a>
               </button>
-            </div>
+            </div> */}
             </Container>
         )
     }

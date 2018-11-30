@@ -133,6 +133,7 @@
   .slick-arrow {  }
 
   .slick-prev:before {
+    cursor:pointer;
     display:flex;
     align-items: baseline;
     position:relative;
@@ -142,6 +143,7 @@
  
   
   .slick-next:before {
+    cursor: pointer;
     display:flex;
     align-items: baseline;
     position:relative;
