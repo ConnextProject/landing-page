@@ -64,6 +64,7 @@
     }
     .team-cta{
         flex-direction:column;
+        margin-top:8%;
     }
 
 }

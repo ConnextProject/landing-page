@@ -152,7 +152,7 @@ render() {
                           fontSize: "small",
                           color: "white",
                           order:"3"}}>
-              COMPANY
+              <span style={{fontFamily:"comfortaa"}}>COMPANY</span>
               <br />
               <Link to="/team" style={{
                       fontFamily: "'proxima-nova',sans-serif", 
@@ -170,7 +170,7 @@ render() {
                           color: "white",
                           marginLeft:"5%",
                           order:"4"}}>
-              RESOURCES
+              <span style={{fontFamily:"comfortaa"}}>RESOURCES</span>
               <br />
               <a href="https://docs.connext.network" style={{
                       fontFamily: "'proxima-nova',sans-serif", 

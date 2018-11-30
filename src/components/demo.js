@@ -420,7 +420,7 @@ class Demo extends Component {
         </div>
         </div>
         )
-    }
+    } 
 }
 
 export default Demo;

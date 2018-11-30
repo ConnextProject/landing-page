@@ -154,7 +154,7 @@ scrollToMyRef = () => {
                   Connext is unlocking the micropayment economy of the future. If you'd like to help, reach out to support@connext.network.
             </div>
             <div style={{margin:"auto", paddingTop:"5%"}}> 
-                <a onClick={this.scrollToMyRef}><img src={arrow} alt="down arrow" style={{width:"30px", height:"30px"}}></img></a>
+                {/* <a onClick={this.scrollToMyRef}><img src={arrow} alt="down arrow" style={{width:"30px", height:"30px"}}></img></a> */}
             </div>
           </div>
           <div className="team-cta" style={{display:"flex"}}>
