@@ -30,6 +30,7 @@
     .team-cta{
         padding-bottom:40%;
         flex-direction:column;
+        margin-top:-10%;
     }
     .team-cta-buttons{
         margin:auto;
@@ -68,7 +69,7 @@
 }
 
 .team-readdocs-button{
-    color:#fff;
+    color:#fca311;
     background-color:inherit;
     border:1px solid #fca311;
     border-radius:4px;

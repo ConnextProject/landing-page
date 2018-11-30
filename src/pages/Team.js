@@ -168,14 +168,13 @@ scrollToMyRef = () => {
                 </div>
                 <div className="team-cta-buttons" style={{fontWeight:"lighter",
                           fontFamily: "'proxima-nova',sans-serif",
-                          color:"#0F1012",
                           textAlign:"center",
                           }}>
                   <a className="team-readdocs-button" 
-                   href="https://docs.connext.network" style={{textDecoration:"none",color:"inherit"}}>
+                   href="https://docs.connext.network" style={{textDecoration:"none"}}>
                       Read our documentation
                   </a>
-                  <a className="team-joincommunity-button" href="https://discord.gg/yKkzZZm" style={{textDecoration:"none",color:"inherit"}}>
+                  <a className="team-joincommunity-button" href="https://discord.gg/yKkzZZm" style={{textDecoration:"none"}}>
                       Join our community chat
                     </a>
                 </div>
