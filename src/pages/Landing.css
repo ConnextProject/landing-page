@@ -45,14 +45,14 @@
       justify-content: flex-start;
       align-content:flex-start;
       flex-direction: column;
-      margin-bottom:130%;
+      padding-bottom:130%;
     }
     .usecase-desktop{
         display:none;
     }
     .headline{
       width:100%;
-      margin-bottom:40%; 
+      padding-bottom:40%; 
       display:block;
     }
     .headerbuttons{
@@ -62,7 +62,7 @@
       vertical-align: top;
     }
     .computer-header{
-      margin-top:-25%;
+      padding-top:-25%;
       width:110%;
     }
     .gettingstarted-button{
