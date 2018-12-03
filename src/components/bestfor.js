@@ -84,7 +84,7 @@ class BestFor extends Component {
                       </Col>
                       </Row>
                   </div>
-                  <div className="wrap" style={{width:"60%", textAlign:"center"}}>
+                  <div className="wrap" style={{width:"50%", textAlign:"center"}}>
                     <Row>
                     <Col xs="8">
                     <p style={{textAlign:"right", paddingRight:"5%"}}>
