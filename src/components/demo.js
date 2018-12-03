@@ -65,7 +65,7 @@ class Demo extends Component {
 
       handleThreadSubmit(event) {
         //var toPay = this.state.toPay;
-        var toPay = 0.05;
+        var toPay = 1;
         var balanceA = this.state.balanceA;
         var balanceB = this.state.balanceB;
         var txCount = this.state.txCount;
@@ -95,7 +95,7 @@ class Demo extends Component {
         }
       }
       handleDrain(event) {
-        var price = 0.05;
+        var price = 1;
         var txCount = this.state.txCount;
         var balanceA = this.state.balanceA;
         var totalTx = +(parseFloat(balanceA / price).toFixed(0));
@@ -141,7 +141,7 @@ class Demo extends Component {
                     fontWeight:"lighter",
                     fontFamily: "'proxima-nova',sans-serif",
                     color:"#0F1012"}}>
-        <div>
+        <div style={{marginBottom:"10%"}}>
             <h1 style={{fontWeight:"lighter",
                         fontFamily: "Comfortaa",
                         color:"#0F1012"}}>How it works</h1>
@@ -181,7 +181,7 @@ class Demo extends Component {
                     </div>
                 </div>
             </div>
-            <div className="bullet" >
+            <div className="bullet-1" >
                 <img className="bullet-sub" src={bullet} alt="Orange bullet point" />
             </div>
             <div className="step-paragraph" style={{textAlign:"left"}}>
@@ -212,7 +212,7 @@ class Demo extends Component {
                 </p>
                 <button className="demo-button" onClick={this.handleThreadSubmit}>Make a payment</button>
             </div>
-            <div className="bullet">
+            <div className="bullet-2">
                 <img className="bullet-sub" src={bullet} alt="Orange bullet point" />
             </div>
             <div xs="5" className="step2card" style={{   border: "5px solid #fff",
@@ -272,9 +272,6 @@ class Demo extends Component {
                             fontWeight:"lighter",
                             fontFamily: "'proxima-nova',sans-serif",
                             color:"#0F1012"}}>
-                <div className="card-graphics-3" style={{}}>
-                    <img src={step3} alt="Black-haired man holding ERC20 token logos" style={{ width:"200px"}}></img>
-                </div>
                 <div className="card-text-3" style={{}}>
                 <h5>Alice's Thread Balance</h5>
                 <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={2}
@@ -292,7 +289,7 @@ class Demo extends Component {
                     duration={200} />&nbsp;
                     {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>                
-                <div className="card-text-3a" style={{fontSize:"16px",borderRight:"1px solid #C1C6CE"}}>
+                <div className="card-text-3a" style={{fontSize:"16px"}}>
                 <h5>Bob's Thread Balance</h5>
                 <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={2}
                     style={{
@@ -308,6 +305,9 @@ class Demo extends Component {
                     )}
                     duration={200} />&nbsp;
                     {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
+                </div>
+                <div className="card-graphics-3" style={{}}>
+                    <img src={step3} alt="Black-haired man holding ERC20 token logos" style={{ width:"220px"}}></img>
                 </div>
                 <div className="card-text-3b" style={{}}>
                 <h5>Total transactions</h5> 
@@ -387,7 +387,7 @@ class Demo extends Component {
                             </div>
                         }
                     </div>
-                    <div className="card-text-4" style={{marginLeft:"0%",fontSize:"16px"}}>
+                    <div className="card-text-4b" style={{marginLeft:"0%",fontSize:"16px"}}>
                         <h5>Bob's <br />Wallet Balance</h5>
                         { this.state.showSpinner ? 
                             <img src={spinner} alt="orange loading spinner" style={{margin:"auto",width:"50px"}}/> 

@@ -38,7 +38,7 @@ class BestFor extends Component {
                     <Col xs="8">
                     <p style={{textAlign:"right", paddingRight:"5%"}}>
                     <h5 style={{color:"#FCA311"}} >CONTENT PAYMENTS</h5>
-                      By reducing your transaction costs to almost zero, 
+                      By reducing transaction costs to almost zero, 
                       Indra empowers streamers and creators to seamlessly monetize their content, 
                       no matter how low the price.
                       </p>
