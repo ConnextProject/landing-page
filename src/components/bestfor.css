@@ -5,25 +5,24 @@
     .best-for{
       margin-bottom:5%;
     }
+    .icon-wrap{
+      margin-left:5%;
+    }
     .icon1{
       width:110px;
-      margin-left:25%;
-      margin-top:15%;
+      margin-top:16%;
     }
     .icon2{
       width:110px;
-      margin-left:25%;
-      margin-top:15%;
+      margin-top:16%;
     }
     .icon3{
       width:110px;
-      margin-left:25%;
-      margin-top:15%;
+      margin-top:8%;
     }
     .icon4{
       width:110px;
-      margin-left:25%;
-      margin-top:15%;
+      margin-top:16%;
     }
     .divider{
       border-right: 1px solid;
