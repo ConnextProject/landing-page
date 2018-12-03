@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './team.css';
-import arrow from '../assets/arrow.png';
 import arjun from '../assets/arjun.png';
 import layne from '../assets/layne.jpeg';
 import rahul from '../assets/rahul.png';

@@ -111,8 +111,10 @@ render() {
                   <button className="modal-x" onClick={this.handleCloseModal}>
                     X
                   </button>
-                  <iframe src="https://arjun126.typeform.com/to/HroioH" style={{width:"100%", 
-                                                                                height:"95%"}}></iframe>
+                  <iframe src="https://arjun126.typeform.com/to/HroioH" 
+                        title="Typeform iFrame"
+                        style={{width:"100%", 
+                                height:"95%"}}></iframe>
                 </Modal>
               </div>
                 <Switch>

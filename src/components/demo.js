@@ -2,14 +2,11 @@ import React, { Component } from 'react';
 import AnimatedNumber from 'react-animated-number';
 import './demo.css';
 import spinner from '../assets/spinner.gif';
-import greencheck from '../assets/greencheck.png';
 import step1 from '../assets/step1.svg';
 import step2 from '../assets/step2.svg';
 import step3 from '../assets/step3.svg';
-import step4A from '../assets/step4A.svg';
 import step4B from '../assets/step4B.svg';
 import bullet from '../assets/bullet.svg';
-import dai from '../assets/dai.png';
 
 
 class Demo extends Component {
@@ -96,7 +93,6 @@ class Demo extends Component {
       }
       handleDrain(event) {
         var price = 1;
-        var txCount = this.state.txCount;
         var balanceA = this.state.balanceA;
         var totalTx = +(parseFloat(balanceA / price).toFixed(0));
         if(this.state.balanceA < price){
@@ -119,7 +115,7 @@ class Demo extends Component {
         }
     
         async cashOut(){
-            if (this.state.balanceB==0){
+            if (this.state.balanceB===0){
                 alert("No channel balance to withdraw!")
             }else{
                 this.setState({showSpinner:true});
@@ -163,8 +159,7 @@ class Demo extends Component {
                             : <div style={{marginLeft:"8%",marginTop:"-5%"}}>
                             <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={2}
                                 style={{
-                                    fontSize:"60px",
-                                    fontSize:"80px",
+                                    fontSize:"70px",
                                     fontFamily:"'proxima-nova-semibold', sans-serif",
                                     color:"#08B22D",
                                     transition: '0.8s ease-out',
