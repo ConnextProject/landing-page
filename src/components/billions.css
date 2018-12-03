@@ -31,7 +31,7 @@
     }
     .explainer2{
         margin-top:0%;
-        margin-left:0%;
+        margin-left:8%;
         width:40%;
         font-size: large;
         padding-bottom:10%;
@@ -39,10 +39,10 @@
     .layer{
         margin-left:3%;
         padding-left:10%;
-        margin-top:10%;
+        margin-top:0%;
     }
     .payments{
         padding-left:0%;
-        margin-top:-8%;
+        margin-top:-10%;
     }
 }

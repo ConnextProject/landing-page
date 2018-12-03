@@ -319,6 +319,8 @@
     font-weight:lighter;
     font-family: 'proxima-nova',sans-serif;
     padding: 1% 1% 1% 1%;
+    overflow: hidden;
+    height:auto;
 }
 .demo-button:hover{
     cursor:pointer;

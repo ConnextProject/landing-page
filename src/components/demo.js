@@ -192,7 +192,7 @@ class Demo extends Component {
                     STEP 1
                 </h4>
                 <p>
-                    First, Alice deposits some DAI to their friendly neighborhood Connext Hub.
+                    First, Alice deposits some money to her friendly neighborhood Connext Hub.
                 </p>
                 <button className="demo-button" onClick={this.handleDepositSubmit}>
                     Deposit money to channel
@@ -208,7 +208,7 @@ class Demo extends Component {
                 </h4>
                 <p>
                     Bob is also connected to the hub, so Alice can open a thread 
-                    and pay them directly. 
+                    and pay him directly. 
                 </p>
                 <button className="demo-button" onClick={this.handleThreadSubmit}>Make a payment</button>
             </div>
@@ -335,7 +335,7 @@ class Demo extends Component {
                                 color:"#FCA311"}}>
                     STEP 3
                 </h4>
-                <p>Payments through a Connext Hub are off-chain and don't use gas. Try making a lot of payments!
+                <p>Payments through a Connext Hub are off-chain, so they're fast and cheap!
                 </p>
                 <button className="demo-button"onClick={this.handleDrain}>Make more payments</button>
             </div>
@@ -345,7 +345,7 @@ class Demo extends Component {
                 <h4 style={{fontWeight:"lighter",
                                     fontFamily: "Comfortaa",
                                     color:"#FCA311"}}>STEP 4</h4>
-                <p style={{textAlign:"right"}}>Now Bob wants to withdraw their money to use on a site that hasn't integrated Connext. Sad face.
+                <p style={{textAlign:"right"}}>Now Bob wants to withdraw his money to use on a site that hasn't integrated Connext. Sad face.
                 </p>
                 <button className="demo-button" onClick={this.cashOut}>Cash out</button>
             </div>

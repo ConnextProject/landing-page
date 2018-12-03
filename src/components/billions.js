@@ -19,11 +19,9 @@ class Explainer extends Component{
                                 color:"#FCA311"}}>
                     Payments Reinvented
                     </h2>
-                    Modern payment systems struggle to handle peer-to-peer payments, especially
-                    micropayments. We believe that the future of the economy is peer-to-peer, and that
-                    most assets, applications, and ecosystems will be secured by blockchains.
-                    We enable the transaction throughput and speed needed to make this a reality.
-                    
+                    We believe that small-value P2P transactions, secured and supported by blockchains,
+                    will unlock untapped economic potential. We enable the transaction throughput 
+                    and speed needed to make this a reality.
                 </div>
                 <div className="explainer2"style={{marginRight:"0%",textAlign:"left",order:"3"}}>
                     <h2 style={{
@@ -32,9 +30,9 @@ class Explainer extends Component{
                     Meet Indra
                     </h2>
                     Indra, our flagship offering, makes it easy to set up and use a payment channel hub. 
-                    By securely moving transactions to a trustless, off-chain layer, 
+                    By securely moving Ethereum and ERC20 transactions to a trustless, off-chain layer, 
                     we minimize the transaction fees and latency that hinder UX and 
-                    prevent Ethereum applications from scaling. Compatible with Ethereum and all ERC20 tokens.
+                    prevent applications from scaling.
                 </div>
                 <div className="payments" style={{width:"40%",order:"4"}}>
                     <img src={layer2} alt="Illustration of blockchain (blue) with a new 
