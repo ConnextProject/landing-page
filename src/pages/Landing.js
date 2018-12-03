@@ -49,11 +49,14 @@ class Landing extends Component {
         <div className="bestfor">
           <BestFor/>
         </div>
-        <div className="landing-cta" style={{textAlign:"center", paddingTop:"-10%"}}>
+        <div className="landing-cta" style={{textAlign:"center"}}>
           <h2 style={{fontFamily:"Comfortaa", marginBottom:"5%", color:"#FFF"}}>Want to get started?</h2>
             <a className="signupnow-button" href="https://discord.gg/yKkzZZm" style={{textDecoration:"none"}}>
               Sign up now
             </a>
+            <a className="gettingstarted-button2" href="https://docs.connext.network" style={{textDecoration:"none",color:"#FFF"}}>
+                Read the Docs
+              </a>
         </div>
       </div>
     );

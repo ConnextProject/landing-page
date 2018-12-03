@@ -17,7 +17,7 @@
   }
   .joincommunity-button{
     margin-left: 5%;
-    margin-top:1% 
+    margin-top:1%;
   }
   .gettingstarted-button{
 
@@ -41,9 +41,15 @@
   .demo{
     margin-bottom:15%;
   }
+  .gettingstarted-button2{
+    display:none;
+  }
 }
 
   @media screen and (max-width : 760px){
+    .landing-toplevel{
+      width:95%;
+    }
     .above-fold{
       justify-content: flex-start;
       align-content:flex-start;
@@ -89,14 +95,42 @@
       margin-bottom:40%;
     }
     .demo{
-      margin-bottom:18%;
+      margin-bottom:10% !important;
     }
     .landing-cta{
-      position:relative;
-      margin-top:-40%;
-    }
-  }
 
+      position:absolute;
+      margin-top:-100%;
+      margin-left:-5%;
+      margin-right:auto;
+    }
+    .gettingstarted-button2{
+      margin-top:5%;
+      width:100% ;
+      float:left;
+    }
+    .signupnow-button{
+      width:100%;
+      float:left;
+    }
+
+  }
+  .gettingstarted-button2{
+    border:none;
+    color:#FCA311 !important;
+    background-color:inherit;
+    /* border:1px solid #fca311; */
+    border-radius:4px;
+    box-shadow:inset 0 0 0 1px #FCA311;
+    font-weight:lighter;
+    font-family: 'proxima-nova',sans-serif;
+    padding:2% 4% 2% 4%;
+    text-align: center;
+  }
+  .gettingstarted-button2:hover{
+    box-shadow: inset 0 0 0 1px #FCA311, 1px 1px 1px #ADB5C1;
+    
+  }
   
 
 .gettingstarted-button{
@@ -120,7 +154,7 @@
    border:none;
    background-image:linear-gradient(to right, #fca311 , #FCD116);
    border-radius:4px;
-   box-shadow:inset 0 0 0 0px #FCA311;
+   /* box-shadow:inset 0 0 0 0px #FCA311; */
    color:#fff;
    font-weight:lighter;
     padding: 2% 4% 2% 4%;
