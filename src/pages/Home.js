@@ -1,14 +1,12 @@
 import React, {Component} from "react";
 import {Link, Switch, Route} from "react-router-dom";
 import Modal from "react-modal";
-import Jobs from "./Jobs";
 import Team from "./Team";
 import Landing from "./Landing";
-import Demo from "../components/demo";
+import NotFound from './NotFound';
 import './styles.css';
 import logoHorizontal from '../assets/logoHorizontal.png';
 import logoWhiteHorizontal from '../assets/logoWhiteHorizontal.png';
-import background_all from "../assets/background_all.svg";
 
 
 Modal.setAppElement('#root'); 
@@ -86,6 +84,7 @@ render() {
                 <Switch>
                   <Route exact path="/" component={Landing} />
                   <Route path="/team" component={Team} />
+                  <Route component={NotFound} />
                 </Switch>
             </div>
           </div> 
@@ -119,7 +118,7 @@ render() {
                 <Switch>
                   <Route exact path="/" component={Landing} />
                   <Route path="/team" component={Team} />
-                  <Route path="/demo" component={Demo} />
+                  <Route component={NotFound} />
                 </Switch>
             </div>
           </div>
