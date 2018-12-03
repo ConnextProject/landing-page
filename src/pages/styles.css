@@ -5,6 +5,7 @@
         background-image:url("../assets/background_all.svg");
         background-size:cover;
         background-repeat:no-repeat;
+        background-position: 0 10%;
     }
     .baseMobile{
         display:none;
