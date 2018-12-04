@@ -46,7 +46,7 @@ class BestFor extends Component {
                     <Col className="divider" xs="0" >
                     </Col>
                       <Col className="icon-wrap" xs="3">
-                        <img className="icon1" src={icon1} alt="White outline of video game controller on orange circle background" />
+                        <img className="icon" src={icon1} alt="White outline of video game controller on orange circle background" />
                       </Col>
                       </Row>
                   </div>
@@ -62,7 +62,7 @@ class BestFor extends Component {
                       <Col className="divider" xs="0" >
                     </Col>
                       <Col className="icon-wrap" xs="3">
-                         <img className="icon4" src={icon4} alt="White outline of car on orange circle background" />                      
+                         <img className="icon" src={icon4} alt="White outline of car on orange circle background" />                      
                       </Col>
                       </Row>
                   </div>
@@ -78,7 +78,7 @@ class BestFor extends Component {
                       <Col className="divider" xs="0" >
                     </Col>
                       <Col className="icon-wrap" xs="3">
-                      <img className="icon2" src={icon2} alt="White outline of robot on orange circle background" />
+                      <img className="icon" src={icon2} alt="White outline of robot on orange circle background" />
                       </Col>
                       </Row>
                   </div>
@@ -94,7 +94,7 @@ class BestFor extends Component {
                       <Col className="divider" xs="0" >
                     </Col>
                       <Col className="icon-wrap" xs="3">
-                      <img className="icon3" src={icon3} alt="White outline of two figures exchanging money on orange circle background" />
+                      <img className="icon" src={icon3} alt="White outline of two figures exchanging money on orange circle background" />
                       </Col>
                       </Row>
                   </div>
