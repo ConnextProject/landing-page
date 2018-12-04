@@ -14,11 +14,11 @@ class Landing extends Component {
       <div className="landing-toplevel" style={{paddingTop:"6%"}}>
         <div className="above-fold" style={{display:"flex"}}>
           <div className="headline" style={{color:"#fff"}}>
-              <h1 style={{fontFamily:"Comfortaa", fontWeight:"bold"}}>Cheaper, fairer payments</h1>
+              <h1 style={{fontFamily:"Comfortaa"}}>Cheaper, fairer payments</h1>
               <br />
               <p className="tagline" style={{fontWeight:"lighter",
                                 fontFamily: "'proxima-nova',sans-serif",
-                                fontSize:"x-large",
+                                fontSize:"large",
                                 color:"#FFF"}}> 
                 Free, open source, p2p micropayment infrastructure. Built using payment channels on the Ethereum blockchain.
            

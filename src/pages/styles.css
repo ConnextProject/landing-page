@@ -5,7 +5,7 @@
         background-image:url("../assets/background_all.svg");
         background-size:cover;
         background-repeat:no-repeat;
-        background-position: 0 20%;
+        background-position: 0 10%;
     }
     .baseMobile{
         display:none;
@@ -24,7 +24,7 @@
     }
 
     .topNavLinkDesktop{
-        font-family:'comfortaa';
+        font-family:'proxima-nova', sans-serif;
         display: inline-block;
         color: #C1C6CE;
         text-align: center;
@@ -32,7 +32,7 @@
         padding: 14px 16px;
         text-decoration: none;
         transition: 0.3s;
-        font-size: 17px;
+        font-size: 20px;
     }
     .topNavLinkDesktop:hover{
         display: inline-block;
@@ -279,12 +279,12 @@
 }
 
 .footer{
-    padding-bottom:5% ;
-    padding-top:4%;
-    position:relative;
-    bottom:0;
-    height:3%;
-    display:flex;
-    background-color:#282B2E;
-    z-index: 0;
+    padding-bottom:5% !important;
+    padding-top:4% !important;
+    position:relative !important;
+    bottom:0 !important;
+    height:3% !important;
+    display:flex !important;
+    background-color:#282B2E !important;
+    z-index: 0 !important;
 }
