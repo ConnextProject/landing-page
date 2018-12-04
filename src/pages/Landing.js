@@ -26,7 +26,7 @@ class Landing extends Component {
               <br />
               <div className="header-buttons">
               <a className="gettingstarted-button" href="https://docs.connext.network" style={{textDecoration:"none",color:"#FFF"}}>
-                Read the Docs
+                Read the docs
               </a>
               <a className="joincommunity-button" href="https://discord.gg/yKkzZZm" style={{textDecoration:"none",color:"#002868"}}>
                 Join the community
@@ -50,12 +50,12 @@ class Landing extends Component {
           <BestFor/>
         </div>
         <div className="landing-cta" style={{textAlign:"center"}}>
-          <h2 style={{fontFamily:"Comfortaa", color:"#FFF", marginBottom:"2%"}}>Want to get started?</h2>
+          <h2 style={{fontFamily:"Comfortaa", color:"#FFF", marginBottom:"3%"}}>Want to get started?</h2>
             <a className="signupnow-button" href="https://discord.gg/yKkzZZm" style={{textDecoration:"none"}}>
-              Sign up now
+              Join the community
             </a>
             <a className="gettingstarted-button2" href="https://docs.connext.network" style={{textDecoration:"none",color:"#FFF"}}>
-                Read the Docs
+                Read the docs
               </a>
         </div>
       </div>

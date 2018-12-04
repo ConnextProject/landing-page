@@ -157,7 +157,7 @@ class Demo extends Component {
                         { this.state.showSpinner ? 
                             <img src={spinner} alt="orange loading spinner" style={{marginTop:"25px",width:"50px"}}/> 
                             : <div style={{marginLeft:"8%",marginTop:"-5%"}}>
-                            <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={2}
+                            <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={0}
                                 style={{
                                     fontSize:"70px",
                                     fontFamily:"'proxima-nova-semibold', sans-serif",
@@ -166,7 +166,7 @@ class Demo extends Component {
                                     transitionProperty:
                                         'background-color, color, opacity'
                                 }}
-                                duration={50}/> 
+                                duration={400}/> 
                                 {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} />  */}
                                 </div>
                                  }
@@ -177,7 +177,7 @@ class Demo extends Component {
                 </div>
             </div>
             <div className="bullet-1" >
-                <img className="bullet-sub" src={bullet} alt="Orange bullet point" />
+                <img className="bullet-sub1" src={bullet} alt="Orange bullet point" />
             </div>
             <div className="step-paragraph" style={{textAlign:"left"}}>
                 <h4 style={{fontWeight:"lighter",
@@ -187,7 +187,7 @@ class Demo extends Component {
                     STEP 1
                 </h4>
                 <p>
-                    First, deposit some money to your friendly neighborhood Connext Hub.
+                    First, load up your payment channel with the Connext Hub by depositing some money onchain.
                 </p>
                 <button className="demo-button" onClick={this.handleDepositSubmit}>
                     Deposit money to channel
@@ -202,13 +202,14 @@ class Demo extends Component {
                     STEP 2
                 </h4>
                 <p>
-                    Your friend is also connected to the hub, so you can open a thread 
-                    and pay them directly. 
+                    Your favorite creator also has a channel with the hub! To pay them directly, 
+                    you can open a temporary connection to their
+                    channel, called a thread.
                 </p>
                 <button className="demo-button" onClick={this.handleThreadSubmit}>Make a payment</button>
             </div>
             <div className="bullet-2">
-                <img className="bullet-sub" src={bullet} alt="Orange bullet point" />
+                <img className="bullet-sub2" src={bullet} alt="Orange bullet point" />
             </div>
             <div xs="5" className="step2card" style={{   border: "5px solid #fff",
                             borderRadius: "20px",
@@ -223,7 +224,7 @@ class Demo extends Component {
                 <div className="card-text-2">
                 <div className="user1" style={{}}>
                 <h5>Your <br />Thread Balance</h5>
-                <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={2}
+                <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={0}
                     style={{
                         color:"#F22424",
                         fontSize:"70px",
@@ -235,12 +236,12 @@ class Demo extends Component {
                     }}frameStyle={perc => (
                         perc === 100 ? {}:{color: '#08B22D'} 
                     )}
-                    duration={50} /> 
+                    duration={400} /> 
                     {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>
                 <div className="user2" style={{}}>
-                <h5>Friend's <br /> Thread Balance </h5>
-                <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={2}
+                <h5>Creator's <br /> Thread Balance </h5>
+                <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={0}
                     style={{
                         color:"#08B22D",
                         fontSize:"70px",
@@ -252,7 +253,7 @@ class Demo extends Component {
                     }}frameStyle={perc => (
                         perc === 100 ? {}:{color: '#F22424'} 
                     )}
-                    duration={50} /> 
+                    duration={400} /> 
                     {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>
                 </div>
@@ -269,7 +270,7 @@ class Demo extends Component {
                             color:"#0F1012"}}>
                 <div className="card-text-3" style={{}}>
                 <h5>Your Thread Balance</h5>
-                <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={2}
+                <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={0}
                     style={{
                         color:"#F22424",
                         fontSize:"70px",
@@ -281,12 +282,12 @@ class Demo extends Component {
                     }}frameStyle={perc => (
                         perc === 100 ? {}:{color: '#08B22D'} 
                     )}
-                    duration={200} />&nbsp;
+                    duration={400} />&nbsp;
                     {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>                
                 <div className="card-text-3a" style={{fontSize:"16px"}}>
-                <h5>Friend's Thread Balance</h5>
-                <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={2}
+                <h5>Creator's Thread Balance</h5>
+                <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={0}
                     style={{
                         color:"#08B22D",
                         fontSize:"70px",
@@ -298,7 +299,7 @@ class Demo extends Component {
                     }} frameStyle={perc => ( 
                         perc === 100 ? {}:{color: '#F22424'} 
                     )}
-                    duration={200} />&nbsp;
+                    duration={400} />&nbsp;
                     {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>
                 <div className="card-graphics-3" style={{}}>
@@ -308,7 +309,7 @@ class Demo extends Component {
                 <h5>Total transactions</h5> 
                 <AnimatedNumber component="text" value={this.state.txCount} stepPrecision={0}
                     style={{
-                        color:"#F22424",
+                        color:"#08B22D",
                         fontSize:"70px",
                         fontFamily:"'proxima-nova-semibold', sans-serif",
                         fontWeight:"bold",
@@ -316,13 +317,13 @@ class Demo extends Component {
                         transitionProperty:
                             'background-color, color, opacity'
                     }} frameStyle={perc => (
-                        perc === 100 ? {}:{color: '#08B22D'} 
+                        perc === 100 ? {}:{color: '#F22424'} 
                     )}
-                    duration={200} />
+                    duration={400} />
                 </div>               
             </div>
             <div className="bullet-3" >
-                <img className="bullet-sub" src={bullet} alt="Orange bullet point" style={{margin:"auto"}}/>
+                <img className="bullet-sub3" src={bullet} alt="Orange bullet point" style={{margin:"auto"}}/>
             </div>
             <div className="step-paragraph-3" style={{textAlign:"left"}}>
                 <h4 style={{fontWeight:"lighter",
@@ -330,7 +331,8 @@ class Demo extends Component {
                                 color:"#FCA311"}}>
                     STEP 3
                 </h4>
-                <p>Payments through a Connext Hub are off-chain, so they're fast and cheap!
+                <p>Thread payments are offchain, so they're free and instant! When you're done,
+                     you or the creator can close the thread to update your channel balances.
                 </p>
                 <button className="demo-button"onClick={this.handleDrain}>Make more payments</button>
             </div>
@@ -340,12 +342,14 @@ class Demo extends Component {
                 <h4 style={{fontWeight:"lighter",
                                     fontFamily: "Comfortaa",
                                     color:"#FCA311"}}>STEP 4</h4>
-                <p style={{textAlign:"right"}}>Now your friend wants to withdraw his money to use on a site that hasn't integrated Connext. Sad face.
+                <p style={{textAlign:"right"}}>
+                After closing all of their threads,
+                the creator can withdraw their earned money from the channel back into their wallet.
                 </p>
                 <button className="demo-button" onClick={this.cashOut}>Cash out</button>
             </div>
             <div className="bullet-4">
-                <img className="bullet-sub" src={bullet} alt="Orange bullet point" />
+                <img className="bullet-sub4" src={bullet} alt="Orange bullet point" />
             </div>
             <div className="step4card" style={{   border: "5px solid #fff",
                             borderRadius: "20px",
@@ -359,13 +363,13 @@ class Demo extends Component {
                     <img src={step4B} alt="Phone with Ethereum and ERC20 token logos" style={{width:"200px"}} />
                 </div>
                     <div className="card-text-4" style={{fontSize:"16px",marginLeft:"10%"}}>
-                        <h5>Friend's <br />Channel Balance</h5>
+                        <h5>Creator's <br />Channel Balance</h5>
                         { this.state.showSpinner ? 
                             <img src={spinner} alt="orange loading spinner" style={{margin:"auto",width:"50px"}}/> 
                             : 
                             <div>
                                 
-                                <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={2}
+                                <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={0}
                                     style={{
                                         color:"#F22424",
                                         fontSize:"70px",
@@ -377,18 +381,18 @@ class Demo extends Component {
                                     }} frameStyle={perc => (
                                         perc === 100 ? {}:{color: '#F22424'} 
                                     )}
-                                    duration={50} />
+                                    duration={400} />
                                     {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} />  */}
                             </div>
                         }
                     </div>
                     <div className="card-text-4b" style={{marginLeft:"0%",fontSize:"16px"}}>
-                        <h5>Friend's <br />Wallet Balance</h5>
+                        <h5>Creator's <br />Wallet Balance</h5>
                         { this.state.showSpinner ? 
                             <img src={spinner} alt="orange loading spinner" style={{margin:"auto",width:"50px"}}/> 
                         : 
                         <div>
-                        <AnimatedNumber component="text" value={this.state.onChainBalanceB} stepPrecision={2}
+                        <AnimatedNumber component="text" value={this.state.onChainBalanceB} stepPrecision={0}
                             style={{
                                 color:"#F22424",
                                 fontSize:"70px",
@@ -399,7 +403,7 @@ class Demo extends Component {
                             }} frameStyle={perc => (
                                 perc === 100 ? {}:{color: '#08B22D'} 
                             )}
-                            duration={50} />&nbsp;
+                            duration={400} />&nbsp;
                             {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                         </div>
                         }

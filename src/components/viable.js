@@ -23,7 +23,6 @@ class Viable extends Component{
             </div>
             <div className="viable-block-1" style={{marginBottom:"6%"}}>
                 <h4 style={{color:"#FCA311"}} >DEVELOPER FOCUSED</h4>
-                <br />
                 We obsess about creating the optimal developer experience. Spin up
                 your own hub in 5 lines of code and customize it easily to fit your needs.
             </div>    
@@ -31,16 +30,14 @@ class Viable extends Component{
             </div> 
             <div className="viable-block" style={{marginBottom:"6%"}}>
                 <h4 style={{color:"#FCA311"}} >TRUST-MINIMIZED</h4>
-                <br />
                 We take security seriously. Leveraging the latest payment channel 
                 research, Connext removes the need to trust counterparties.
             </div>     
             <div className="divider-v"></div>  
             <div className="viable-block" style={{marginBottom:"6%"}}>
               <h4 style={{color:"#FCA311"}} >OPEN SOURCE</h4>
-              <br />
               We strongly support open source software and permissionless development. 
-              We welcome any feedback and contributions to our repositories.
+              You can find our repositories <a href="https://github.com/connextproject" style={{color:"#FCA311"}}>here</a>.
             </div>
           </div>
       </div>

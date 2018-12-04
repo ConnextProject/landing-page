@@ -40,30 +40,16 @@
     .usecase-desktop{
         display:none;
     }
-    .icon1m{
+    .best-for{
+      padding-bottom:10%;
+    }
+    .icon-m{
       width:100px;
       padding-left:0%;
       padding-top:10%;
-      padding-bottom:5%;
+      padding-bottom:10%;
     }
-    .icon2m{
-      width:100px;
-      padding-left:0%;
-      padding-top:10%;
-      padding-bottom:5%;
-    }
-    .icon3m{
-      width:100px;
-      padding-left:0%;
-      padding-top:10%;
-      padding-bottom:5%;
-    }
-    .icon4m{
-      width:100px;
-      padding-left:0%;
-      padding-top:10%;
-      padding-bottom:5%;
-    }
+
     .usecase-mobile{
       margin-bottom:150%;
     }

@@ -98,7 +98,7 @@ render() {
                 textAlign:'center'
                 }}>
                 <li style={{position:"relative",left:"-10%",float:'left'}}><Link to="/"><img className="logo1" src={logoHorizontal} alt="Connext Logo Horizontal" style={{width:"30%", marginTop:"2%"}}></img></Link></li>
-                <li style={{position:"relative",float:'right'}}><a onClick={this.handleOpenModal} className = "signupLink">Sign Up</a></li>
+                {/* <li style={{position:"relative",float:'right'}}><a onClick={this.handleOpenModal} className = "signupLink">Sign Up</a></li> */}
                 <li style={{position:"relative",float:'right'}}><Link to="/team" className = "topNavLinkDesktop">Team</Link></li>
                 <li style={{position:"relative",float:'right'}}><a href="https://docs.connext.network" className = "topNavLinkDesktop">Docs</a></li>
                 <li style={{position:"relative",float:'right'}}><a href="https://discord.gg/yKkzZZm" className = "topNavLinkDesktop">Chat</a></li>                
@@ -106,7 +106,7 @@ render() {
               </ul>
             </div>
             <div style={{width:"84%", margin:"auto"}}>
-              <div>
+              {/* <div>
                 <Modal className="typeform-modal" isOpen={this.state.showModal}>
                   <button className="modal-x" onClick={this.handleCloseModal}>
                     X
@@ -116,7 +116,7 @@ render() {
                         style={{width:"100%", 
                                 height:"95%"}}></iframe>
                 </Modal>
-              </div>
+              </div> */}
                 <Switch>
                   <Route exact path="/" component={Landing} />
                   <Route path="/team" component={Team} />
@@ -136,7 +136,6 @@ render() {
                                            }}>
 
             <div className="footer-connext" style={{width:"35%",fontFamily: "'proxima-nova',sans-serif", 
-                      fontSize: "20px",
                       color: "white",
                       float:"left",
                       textAlign:"left",

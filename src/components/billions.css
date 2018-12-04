@@ -4,15 +4,21 @@
     }
     .explainer1{
         margin-top: 6%;
+        order:2
     }
     .explainer2{
         margin-bottom:8%;
+        order:4
     }
     .layer{
+        margin-bottom:12%;
         float:left;
+        order:1;
     }
     .payments{
+        margin-bottom:12%;
         float:left;
+        order:3;
     }
 }
 
@@ -27,7 +33,8 @@
         padding-top:10%;
         width:40%;
         font-size: large;
-        padding-bottom:14%;
+        padding-bottom:10%;
+        order:2;
     }
     .explainer2{
         margin-top:0%;
@@ -35,12 +42,15 @@
         font-size: large;
         padding-left:10%;
         padding-bottom:10%;
+        order:3;
     }
     .layer{
         margin-top:0%;
+        order:1
     }
     .payments{
-        margin-top:-10%;
+        margin-top:-5%;
         margin-left:10%;
+        order:4;
     }
 }

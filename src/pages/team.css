@@ -1,7 +1,7 @@
 @media screen and (max-width : 769px){
     .bio-container{
         height:100%;
-        margin-top:70%;
+        padding-top:90%;
         flex-direction: column;
         text-align: center;
         padding-bottom:20%;
@@ -20,6 +20,9 @@
 
         width:100%;
     }
+    .jobs{
+        padding-top:10%;
+    }
     
     .team-joincommunity-button{
         margin-top:3%;
@@ -30,7 +33,7 @@
     .team-cta{
         padding-bottom:40%;
         flex-direction:column;
-        margin-top:-10%;
+        padding-top:10%;
     }
     .team-cta-buttons{
         margin:auto;

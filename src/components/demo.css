@@ -28,16 +28,28 @@
         z-index:2;
     }
     
-    .bullet-sub{
+    .bullet-sub1{
         padding-top:20%;
+        width:20%;
+    }
+    .bullet-sub2{
+        padding-top:35%;
+        width:20%;
+    }
+    .bullet-sub3{
+        padding-top:50%;
+        width:20%;
+    }
+    .bullet-sub4{
+        padding-top:35%;
         width:20%;
     }
     .bullet-1:after { content: '';
         position: absolute;
         border-right: 1px #282b2e solid;
-        height: 1100px;
+        height: 1198px;
         width: 200px;
-        transform: translate(-110%,5%);
+        transform: translate(-109.5%,5%);
         z-index:-1;
       }
 
@@ -162,11 +174,11 @@
         margin-left:-44px;
     }
     .card-text-4{
-        padding: 3% 2% 0% 7%;
+        padding: 3% 2% 0% 10%;
 
     }
     .card-text-4b{
-        padding: 3% 2% 0% 4%;
+        padding: 3% 2% 0% 3%;
 
     }
 
@@ -190,18 +202,18 @@
             display:none;
         }
         .step1card{
-            margin-top:10%;
-            margin-bottom:10%;
+            margin-top:18%;
+            margin-bottom:14%;
             width:100%;
             order:2;
             background-color:#fff;
         }
         .step2card{
             height:160px;
-            margin-top:10%;
+            margin-top:18%;
             margin-left:-20%;
             margin-right:auto;
-            margin-bottom:10%;
+            margin-bottom:14%;
             width:120%;
             height:180px;
             order:2;
@@ -209,19 +221,22 @@
 
         }
         .step3card{
+            flex-direction:row;
+            flex-wrap:wrap;
+            justify-content: center;
             margin-left:auto;
             margin-right:auto;
-            margin-top:10%;
-            margin-bottom:10%;
-            height:180px;
+            margin-top:18%;
+            margin-bottom:14%;
+            height:350px;
             width:100%;
             order:2;
             background-color:#fff;
 
         }
         .step4card{
-            margin-top:10%;
-            margin-bottom:10%;
+            margin-top:18%;
+            margin-bottom:14%;
             width:100%;
             order:2;
             background-color:#fff;
@@ -283,14 +298,18 @@
             margin-left:-90px;
         }
         .card-text-3{
+            width:48%;
             margin:auto;
+            border-bottom:1px solid #C1C6CE;
         }
         .card-text-3a{
-            border-right:1px solid #C1C6CE;
+            width:52%;
+            margin:auto;
+            border-bottom:1px solid #C1C6CE;
         }
         .card-text-3b{
             margin:auto;
-            padding:2% 2% 2% 2%;
+            padding:2% 2% 0% 2%;
         }
         .card-graphics-4B{
             display:none;
@@ -313,7 +332,7 @@
 
 .demo-button{
     color:#fca311;
-    background-color:inherit;
+    background-color:#fff;
     border: 1px solid #fca311;
     border-radius:5px;
     font-weight:lighter;

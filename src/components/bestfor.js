@@ -39,7 +39,7 @@ class BestFor extends Component {
                     <p style={{textAlign:"right", paddingRight:"5%"}}>
                     <h5 style={{color:"#FCA311"}} >CONTENT PAYMENTS</h5>
                       By reducing transaction costs to almost zero, 
-                      Indra empowers streamers and creators to seamlessly monetize their content, 
+                      Connext empowers creators to monetize their content, 
                       no matter how low the price.
                       </p>
                       </Col>
@@ -56,8 +56,7 @@ class BestFor extends Component {
                     <p style={{textAlign:"right", paddingRight:"5%"}}>
                     <h5 style={{color:"#FCA311"}} >P2P MARKETPLACES</h5>
                       Controlling user funds and managing payouts is risky and takes work. 
-                      Indra lets you make your marketplace truly peer-to-peer, so you can 
-                      focus on what really matters.
+                      Connext lets you make your marketplace truly peer-to-peer.
                     </p>
                       </Col>
                       <Col className="divider" xs="0" >
@@ -72,9 +71,8 @@ class BestFor extends Component {
                     <Col xs="8">
                     <p style={{textAlign:"right", paddingRight:"5%"}}>
                     <h5 style={{color:"#FCA311"}} >MACHINE INTERACTIONS</h5>
-                      Built from the ground up to enable automation, Indra lets
-                      IoT devices interact frictionlessly, maintaining the security of 
-                      your blockchain architecture. Beep boop.
+                      Flexible payment metadata and lightweight client code make Connext great for 
+                      IoT devices. Kickstart your machine economy.
                     </p>
                       </Col>
                       <Col className="divider" xs="0" >
@@ -89,8 +87,8 @@ class BestFor extends Component {
                     <Col xs="8">
                     <p style={{textAlign:"right", paddingRight:"5%"}}>
                     <h5 style={{color:"#FCA311"}} >RECURRING PAYMENTS</h5>
-                      Using Indra to clear transactions, recurring payment protocols can give users
-                      immense flexibility in paying their bills.
+                      Paying gas on every transaction is silly. With Connext, 
+                      recurring payments are just signed commitments that can be redeemed later.
                     </p>
                       </Col>
                       <Col className="divider" xs="0" >
@@ -106,16 +104,15 @@ class BestFor extends Component {
             <div className="wrap" style={{ textAlign:"center"}}>
                   <Row>
                     <Col>
-                    <img className="icon1m" src={icon1} alt="White outline of video game controller on orange circle background" />
+                    <img className="icon-m" src={icon1} alt="White outline of video game controller on orange circle background" />
                       </Col>
                     </Row>
                     <Row>
                     <Col>
-                    <p style={{textAlign:"center"}}>
+                    <p style={{textAlign:"center", paddingBottom:"16%"}}>
                     <h5 style={{color:"#FCA311"}} >CONTENT PAYMENTS</h5>
-                    <br />
-                    By reducing your transaction costs to almost zero, 
-                      Connext empowers streamers and creators to seamlessly monetize their content, 
+                    By reducing transaction costs to almost zero, 
+                      Connext empowers creators to monetize their content, 
                       no matter how low the price.
                     </p>
                       </Col>
@@ -124,17 +121,15 @@ class BestFor extends Component {
                   <div className="wrap" style={{textAlign:"center"}}>
                     <Row>
                     <Col>
-                    <img className="icon4m" src={icon4} alt="White outline of car on orange circle background" />  
+                    <img className="icon-m" src={icon4} alt="White outline of car on orange circle background" />  
                       </Col>
                     </Row>
                     <Row> 
                     <Col>
-                    <p style={{textAlign:"center"}}>
+                    <p style={{textAlign:"center", paddingBottom:"16%"}}>
                     <h5 style={{color:"#FCA311"}} >P2P MARKETPLACES</h5>
-                    <br />
-                      Controlling user funds and managing payouts is risky and takes work. 
-                      Connext lets you make your marketplace truly peer-to-peer, so you can 
-                      focus on what really matters.
+                    Controlling user funds and managing payouts is risky and takes work. 
+                      Connext lets you make your marketplace truly peer-to-peer.
                     </p>
                       </Col>
                       </Row>
@@ -142,17 +137,15 @@ class BestFor extends Component {
                   <div className="wrap" style={{textAlign:"center"}}>
                   <Row>
                     <Col>
-                    <img className="icon2m" src={icon2} alt="White outline of robot on orange circle background" />  
+                    <img className="icon-m" src={icon2} alt="White outline of robot on orange circle background" />  
                       </Col>
                     </Row>
                     <Row>
                     <Col>
-                    <p style={{textAlign:"center"}}>
+                    <p style={{textAlign:"center", paddingBottom:"16%"}}>
                     <h5 style={{color:"#FCA311"}} >MACHINE PAYMENTS</h5>
-                    <br />
-                    Built from the ground up to enable automation, Connext Hubs let 
-                      IoT devices interact frictionlessly, maintaining the security of 
-                      your blockchain architecture. Beep boop.
+                    Flexible payment metadata and lightweight client code make Connext great for 
+                      IoT devices. Kickstart your machine economy.
                     </p>
                       </Col>
                       </Row>
@@ -160,16 +153,15 @@ class BestFor extends Component {
                   <div className="wrap" style={{textAlign:"center"}}>
                   <Row>
                     <Col>
-                    <img className="icon3m" src={icon3} alt="White outline of two figures exchanging money on orange circle background" />  
+                    <img className="icon-m" src={icon3} alt="White outline of two figures exchanging money on orange circle background" />  
                       </Col>
                     </Row>
                     <Row>
                     <Col>
-                    <p style={{textAlign:"center"}}>
+                    <p style={{textAlign:"center", paddingBottom:"16%"}}>
                     <h5 style={{color:"#FCA311"}} >RECURRING PAYMENTS</h5>
-                    <br />
-                    Using Indra to clear transactions, recurring payment protocols can give users
-                      immense flexibility in paying their bills.
+                    Paying gas on every transaction is silly. With Connext, 
+                      recurring payments are just signed commitments that can be redeemed later.
                     </p>
                       </Col>
                       </Row>
