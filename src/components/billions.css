@@ -1,6 +1,7 @@
 @media screen and (max-width : 760px){
     .explainer{
         flex-direction: column;
+        font-weight:lighter;
     }
     .explainer1{
         margin-top: 6%;
@@ -26,7 +27,8 @@
     .explainer{
         flex-direction:row;
         flex-wrap:wrap;
-        margin-top:6%;
+        margin-top:6%;        
+        font-weight:lighter;
     }
     .explainer1{
         padding-left:10%;

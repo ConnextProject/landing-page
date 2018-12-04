@@ -1,4 +1,8 @@
 @media screen and (min-width : 760px){
+    .usecase-desktop{
+      font-size:normal;
+      font-weight:lighter;
+    }
     .usecase-mobile{
         display:none;
     }
@@ -23,6 +27,7 @@
       margin-top:8%; 
       text-align:center
    }
+
   }
   
 @media screen and (max-width : 760px){
@@ -41,6 +46,8 @@
 
     .usecase-mobile{
       margin-bottom:150%;
+      font-size:normal;
+      font-weight:lighter;
     }
     .learn-more{
        display:none;
