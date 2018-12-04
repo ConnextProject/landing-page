@@ -23,7 +23,8 @@ class Demo extends Component {
       }
     state = {
         balanceA: 0,
-        balanceB: 0,
+        threadBalanceB: 0,
+        channelBalanceB: 0,
         onChainBalanceB:0,
         value: 0,
         toPay:0,
@@ -64,7 +65,7 @@ class Demo extends Component {
         //var toPay = this.state.toPay;
         var toPay = 1;
         var balanceA = this.state.balanceA;
-        var balanceB = this.state.balanceB;
+        var balanceB = this.state.threadBalanceB;
         var txCount = this.state.txCount;
 
         var txCountUpdate = +(parseFloat(txCount+1).toFixed(0));
@@ -77,13 +78,13 @@ class Demo extends Component {
             alert("Insufficient funds! Please deposit more.")
         }else{
             console.log(this.state.balanceA)
-            console.log(this.state.balanceB)
+            console.log(this.state.threadBalanceB)
             console.log(this.state.toPay)
             this.setState(({ balanceA }) => ({
                 balanceA: updateA
             }))
-            this.setState(({ balanceB }) => ({
-                balanceB: updateB
+            this.setState(({ threadBalanceB }) => ({
+                threadBalanceB: updateB
             }))
             this.setState(({ txCount }) => ({
                 txCount: txCountUpdate
@@ -101,8 +102,8 @@ class Demo extends Component {
             console.log(this.state.balanceA)
             console.log(this.state.balanceB)
             console.log(this.state.toPay)
-            this.setState(({ balanceB }) => ({
-                balanceB: (balanceB + balanceA)
+            this.setState(({ threadBalanceB }) => ({
+                threadBalanceB: (threadBalanceB + balanceA)
             }))
             this.setState(({ balanceA }) => ({
                 balanceA: (0)
@@ -115,18 +116,23 @@ class Demo extends Component {
         }
     
         async cashOut(){
+            var threadBalanceB = this.state.threadBalanceB;
             if (this.state.balanceB===0){
                 alert("No channel balance to withdraw!")
             }else{
+                this.setState(({channelBalanceB}) =>({
+                    channelBalanceB: threadBalanceB
+                }));
+                await this.sleep(1000);
                 this.setState({showSpinner:true});
                 await this.sleep(3000);
                 this.setState({showSpinner:false});
-                var balanceB = this.state.balanceB;
+                var channelBalanceB = this.state.channelBalanceB;
                 this.setState(({onChainBalanceB}) =>({
-                    onChainBalanceB: balanceB
+                    onChainBalanceB: channelBalanceB
                 }));
-                this.setState(({ balanceB }) => ({
-                    balanceB: 0
+                this.setState(({ channelBalanceB }) => ({
+                    channelBalanceB: 0
                 }));
             }
         }
@@ -241,7 +247,7 @@ class Demo extends Component {
                 </div>
                 <div className="user2" style={{}}>
                 <h5>Creator's <br /> Thread Balance </h5>
-                <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={0}
+                <AnimatedNumber component="text" value={this.state.threadBalanceB} stepPrecision={0}
                     style={{
                         color:"#08B22D",
                         fontSize:"70px",
@@ -287,7 +293,7 @@ class Demo extends Component {
                 </div>                
                 <div className="card-text-3a" style={{fontSize:"16px"}}>
                 <h5>Creator's Thread Balance</h5>
-                <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={0}
+                <AnimatedNumber component="text" value={this.state.threadBalanceB} stepPrecision={0}
                     style={{
                         color:"#08B22D",
                         fontSize:"70px",
@@ -369,7 +375,7 @@ class Demo extends Component {
                             : 
                             <div>
                                 
-                                <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={0}
+                                <AnimatedNumber component="text" value={this.state.channelBalanceB} stepPrecision={0}
                                     style={{
                                         color:"#F22424",
                                         fontSize:"70px",
