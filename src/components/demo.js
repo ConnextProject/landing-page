@@ -153,7 +153,7 @@ class Demo extends Component {
                             }}>
                 <div className="card-text-1" style={{display:"flex"}}>
                     <div style={{width:"70%", marginLeft:"0%", marginTop:"3%", fontSize:"16px"}}>
-                           <h5> Alice's Channel Balance </h5>
+                           <h5> Your Channel Balance </h5>
                         { this.state.showSpinner ? 
                             <img src={spinner} alt="orange loading spinner" style={{marginTop:"25px",width:"50px"}}/> 
                             : <div style={{marginLeft:"8%",marginTop:"-5%"}}>
@@ -187,7 +187,7 @@ class Demo extends Component {
                     STEP 1
                 </h4>
                 <p>
-                    First, Alice deposits some money to her friendly neighborhood Connext Hub.
+                    First, deposit some money to your friendly neighborhood Connext Hub.
                 </p>
                 <button className="demo-button" onClick={this.handleDepositSubmit}>
                     Deposit money to channel
@@ -202,8 +202,8 @@ class Demo extends Component {
                     STEP 2
                 </h4>
                 <p>
-                    Bob is also connected to the hub, so Alice can open a thread 
-                    and pay him directly. 
+                    Your friend is also connected to the hub, so you can open a thread 
+                    and pay them directly. 
                 </p>
                 <button className="demo-button" onClick={this.handleThreadSubmit}>Make a payment</button>
             </div>
@@ -222,7 +222,7 @@ class Demo extends Component {
                 </div>
                 <div className="card-text-2">
                 <div className="user1" style={{}}>
-                <h5>Alice's <br />Thread Balance</h5>
+                <h5>Your <br />Thread Balance</h5>
                 <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={2}
                     style={{
                         color:"#F22424",
@@ -239,7 +239,7 @@ class Demo extends Component {
                     {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>
                 <div className="user2" style={{}}>
-                <h5>Bob's <br /> Thread Balance </h5>
+                <h5>Friend's <br /> Thread Balance </h5>
                 <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={2}
                     style={{
                         color:"#08B22D",
@@ -268,7 +268,7 @@ class Demo extends Component {
                             fontFamily: "'proxima-nova',sans-serif",
                             color:"#0F1012"}}>
                 <div className="card-text-3" style={{}}>
-                <h5>Alice's Thread Balance</h5>
+                <h5>Your Thread Balance</h5>
                 <AnimatedNumber component="text" value={this.state.balanceA} stepPrecision={2}
                     style={{
                         color:"#F22424",
@@ -285,7 +285,7 @@ class Demo extends Component {
                     {/* <img src={dai} alt="dai" style={{marginLeft:"-25px",marginTop:"-35px",width:"100px"}} /> */}
                 </div>                
                 <div className="card-text-3a" style={{fontSize:"16px"}}>
-                <h5>Bob's Thread Balance</h5>
+                <h5>Friend's Thread Balance</h5>
                 <AnimatedNumber component="text" value={this.state.balanceB} stepPrecision={2}
                     style={{
                         color:"#08B22D",
@@ -340,7 +340,7 @@ class Demo extends Component {
                 <h4 style={{fontWeight:"lighter",
                                     fontFamily: "Comfortaa",
                                     color:"#FCA311"}}>STEP 4</h4>
-                <p style={{textAlign:"right"}}>Now Bob wants to withdraw his money to use on a site that hasn't integrated Connext. Sad face.
+                <p style={{textAlign:"right"}}>Now your friend wants to withdraw his money to use on a site that hasn't integrated Connext. Sad face.
                 </p>
                 <button className="demo-button" onClick={this.cashOut}>Cash out</button>
             </div>
@@ -359,7 +359,7 @@ class Demo extends Component {
                     <img src={step4B} alt="Phone with Ethereum and ERC20 token logos" style={{width:"200px"}} />
                 </div>
                     <div className="card-text-4" style={{fontSize:"16px",marginLeft:"10%"}}>
-                        <h5>Bob's <br />Channel Balance</h5>
+                        <h5>Friend's <br />Channel Balance</h5>
                         { this.state.showSpinner ? 
                             <img src={spinner} alt="orange loading spinner" style={{margin:"auto",width:"50px"}}/> 
                             : 
@@ -383,7 +383,7 @@ class Demo extends Component {
                         }
                     </div>
                     <div className="card-text-4b" style={{marginLeft:"0%",fontSize:"16px"}}>
-                        <h5>Bob's <br />Wallet Balance</h5>
+                        <h5>Friend's <br />Wallet Balance</h5>
                         { this.state.showSpinner ? 
                             <img src={spinner} alt="orange loading spinner" style={{margin:"auto",width:"50px"}}/> 
                         : 

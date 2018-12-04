@@ -129,44 +129,44 @@ render() {
                                             width:"100%",
                                             position:"relative",
                                             bottom:"0",
-                                            marginTop:"-25%",
                                             display:"flex",
                                             flexDirection:"row",
                                             textAlign:"center", 
-                                            paddingBottom:"2%"}}>
+                                            alignItems:"flex-start"
+                                           }}>
 
-            <div className="footer-connext" style={{width:"20%",marginLeft:"5%",fontFamily: "'proxima-nova',sans-serif", 
-                      fontSize: "small",
+            <div className="footer-connext" style={{width:"35%",fontFamily: "'proxima-nova',sans-serif", 
+                      fontSize: "20px",
                       color: "white",
                       float:"left",
                       textAlign:"left",
                       order:"1"}}>
-              <img className="footer-logo" src={logoWhiteHorizontal} alt="Connext Logo Horizontal White" style={{width:"110px",float:"left"}}></img>
+              <img className="footer-logo" src={logoWhiteHorizontal} alt="Connext Logo Horizontal White" style={{marginBottom: "-5%", width:"160px",float:"left"}}></img>
               <br />
               <br />
               © 2018 Connext, Inc. All rights reserved.
             </div>
-            <div className="spacer" style={{width:"50%",order:"2"}}></div>
+            <div className="spacer" style={{width:"35%",order:"2"}}></div>
             <div className="footer-company" style={{
                           fontFamily: "'proxima-nova',sans-serif", 
-                          fontSize: "small",
+                          fontSize: "17px",
                           color: "white",
                           order:"3"}}>
               <span style={{fontFamily:"comfortaa"}}>COMPANY</span>
               <br />
               <Link to="/team" style={{
                       fontFamily: "'proxima-nova',sans-serif", 
-                      fontSize: "small",
+                      fontSize: "20px",
                       color: "white"}}>Team</Link>
               <br />
               <Link to="/team#jobs" style={{
                       fontFamily: "'proxima-nova',sans-serif", 
-                      fontSize: "small",
+                      fontSize: "20px",
                       color: "white"}}>Jobs</Link>
             </div>
             <div className="footer-resources"  style={{
                           fontFamily: "'proxima-nova',sans-serif", 
-                          fontSize: "small",
+                          fontSize: "17px",
                           color: "white",
                           marginLeft:"5%",
                           order:"4"}}>
@@ -174,17 +174,17 @@ render() {
               <br />
               <a href="https://docs.connext.network" style={{
                       fontFamily: "'proxima-nova',sans-serif", 
-                      fontSize: "small",
+                      fontSize: "20px",
                       color: "white"}}>Docs</a>
               <br />
               <a href="https://medium.com/connext" style={{
                       fontFamily: "'proxima-nova',sans-serif", 
-                      fontSize: "small",
+                      fontSize: "20px",
                       color: "white"}}>Blog</a>
               <br />
               <a href="https://discord.gg/yKkzZZm" style={{
                       fontFamily: "'proxima-nova',sans-serif", 
-                      fontSize: "small",
+                      fontSize: "20px",
                       color: "white"}}>Chat</a>
               <br />
             </div>

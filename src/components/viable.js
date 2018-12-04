@@ -24,16 +24,16 @@ class Viable extends Component{
             <div className="viable-block-1" style={{marginBottom:"6%"}}>
                 <h4 style={{color:"#FCA311"}} >DEVELOPER FOCUSED</h4>
                 <br />
-                We obsess about creating the optimal developer experience by shipping 
-                modular, intuitive, and robust integration paths. Check out our docs to get started.
+                We obsess about creating the optimal developer experience. Spin up
+                your own hub in 5 lines of code and customize it easily to fit your needs.
             </div>    
             <div className="divider-v">
             </div> 
             <div className="viable-block" style={{marginBottom:"6%"}}>
-                <h4 style={{color:"#FCA311"}} >TRUSTLESS</h4>
+                <h4 style={{color:"#FCA311"}} >TRUST-MINIMIZED</h4>
                 <br />
-                Our formally verified framework eliminates all counterparty risk. 
-                This means your applicaction always preserves the security guarantees of the blockchain.
+                We take security seriously. Leveraging the latest payment channel 
+                research, Connext removes the need to trust counterparties.
             </div>     
             <div className="divider-v"></div>  
             <div className="viable-block" style={{marginBottom:"6%"}}>

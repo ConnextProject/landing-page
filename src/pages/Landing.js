@@ -14,14 +14,14 @@ class Landing extends Component {
       <div className="landing-toplevel" style={{paddingTop:"6%"}}>
         <div className="above-fold" style={{display:"flex"}}>
           <div className="headline" style={{color:"#fff"}}>
-              <h1 style={{fontFamily:"Comfortaa", fontWeight:"bold"}}>Unlocking <br/><span style={{fontWeight:"normal"}}>the</span> micropayment<br/> economy</h1>
+              <h1 style={{fontFamily:"Comfortaa", fontWeight:"bold"}}>Cheaper, fairer payments</h1>
               <br />
               <p className="tagline" style={{fontWeight:"lighter",
                                 fontFamily: "'proxima-nova',sans-serif",
                                 fontSize:"x-large",
                                 color:"#FFF"}}> 
-                Connext is a state channel network that enables cheap, low latency payments on Ethereum. 
-                Our open source infrastructure makes it easy for developers to build the P2P applications of the future.
+                Free, open source, p2p micropayment infrastructure. Built using payment channels on the Ethereum blockchain.
+           
               </p>
               <br />
               <div className="header-buttons">
@@ -50,7 +50,7 @@ class Landing extends Component {
           <BestFor/>
         </div>
         <div className="landing-cta" style={{textAlign:"center"}}>
-          <h2 style={{fontFamily:"Comfortaa", marginBottom:"5%", color:"#FFF"}}>Want to get started?</h2>
+          <h2 style={{fontFamily:"Comfortaa", color:"#FFF", marginBottom:"2%"}}>Want to get started?</h2>
             <a className="signupnow-button" href="https://discord.gg/yKkzZZm" style={{textDecoration:"none"}}>
               Sign up now
             </a>

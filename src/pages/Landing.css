@@ -4,11 +4,13 @@
     margin:auto;
   }
   .above-fold{
+    margin-top:5%;
     justify-content: flex-start;
     align-content:flex-start;
+    padding-bottom:15%;
   }
   .computer-header{
-    margin-top:-40%;
+    margin-top:0%;
     padding-left:10%;
     width:400%;
   }
@@ -23,7 +25,7 @@
 
   }
   .headline{
-    margin-top:0%;
+    margin-top:10%;
     margin-bottom:15%; 
     display:flex;
     flex-direction:column;
@@ -33,16 +35,23 @@
     width:90%;
   }
   .bestfor{
-    padding-bottom:30%;
+    margin-bottom:30%;
   }
   .explainer{
-    margin-bottom:7%;
+    margin-bottom:12%;
+  }
+  .viable{
+    padding-top:5%;
+    margin-bottom:10%;
   }
   .demo{
-    margin-bottom:15%;
+    margin-bottom:20%;
   }
   .gettingstarted-button2{
     display:none;
+  }
+  .landing-cta{
+    margin-bottom:-30%;
   }
 }
 
@@ -54,14 +63,14 @@
       justify-content: flex-start;
       align-content:flex-start;
       flex-direction: column;
-      padding-bottom:100%;
+      padding-bottom:150%;
     }
     .usecase-desktop{
         display:none;
     }
     .headline{
       width:100%;
-      padding-bottom:40%; 
+      padding-bottom:88%; 
       display:block;
     }
     .headerbuttons{
@@ -100,7 +109,7 @@
     .landing-cta{
 
       position:absolute;
-      margin-top:-100%;
+      margin-top:-40%;
       margin-left:-5%;
       margin-right:auto;
     }
