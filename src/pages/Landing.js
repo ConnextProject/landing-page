@@ -16,8 +16,7 @@ class Landing extends Component {
           <div className="headline" style={{color:"#fff"}}>
               <h1 style={{fontFamily:"Comfortaa"}}>Cheaper, fairer payments</h1>
               <br />
-              <p className="tagline" style={{fontWeight:"lighter",
-                                fontFamily: "'proxima-nova',sans-serif",
+              <p className="tagline" style={{fontWeight:"normal",
                                 fontSize:"large",
                                 color:"#FFF"}}> 
                 Free, open source, p2p micropayment infrastructure. Built using payment channels on the Ethereum blockchain.
@@ -25,10 +24,10 @@ class Landing extends Component {
               </p>
               <br />
               <div className="header-buttons">
-              <a className="gettingstarted-button" href="https://docs.connext.network" style={{textDecoration:"none",color:"#FFF"}}>
+              <a className="gettingstarted-button" href="https://docs.connext.network" style={{fontWeight:"normal", textDecoration:"none",color:"#FFF"}}>
                 Read the docs
               </a>
-              <a className="joincommunity-button" href="https://discord.gg/yKkzZZm" style={{textDecoration:"none",color:"#002868"}}>
+              <a className="joincommunity-button" href="https://discord.gg/yKkzZZm" style={{fontWeight:"normal", textDecoration:"none",color:"#002868"}}>
                 Join the community
               </a>
               </div>

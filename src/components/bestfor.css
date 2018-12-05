@@ -1,7 +1,7 @@
 @media screen and (min-width : 760px){
     .usecase-desktop{
       font-size:normal;
-      font-weight:lighter;
+      font-weight:normal;
     }
     .usecase-mobile{
         display:none;
