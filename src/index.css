@@ -1,5 +1,10 @@
+@font-face{
+    font-family:'proxima-nova-light';
+    src:url("./fonts/proxima-nova-light.ttf")
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'proxima-nova-light';
 }
