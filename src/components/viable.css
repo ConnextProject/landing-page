@@ -2,6 +2,8 @@
     .viable-text{
         flex-direction: column;
         left:0;
+        font-size:large;
+
     }
     .viable-block-1{
         width:100%;

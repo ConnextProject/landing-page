@@ -10,11 +10,12 @@
     padding-bottom:7%;
   }
   .computer-header{
-    margin-top:-55%;
+    margin-top:-20%;
     padding-top:0%;
     padding-bottom:10%;
     padding-left:10%;
-    width:400%;
+    width:200%;
+    z-index:9999;
   }
   .usecase-mobile{
       display:none;
@@ -112,18 +113,20 @@
     .landing-cta{
 
       position:absolute;
-      margin-top:-45%;
-      margin-left:-5%;
+      margin-top:-60%;
+      margin-left:auto;
       margin-right:auto;
     }
     .gettingstarted-button2{
+      margin-left:3%;
       margin-top:5%;
       padding:2% 4% 2% 4%;
-      width:100% ;
+      width:90% ;
       float:left;
     }
     .signupnow-button{
-      width:100%;
+      margin-left:3% !important;
+      width:90%;
       float:left;
     }
 

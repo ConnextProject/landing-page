@@ -48,8 +48,8 @@
         position: absolute;
         border-right: 1px #282b2e solid;
         height: 1100px;
-        width: 200px;
-        transform: translate(-109.5%,5%);
+        width: 10px;
+        transform: translate(-290%,5%);
         z-index:-1;
       }
 
@@ -174,7 +174,7 @@
         margin-left:-44px;
     }
     .card-text-4{
-        padding: 3% 2% 0% 10%;
+        padding: 3% 2% 0% 8%;
 
     }
     .card-text-4b{
@@ -246,11 +246,15 @@
             margin-top:10%;
             width:100%;
             order:1;
+            font-size:large;
+
         }
         .step-paragraph-3{
             margin-top:10%;
             width:100%;
             order:1;
+            font-size:large;
+
         }
         .step-wrapper{
             flex-direction:column;
@@ -340,6 +344,8 @@
     padding: 1% 1% 1% 1%;
     overflow: hidden;
     height:auto;
+    clear:both;
+    z-index: 1000;
 }
 .demo-button:hover{
     cursor:pointer;

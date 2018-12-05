@@ -34,7 +34,7 @@ class Landing extends Component {
               </div>
           </div>
           <div>
-            <img className="computer-header" src={computer_header} alt="Man sits at computer coding. Woman stands with speech bubble containing Ethereum logo"></img>
+            <object className="computer-header" type="image/svg+xml" data={computer_header} alt="Man sits at computer coding. Woman stands with speech bubble containing Ethereum logo"></object>
           </div>
         </div>
         <div className="explainer">
