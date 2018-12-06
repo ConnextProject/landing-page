@@ -1,4 +1,7 @@
 @media screen and (max-width : 769px){
+    .team-header{
+        color:#FFF;
+    }
     .bio-container{
         height:100%;
         padding-top:90%;
@@ -40,13 +43,18 @@
     }
 }
 @media screen and (min-width : 769px){
-    
+    .team-header{
+        color:#0F1012!important;
+        margin-bottom:0% !important;
+    }
     .bio-container{
-        margin-top:25%;
+        padding:3%  0% 0% 0%;
         flex-direction:row;
         flex-wrap:wrap;
         align-items:flex-start;
         justify-content: space-between;
+        background-color:rgba(255, 255, 255,0.4);
+        border-radius: 30px;
     }
     .bio-name{
         width: 20%;
@@ -56,7 +64,7 @@
     .bio-pic{
         width: 10%;
         margin-top:-1%;
-        margin-left:15%;
+        margin-left:10%;
         margin-bottom:3%;
     }
     .bio-bio{
