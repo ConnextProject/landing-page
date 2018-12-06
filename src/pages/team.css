@@ -44,16 +44,17 @@
 }
 @media screen and (min-width : 769px){
     .team-header{
-        color:#0F1012!important;
+        color:#FFF!important;
+        padding-bottom:5%;
         margin-bottom:0% !important;
     }
     .bio-container{
-        padding:3%  0% 0% 0%;
+        padding:5%  0% 0% 0%;
         flex-direction:row;
         flex-wrap:wrap;
         align-items:flex-start;
         justify-content: space-between;
-        background-color:rgba(255, 255, 255,0.4);
+        background-color:rgba(255, 255, 255,0.9);
         border-radius: 30px;
     }
     .bio-name{

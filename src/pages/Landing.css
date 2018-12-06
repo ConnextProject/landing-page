@@ -1,4 +1,19 @@
-
+@media screen and (min-width : 1441px){
+  .landing-cta{
+    color:#282b2e!important;
+    position:absolute;
+    margin-top:-5%;
+    margin-left:31%;
+    margin-right:auto;
+  }
+  .gettingstarted-button2{
+    margin-left:1.1%;
+    padding:1.05% 2% 0.95% 2%;
+  }
+  .bestfor{
+    padding-bottom:-10% !important;
+  }
+}
 @media screen and (min-width : 760px){
   .landing-toplevel{
     margin:auto;
@@ -55,6 +70,7 @@
     padding:1.05% 2% 0.95% 2%;
   }
   .landing-cta{
+    color:#FFF;
     margin-bottom:-30%;
   }
 }
@@ -111,7 +127,7 @@
       margin-bottom:50% !important;
     }
     .landing-cta{
-
+      color:#fff;
       position:absolute;
       margin-top:-60%;
       margin-left:auto;
