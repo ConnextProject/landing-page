@@ -117,12 +117,13 @@ class Demo extends Component {
     
         async cashOut(){
             var threadBalanceB = this.state.threadBalanceB;
+            this.setState(({channelBalanceB}) =>({
+                channelBalanceB: threadBalanceB
+            }));      
+            await this.sleep(500);      
             if (this.state.channelBalanceB===0){
                 alert("No channel balance to withdraw!")
             }else{
-                this.setState(({channelBalanceB}) =>({
-                    channelBalanceB: threadBalanceB
-                }));
                 this.setState(({threadBalanceB}) =>({
                     threadBalanceB: 0
                 }));
