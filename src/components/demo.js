@@ -139,7 +139,7 @@ class Demo extends Component {
                 this.setState({showSpinner:false});
                 var channelBalanceB = this.state.channelBalanceB;
                 this.setState(({onChainBalanceB}) =>({
-                    onChainBalanceB: channelBalanceB
+                    onChainBalanceB: onChainBalanceB + channelBalanceB
                 }));
                 this.setState(({ channelBalanceB }) => ({
                     channelBalanceB: 0
