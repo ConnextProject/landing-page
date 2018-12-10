@@ -19,9 +19,6 @@
     }
 }
 
-
-
-
 @media screen and (min-width : 760px){
     .notfound-toplevel{
         flex-direction: column;
@@ -42,6 +39,16 @@
     }
     .gif{
         width:60%;
+    }
+}
+
+@media screen and (min-width:1441px){
+    .notfound-toplevel{
+        margin-bottom:-100% !important;
+    }
+    .notfound-toplevel>h1{
+        padding-top:3% !important;
+        color: #0F1012 !important;
     }
 }
 

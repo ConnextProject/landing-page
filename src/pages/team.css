@@ -1,4 +1,17 @@
+@media screen and (min-width: 1441px){
+    .team-toplevel{
+        margin-bottom: -110% !important;
+    }
+    .team-header>h1{
+        padding-top:2% !important;
+        color: #0F1012 !important;
+    }
+    .team-readdocs-button{
+        background-color:#FFF !important;
+    }
+}
 @media screen and (max-width : 769px){
+
     .team-header{
         color:#FFF;
     }

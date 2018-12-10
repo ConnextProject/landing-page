@@ -1,20 +1,41 @@
 @media screen and (min-width : 1441px){
+  .landing-toplevel{
+    margin-bottom:-70%!important;
+  }
   .landing-cta{
-    color:#282b2e!important;
+    color:#FFF;
     position:absolute;
-    margin-top:-5%;
-    margin-left:31%;
+    margin-top:28%;
+    margin-left:26%;
     margin-right:auto;
   }
+  .landing-cta>h2{
+    font-size:60px !important;
+  }
+  .landing-cta>a{
+    font-size:30px !important;
+  }
+  .above-fold{
+    padding-bottom:15% !important;
+  }
+  .viable{
+    margin-top:20% !important;
+    margin-bottom:20% !important;
+  }
+
   .gettingstarted-button2{
     margin-left:1.1%;
     padding:1.05% 2% 0.95% 2%;
   }
+  .demo{
+    margin-top:30% !important;
+  }
   .bestfor{
-    padding-bottom:-10% !important;
+    padding-top:8% !important;
+    margin-bottom:-5% !important;
   }
 }
-@media screen and (min-width : 760px){
+@media screen and (min-width : 770px){
   .landing-toplevel{
     margin:auto;
   }

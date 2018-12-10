@@ -1,8 +1,11 @@
-@media screen and (min-width:1441x){
+@media screen and (min-width:1441px){
     .top{
-        background:url("../assets/background_all.svg") no-repeat center center !important;
-        background-size: 100% !important;
-        background-position: 0 0% !important;
+         background: url("../assets/background_all.svg") no-repeat center center absolute !important; 
+         background-position:0% 70% !important;
+         -webkit-background-size: cover !important;
+         -moz-background-size: cover !important;
+         -o-background-size: cover !important;
+         background-size: cover !important;
     }
     .baseMobile{
         display:none;
