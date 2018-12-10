@@ -47,7 +47,7 @@
     .bullet-1:after { content: '';
         position: absolute;
         border-right: 1px #282b2e solid;
-        height: 1200px!important;
+        height: 1280px!important;
         width: 10px;
         transform: translate(-360%,6%)!important;
         z-index:-1;
