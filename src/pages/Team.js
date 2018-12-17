@@ -29,7 +29,10 @@ scrollToMyRef = () => {
                 Team
               </h1>
             </div>
-          <div className="bio-container" style={{display:"flex",width:"100%"}}>
+            <div style={{fontStyle:"italic",display:"flex",width:"100%", fontSize:"xx-large", justifyContent:"center"}}> 
+                    This page is under construction. Please check back soon!
+            </div>
+          {/* <div className="bio-container" style={{display:"flex",width:"100%"}}>
               <div className="bio-pic" >
                 <img src={arjun} alt="Arjun bitmoji - signpost labeled 'it me' points to brown-haired man" style={{
                                                               width:"110px",
@@ -141,7 +144,7 @@ scrollToMyRef = () => {
                 Strategist, economist, marketer, data junkie. 
                 Thrives on music, hiking, coffee, and optimism. 
                 Former economic consultant and quantitative data analyst. 
-              </div>
+              </div> 
             <div className="jobs" name="jobs" style={{width:"100%",marginTop:"2.5%",
                                                       fontWeight:"lighter",
                                                       fontFamily: "'proxima-nova',sans-serif",
@@ -153,9 +156,9 @@ scrollToMyRef = () => {
                   Connext is unlocking the micropayment economy of the future. If you'd like to help, reach out to support@connext.network.
             </div>
             <div style={{margin:"auto", paddingTop:"5%"}}> 
-                {/* <a onClick={this.scrollToMyRef}><img src={arrow} alt="down arrow" style={{width:"30px", height:"30px"}}></img></a> */}
+                 <a onClick={this.scrollToMyRef}><img src={arrow} alt="down arrow" style={{width:"30px", height:"30px"}}></img></a> 
             </div>
-          </div>
+          </div> */}
           <div className="team-cta" style={{display:"flex"}}>
                 <div ref={this.myRef} style={{textAlign:"center", paddingBottom:"2.5%"}}>
                   <h2 style={{fontWeight:"lighter",
