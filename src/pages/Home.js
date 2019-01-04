@@ -74,7 +74,7 @@ render() {
                 <li style={{float:'right'}}><a href= "https://medium.com/connext" className = "topNavLinkMobile">Blog</a></li>
                 <li style={{float:'right'}}><Link to="/team" className = "topNavLinkMobile">Team</Link></li>                
                 <li style={{float:'right'}}><a href="https://discord.gg/yKkzZZm" className = "topNavLinkMobile">Chat</a></li>
-                <li style={{float:'right'}}><a href="https://docs.connext.network" className = "topNavLinkMobile">Docs</a></li>
+                <li style={{float:'right'}}><a href="https://github.com/ConnextProject/docs/wiki" className = "topNavLinkMobile">Docs</a></li>
                 <li style={{position:"relative",float:'right', width:"100%"}}><a href="https://arjun126.typeform.com/to/HroioH" className = "signupMobile">Sign Up</a></li>                 
               </ul>
             </div>)
@@ -100,7 +100,7 @@ render() {
                 <li style={{position:"relative",left:"-10%",float:'left'}}><Link to="/"><img className="logo1" src={logoHorizontal} alt="Connext Logo Horizontal" style={{width:"30%", marginTop:"2%"}}></img></Link></li>
                 {/* <li style={{position:"relative",float:'right'}}><a onClick={this.handleOpenModal} className = "signupLink">Sign Up</a></li> */}
                 <li style={{position:"relative",float:'right'}}><Link to="/team" className = "topNavLinkDesktop">Team</Link></li>
-                <li style={{position:"relative",float:'right'}}><a href="https://docs.connext.network" className = "topNavLinkDesktop">Docs</a></li>
+                <li style={{position:"relative",float:'right'}}><a href="https://github.com/ConnextProject/docs/wiki" className = "topNavLinkDesktop">Docs</a></li>
                 <li style={{position:"relative",float:'right'}}><a href="https://discord.gg/yKkzZZm" className = "topNavLinkDesktop">Chat</a></li>                
                 <li style={{position:"relative",float:'right'}}><a href= "https://medium.com/connext" className = "topNavLinkDesktop">Blog</a></li>               
               </ul>
@@ -143,7 +143,7 @@ render() {
               <img className="footer-logo" src={logoWhiteHorizontal} alt="Connext Logo Horizontal White" style={{marginBottom: "-5%", width:"160px",float:"left"}}></img>
               <br />
               <br />
-              © 2018 Connext, Inc. All rights reserved.
+              © 2019 Connext, Inc. All rights reserved.
             </div>
             <div className="spacer" style={{width:"35%",order:"2"}}></div>
             <div className="footer-company" style={{

@@ -29,7 +29,7 @@ scrollToMyRef = () => {
                 Team
               </h1>
             </div>
-            <div style={{fontStyle:"italic",display:"flex",width:"100%", fontSize:"xx-large", justifyContent:"center"}}> 
+            <div style={{marginTop:"25%",fontStyle:"italic",display:"flex",width:"100%", fontSize:"xx-large", justifyContent:"center"}}> 
                     This page is under construction. Please check back soon!
             </div>
           {/* <div className="bio-container" style={{display:"flex",width:"100%"}}>
