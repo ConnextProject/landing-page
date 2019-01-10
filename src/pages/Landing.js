@@ -24,7 +24,7 @@ class Landing extends Component {
               </p>
               <br />
               <div className="header-buttons">
-              <a className="gettingstarted-button" href="https://docs.connext.network" style={{fontWeight:"normal", textDecoration:"none",color:"#FFF"}}>
+              <a className="gettingstarted-button" href="https://github.com/ConnextProject/docs/wiki" style={{fontWeight:"normal", textDecoration:"none",color:"#FFF"}}>
                 Read the docs
               </a>
               <a className="joincommunity-button" href="https://discord.gg/yKkzZZm" style={{fontWeight:"normal", textDecoration:"none",color:"#002868"}}>
@@ -53,7 +53,7 @@ class Landing extends Component {
             <a className="signupnow-button" href="https://discord.gg/yKkzZZm" style={{textDecoration:"none"}}>
               Join the community
             </a>
-            <a className="gettingstarted-button2" href="https://docs.connext.network" style={{textDecoration:"none",color:"#FFF"}}>
+            <a className="gettingstarted-button2" href="https://github.com/ConnextProject/docs/wiki" style={{textDecoration:"none",color:"#FFF"}}>
                 Read the docs
               </a>
         </div>

@@ -171,7 +171,7 @@ render() {
                           order:"4"}}>
               <span style={{fontFamily:"comfortaa"}}>RESOURCES</span>
               <br />
-              <a href="https://docs.connext.network" style={{
+              <a href="https://github.com/ConnextProject/docs/wiki" style={{
                       fontFamily: "'proxima-nova',sans-serif", 
                       fontSize: "normal",
                       color: "white"}}>Docs</a>

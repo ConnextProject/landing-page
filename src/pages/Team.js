@@ -173,7 +173,7 @@ scrollToMyRef = () => {
                           textAlign:"center",
                           }}>
                   <a className="team-readdocs-button" 
-                   href="https://docs.connext.network" style={{textDecoration:"none"}}>
+                   href="https://github.com/ConnextProject/docs/wiki" style={{textDecoration:"none"}}>
                       Read our documentation
                   </a>
                   <a className="team-joincommunity-button" href="https://discord.gg/yKkzZZm" style={{textDecoration:"none"}}>
