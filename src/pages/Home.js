@@ -89,8 +89,8 @@ class Home extends Component {
                   paddingBottom: "10%"
                 }}
               >
-                <h3>Introducing</h3>
-                <h1>The Dai Card</h1>
+                <h3 style={{ fontFamily: "'proxima-nova',sans-serif" }}>Introducing</h3>
+                <h1 style={{color:"#FCA311"}}>The Dai Card</h1>
                 <p style={{ fontFamily: "'proxima-nova',sans-serif" }}>
                   Transact instantly, cheaply, and securely in Dai
                 </p>
