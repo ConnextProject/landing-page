@@ -1,3 +1,5 @@
+
+
 @media screen and (min-width:1441px){
     .top{
          background: url("../assets/background_all.svg") no-repeat center center absolute !important; 
@@ -6,6 +8,9 @@
          -moz-background-size: cover !important;
          -o-background-size: cover !important;
          background-size: cover !important;
+    }
+    .daicard-row{
+        left:10%;
     }
     .baseMobile{
         display:none;
@@ -105,6 +110,13 @@
         background-size:cover;
         background-position:0 10%;
     }
+    .daicard-row{
+        left:10%;
+    }
+    .daicard-get-started{
+        margin-left:65%;
+    }
+
     .baseMobile{
         display:none;
     }
@@ -201,6 +213,12 @@
         background-image:url("../assets/background_all.svg");
         background-size:cover;
         background-position:0 0;
+    }
+    .daicard-row{
+        top:60px !important;
+    }
+    .daicard-get-started{
+        margin-left:47%;
     }
     .baseMobile{
         width:100%;

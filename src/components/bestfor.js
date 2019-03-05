@@ -36,8 +36,9 @@ class BestFor extends Component {
                   <div className="wrap" style={{width:"50%", textAlign:"center"}}>
                     <Row>
                     <Col xs="8">
+                    <h5 style={{color:"#FCA311",textAlign:"right", paddingRight:"5%"}} >CONTENT PAYMENTS</h5>
                     <p style={{textAlign:"right", paddingRight:"5%"}}>
-                    <h5 style={{color:"#FCA311"}} >CONTENT PAYMENTS</h5>
+                    
                       By reducing transaction costs to almost zero, 
                       Connext empowers creators to monetize their content, 
                       no matter how low the price.
@@ -53,8 +54,9 @@ class BestFor extends Component {
                   <div className="wrap" style={{width:"50%", textAlign:"center"}}>
                     <Row>
                     <Col xs="8">
+                    <h5 style={{color:"#FCA311",textAlign:"right", paddingRight:"5%"}} >P2P MARKETPLACES</h5>
+
                     <p style={{textAlign:"right", paddingRight:"5%"}}>
-                    <h5 style={{color:"#FCA311"}} >P2P MARKETPLACES</h5>
                       Controlling user funds and managing payouts is risky and takes work. 
                       Connext lets you make your marketplace truly peer-to-peer.
                     </p>
@@ -69,8 +71,9 @@ class BestFor extends Component {
                   <div className="wrap" style={{width:"50%", textAlign:"center"}}>
                     <Row>
                     <Col xs="8">
+                    <h5 style={{color:"#FCA311",textAlign:"right", paddingRight:"5%"}} >MACHINE INTERACTIONS</h5>
                     <p style={{textAlign:"right", paddingRight:"5%"}}>
-                    <h5 style={{color:"#FCA311"}} >MACHINE INTERACTIONS</h5>
+                    
                       Flexible payment metadata and lightweight client code make Connext great for 
                       IoT devices. Kickstart your machine economy.
                     </p>
@@ -85,8 +88,9 @@ class BestFor extends Component {
                   <div className="wrap" style={{width:"50%", textAlign:"center"}}>
                     <Row>
                     <Col xs="8">
+                    <h5 style={{color:"#FCA311",textAlign:"right", paddingRight:"5%"}} >RECURRING PAYMENTS</h5>
+
                     <p style={{textAlign:"right", paddingRight:"5%"}}>
-                    <h5 style={{color:"#FCA311"}} >RECURRING PAYMENTS</h5>
                       Paying gas on every transaction is silly. With Connext, 
                       recurring payments are just signed commitments that can be redeemed later.
                     </p>
@@ -109,8 +113,9 @@ class BestFor extends Component {
                     </Row>
                     <Row>
                     <Col>
+                    <h5 style={{color:"#FCA311",textAlign:"center", paddingBottom:"16%"}} >CONTENT PAYMENTS</h5>
+
                     <p style={{textAlign:"center", paddingBottom:"16%"}}>
-                    <h5 style={{color:"#FCA311"}} >CONTENT PAYMENTS</h5>
                     By reducing transaction costs to almost zero, 
                       Connext empowers creators to monetize their content, 
                       no matter how low the price.
@@ -126,8 +131,9 @@ class BestFor extends Component {
                     </Row>
                     <Row> 
                     <Col>
+                    <h5 style={{color:"#FCA311",textAlign:"center", paddingBottom:"16%"}} >P2P MARKETPLACES</h5>
+
                     <p style={{textAlign:"center", paddingBottom:"16%"}}>
-                    <h5 style={{color:"#FCA311"}} >P2P MARKETPLACES</h5>
                     Controlling user funds and managing payouts is risky and takes work. 
                       Connext lets you make your marketplace truly peer-to-peer.
                     </p>
@@ -142,8 +148,9 @@ class BestFor extends Component {
                     </Row>
                     <Row>
                     <Col>
+                    <h5 style={{color:"#FCA311",textAlign:"center", paddingBottom:"16%"}} >MACHINE PAYMENTS</h5>
+
                     <p style={{textAlign:"center", paddingBottom:"16%"}}>
-                    <h5 style={{color:"#FCA311"}} >MACHINE PAYMENTS</h5>
                     Flexible payment metadata and lightweight client code make Connext great for 
                       IoT devices. Kickstart your machine economy.
                     </p>
@@ -158,8 +165,9 @@ class BestFor extends Component {
                     </Row>
                     <Row>
                     <Col>
+                    <h5 style={{color:"#FCA311",textAlign:"center", paddingBottom:"16%"}} >RECURRING PAYMENTS</h5>
+
                     <p style={{textAlign:"center", paddingBottom:"16%"}}>
-                    <h5 style={{color:"#FCA311"}} >RECURRING PAYMENTS</h5>
                     Paying gas on every transaction is silly. With Connext, 
                       recurring payments are just signed commitments that can be redeemed later.
                     </p>
@@ -167,7 +175,7 @@ class BestFor extends Component {
                       </Row>
                   </div>
             <div className="learn-more-mobile" style={{}}>
-              <button  className="demo-button" outline style={{ margin:"auto"}}>
+              <button  className="demo-button" style={{ margin:"auto"}}>
                   <a href="https://github.com/ConnextProject/docs/wiki" style={{textDecoration:"none",color:"inherit"}}>
                       Learn More
                   </a>
