@@ -24,10 +24,10 @@ class Landing extends Component {
               </p>
               <br />
               <div className="header-buttons">
-              <a className="gettingstarted-button" href="https://github.com/ConnextProject/docs/wiki" style={{fontWeight:"normal", textDecoration:"none",color:"#FFF"}}>
-                Read the docs
+              <a target="_blank" rel="noopener noreferrer" className="gettingstarted-button" href="https://docs.google.com/forms/d/e/1FAIpQLScZV9S1_jgEc7XDzKT5-fE2TbHwmFDG6bxa9hWv1yxI7drD8w/viewform" style={{fontWeight:"normal", textDecoration:"none",color:"#FFF"}}>
+                Get Started
               </a>
-              <a className="joincommunity-button" href="https://discord.gg/yKkzZZm" style={{fontWeight:"normal", textDecoration:"none",color:"#002868"}}>
+              <a target="_blank" rel="noopener noreferrer" className="joincommunity-button" href="https://discord.gg/yKkzZZm" style={{fontWeight:"normal", textDecoration:"none",color:"#002868"}}>
                 Join the community
               </a>
               </div>
@@ -50,10 +50,10 @@ class Landing extends Component {
         </div>
         <div className="landing-cta" style={{textAlign:"center"}}>
           <h1 style={{fontFamily:"Comfortaa", marginBottom:"3%"}}>Want to get started?</h1>
-            <a className="signupnow-button" href="https://discord.gg/yKkzZZm" style={{textDecoration:"none"}}>
+            <a onClick="dataLayer.push({'event': 'getting-started-button-click'});" className="signupnow-button" href="https://discord.gg/yKkzZZm" style={{fontSize:16,textDecoration:"none"}}>
               Join the community
             </a>
-            <a className="gettingstarted-button2" href="https://github.com/ConnextProject/docs/wiki" style={{textDecoration:"none",color:"#FFF"}}>
+            <a onClick="dataLayer.push({'readDocs': 'read-docs-button-click'});" className="gettingstarted-button2" href="https://github.com/ConnextProject/docs/wiki" style={{textDecoration:"none",color:"#FFF"}}>
                 Read the docs
               </a>
         </div>
