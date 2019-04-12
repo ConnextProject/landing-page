@@ -34,6 +34,9 @@
     padding-top:8% !important;
     margin-bottom:-5% !important;
   }
+  .usingConnext{
+    margin-bottom:2.5rem;
+  }
 }
 @media screen and (min-width : 770px){
   .landing-toplevel{
@@ -74,6 +77,7 @@
     width:90%;
   }
   .bestfor{
+    margin-top:5%;
     margin-bottom:30%;
   }
   .explainer{
@@ -84,7 +88,7 @@
     margin-bottom:10%;
   }
   .demo{
-    margin-bottom:20%;
+    margin-bottom:15%;
   }
   .gettingstarted-button2{
     margin-left:1.1%;
@@ -93,6 +97,9 @@
   .landing-cta{
     color:#FFF;
     margin-bottom:-30%;
+  }
+  .usingConnext{
+    margin-bottom:5%;
   }
 }
 
@@ -147,6 +154,9 @@
     .demo{
       margin-bottom:50% !important;
     }
+    .usingConnext{
+      margin-bottom:2.5rem;
+    }
     .landing-cta{
       color:#fff;
       position:absolute;
@@ -179,7 +189,7 @@
     font-weight:lighter;
     font-family: 'proxima-nova',sans-serif;
     text-align: center;
-    padding: 1% 2% 1% 2%;
+    padding: 1.5% 3% 1.5% 3%;
   }
   .gettingstarted-button2:hover{
     box-shadow: inset 0 0 0 1px #FCA311, 1px 1px 1px #ADB5C1;

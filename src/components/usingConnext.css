@@ -1,0 +1,134 @@
+.usingConnext {
+  display: flex;
+  justify-content: center !important;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.logo-image {
+  filter: grayscale(100%);
+}
+.logo-image:hover {
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+
+.text {
+  font-family: "Comfortaa";
+  color: "#0F1012";
+  margin-left: 20%;
+}
+
+.row {
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+.col {
+  width: 10%;
+}
+
+@media screen and (min-width: 1441px) {
+  .logo-provide {
+    width: 300px;
+    margin-left: -16%;
+    filter: grayscale(100%);
+  }
+  .logo-provide:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+  }
+  .logo-spank {
+    width: 110px;
+    filter: grayscale(100%);
+  }
+  .logo-spank:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+  }
+  .logo-ujo {
+    width: 180px;
+    filter: grayscale(100%);
+  }
+  .logo-ujo:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+  }
+  .logo-mosendo {
+    width: 300px;
+    margin-top: 0.5rem;
+    margin-left: -2rem;
+    filter: grayscale(100%);
+  }
+  .logo-mosendo:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+  }
+  .usingConnext {
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .logo-provide {
+    width: 300px;
+    margin-left: -16%;
+
+    filter: grayscale(100%);
+  }
+  .logo-provide:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+  }
+  .logo-spank {
+    width: 110px;
+    filter: grayscale(100%);
+    margin-left: 25%;
+  }
+  .logo-spank:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+  }
+  .logo-ujo {
+    width: 180px;
+    filter: grayscale(100%);
+  }
+  .logo-ujo:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+  }
+  .logo-mosendo {
+    width: 300px;
+    margin-top: 0.5rem;
+    margin-left: -2rem;
+    filter: grayscale(100%);
+  }
+  .logo-mosendo:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+  }
+  .usingConnext {
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .logo-provide {
+    max-width: 280px;
+    margin-bottom: 2rem;
+  }
+  .logo-spank {
+    max-width: 110px;
+    margin-bottom: 2rem;
+    margin-left: -5%;
+  }
+  .logo-ujo {
+    max-width: 180px;
+    margin-bottom: 2rem;
+  }
+  .logo-mosendo {
+    max-width: 240px;
+  }
+  .usingConnext {
+    margin-left: 0%;
+    margin-bottom: 10%;
+  }
+}

@@ -5,6 +5,7 @@ import BestFor from "../components/bestfor";
 import Viable from "../components/viable";
 import Explainer from "../components/billions";
 import computer_header from "../assets/computer_header.svg";
+import UsingConnext from "../components/usingConnext";
 
 class Landing extends Component {
 
@@ -44,6 +45,9 @@ class Landing extends Component {
         </div>
         <div className="demo" >
           <Demo />
+        </div>
+        <div className="usingConnext">
+          <UsingConnext/>
         </div>
         <div className="bestfor">
           <BestFor/>

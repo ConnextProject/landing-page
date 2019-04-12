@@ -200,7 +200,7 @@ class Home extends Component {
                   </li>
                   <li style={{ float: "right" }}>
                     <a
-                      href="https://github.com/ConnextProject/docs/wiki"
+                      href="https://docs.connext.network"
                       className="topNavLinkMobile"
                     >
                       Docs

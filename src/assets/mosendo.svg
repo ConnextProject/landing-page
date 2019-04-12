@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="668px" height="144px" viewBox="0 0 668 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>mosendo_wordmark</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-22.507544%" y1="92.4987524%" x2="108.021026%" y2="15.9930164%" id="linearGradient-1">
+            <stop stop-color="#7F4999" offset="0%"></stop>
+            <stop stop-color="#E17FFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-4.57507751%" y1="67.7709438%" x2="143.631159%" y2="20.9735892%" id="linearGradient-2">
+            <stop stop-color="#7F4999" offset="0%"></stop>
+            <stop stop-color="#E17FFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="29.4469272%" y1="61.6423443%" x2="157.490165%" y2="-10.8906787%" id="linearGradient-3">
+            <stop stop-color="#7F4999" offset="0%"></stop>
+            <stop stop-color="#E17FFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-2.10159172%" y1="66.6517719%" x2="148.436141%" y2="16.883882%" id="linearGradient-4">
+            <stop stop-color="#7F4999" offset="0%"></stop>
+            <stop stop-color="#E17FFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wordmarks" transform="translate(-50.000000, -1261.000000)">
+            <g id="mosendo_wordmark" transform="translate(50.000000, 1261.000000)">
+                <text id="mosendo" font-family="NexaBold, Nexa Bold" font-size="108" font-weight="bold" line-spacing="144" fill="#7F4998">
+                    <tspan x="205.396" y="103">mosendo</tspan>
+                </text>
+                <g id="Asset-1" fill-rule="nonzero">
+                    <polygon id="Path" fill="url(#linearGradient-1)" points="83.3157988 0 39.873913 0 108.764446 60 152.804348 60"></polygon>
+                    <path d="M3.3579344,60 L100.917391,60 L65.1068499,30 L6.71990391,30 C2.64546404,30 -0.248946798,33.0201342 0.252008924,36.7147651 L3.3579344,60 Z" id="Path" fill="url(#linearGradient-2)"></path>
+                    <polygon id="Path" fill="url(#linearGradient-3)" points="3.24782609 84 73.2578011 144 119.230435 144 49.1207841 84"></polygon>
+                    <path d="M149.688866,84 L55.1347826,84 L90.7748542,114 L146.379682,114 C150.384036,114 153.237084,110.979866 152.750246,107.285235 L149.688866,84 Z" id="Path" fill="url(#linearGradient-4)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
