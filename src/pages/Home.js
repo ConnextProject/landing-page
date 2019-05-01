@@ -200,6 +200,7 @@ class Home extends Component {
                   </li>
                   <li style={{ float: "right" }}>
                     <a
+                    onClick="dataLayer.push({'event': 'getting-started-button-click'});"
                       href="https://docs.connext.network"
                       className="topNavLinkMobile"
                     >
@@ -263,7 +264,8 @@ class Home extends Component {
                 </li>
                 <li style={{ position: "relative", float: "right" }}>
                   <a
-                    href="https://github.com/ConnextProject/docs/wiki"
+                  onClick="dataLayer.push({'event': 'getting-started-button-click'});"
+                    href="https://docs.connext.network"
                     className="topNavLinkDesktop"
                   >
                     Docs

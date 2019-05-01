@@ -5,7 +5,6 @@ import BestFor from "../components/bestfor";
 import Viable from "../components/viable";
 import Explainer from "../components/billions";
 import computer_header from "../assets/computer_header.svg";
-import UsingConnext from "../components/usingConnext";
 
 class Landing extends Component {
 
@@ -25,10 +24,10 @@ class Landing extends Component {
               </p>
               <br />
               <div className="header-buttons">
-              <a onClick="dataLayer.push({'event': 'getting-started-button-click'});"  target="_blank" rel="noopener noreferrer" className="gettingstarted-button" href="https://docs.google.com/forms/d/e/1FAIpQLScZV9S1_jgEc7XDzKT5-fE2TbHwmFDG6bxa9hWv1yxI7drD8w/viewform" style={{fontWeight:"normal", textDecoration:"none",color:"#FFF"}}>
-                Get Started
+              <a onClick="dataLayer.push({'event': 'getting-started-button-click'});" className="gettingstarted-button" href="https://docs.connext.network" style={{fontWeight:"normal", textDecoration:"none",color:"#FFF"}}>
+                Get started (Docs)
               </a>
-              <a target="_blank" rel="noopener noreferrer" className="joincommunity-button" href="https://discord.gg/yKkzZZm" style={{fontWeight:"normal", textDecoration:"none",color:"#002868"}}>
+              <a className="joincommunity-button" href="https://discord.gg/yKkzZZm" style={{fontWeight:"normal", textDecoration:"none",color:"#002868"}}>
                 Join the community
               </a>
               </div>
@@ -46,22 +45,19 @@ class Landing extends Component {
         <div className="demo" >
           <Demo />
         </div>
-        <div className="usingConnext">
-          <UsingConnext/>
-        </div>
         <div className="bestfor">
           <BestFor/>
         </div>
         <div className="landing-cta" style={{textAlign:"center"}}>
-          <h1 style={{fontFamily:"Comfortaa", marginBottom:"3%"}}>Want to get started?</h1>
-          <a onClick="dataLayer.push({'readDocs': 'read-docs-button-click'});" className="gettingstarted-button2" href="https://docs.google.com/forms/d/e/1FAIpQLScZV9S1_jgEc7XDzKT5-fE2TbHwmFDG6bxa9hWv1yxI7drD8w/viewform" style={{textDecoration:"none",color:"#FFF"}}>
-                Get Started
+          <h1 style={{fontFamily:"Comfortaa", marginBottom:"4%"}}>Want to get started?</h1>
+          <div className="header-buttons">
+              <a onClick="dataLayer.push({'event': 'getting-started-button-click'});" className="gettingstarted-button" href="https://docs.connext.network" style={{fontWeight:"normal", textDecoration:"none",color:"#FFF"}}>
+                Get started (Docs)
               </a>
-          
-            <a onClick="dataLayer.push({'event': 'getting-started-button-click'});" className="signupnow-button" href="https://discord.gg/yKkzZZm" style={{fontSize:16,textDecoration:"none"}}>
-              Join the community
-            </a>
-
+              <a className="joincommunity-button" href="https://discord.gg/yKkzZZm" style={{fontWeight:"normal", textDecoration:"none",color:"#002868"}}>
+                Join the community
+              </a>
+              </div>
         </div>
       </div>
     );
