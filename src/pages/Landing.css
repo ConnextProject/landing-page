@@ -1,5 +1,6 @@
 .react-rotating-text-cursor {
-  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s
+    infinite;
 }
 
 @keyframes blinking-cursor {
@@ -14,249 +15,272 @@
   }
 }
 
-@media screen and (min-width : 1441px){
-  .landing-toplevel{
-    margin-bottom:-70%!important;
+@media screen and (min-width: 1441px) {
+  .landing-toplevel {
+    padding-bottom: -70% !important;
   }
-  .landing-cta{
-    color:#FFF;
-    position:absolute;
-    margin-top:28%;
-    margin-left:26%;
-    margin-right:auto;
+  .landing-cta {
+    margin-top: 24%;
+    margin-bottom: -50%;
   }
-  .landing-cta>h2{
-    font-size:60px !important;
+  .landing-cta > h2 {
+    font-size: 60px !important;
   }
-  .landing-cta>a{
-    font-size:30px !important;
+  .landing-cta > a {
+    font-size: 30px !important;
   }
-  .above-fold{
-    padding-bottom:15% !important;
+  .mobile-spacer {
+    display: none;
   }
-  .viable{
-    margin-top:20% !important;
-    margin-bottom:20% !important;
+  .above-fold {
+    padding-bottom: 15% !important;
   }
-
-  .gettingstarted-button2{
-    margin-left:1.1%;
-    padding:1.05% 2% 0.95% 2%;
+  .viable {
+    margin-top: 20% !important;
+    margin-bottom: 20% !important;
   }
-  .demo{
-    margin-top:30% !important;
+  .demo {
+    margin-top: 30% !important;
   }
-  .bestfor{
-    padding-top:8% !important;
-    margin-bottom:-5% !important;
+  .bestfor {
+    padding-top: 8% !important;
+    margin-bottom: -5% !important;
   }
-  .usingConnext{
-    margin-bottom:2.5rem;
+  .usingConnext {
+    margin-bottom: 2.5rem;
   }
 }
-@media screen and (min-width : 770px){
-  .landing-toplevel{
-    margin:auto;
+@media screen and (min-width: 770px) {
+  .landing-toplevel {
+    margin: auto;
   }
-  .above-fold{
-    margin-top:5%;
+  .above-fold {
+    margin-top: 5%;
     justify-content: flex-start;
-    align-content:flex-start;
-    padding-bottom:7%;
+    align-content: flex-start;
+    padding-bottom: 0%;
   }
-  .computer-header{
-    margin-top:-30%;
-    margin-left:40%;
-    padding-left:10%;
-    padding-top:0%;
-    padding-bottom:10%;
-    z-index:9999;
+  .computer-header {
+    margin-top: -20%;
+    margin-left: 40%;
+    padding-left: 10%;
+    padding-top: 0%;
+    z-index: 9999;
   }
-  .usecase-mobile{
-      display:none;
+  .usecase-mobile {
+    display: none;
   }
-  .joincommunity-button{
+  .mobile-spacer {
+    display: none;
+  }
+  .joincommunity-button {
     margin-left: 5%;
-    margin-top:1%;
+    margin-top: 1%;
   }
-  .gettingstarted-button{
 
+  .headline {
+    margin-top: 2%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
   }
-  .headline{
-    margin-top:2%;
-    margin-bottom:15%; 
-    display:flex;
-    flex-direction:column;
-    width:44%;
+  .tagline {
+    width: 90%;
   }
-  .tagline{
-    width:90%;
+  .bestfor {
+    margin-top: 5%;
+    margin-bottom: -5%;
   }
-  .bestfor{
-    margin-top:5%;
-    margin-bottom:30%;
+  .explainer {
+    margin-bottom: 12%;
   }
-  .explainer{
-    margin-bottom:12%;
+  .viable {
+    padding-top: 0%;
+    margin-bottom: 10%;
   }
-  .viable{
-    padding-top:0%;
-    margin-bottom:10%;
+
+  .landing-cta {
+    color: #fff;
+    margin-bottom: -100%;
   }
-  .demo{
-    margin-bottom:15%;
-  }
-  .gettingstarted-button2{
-    margin-left:1.1%;
-    padding:1.05% 2% 0.95% 2%;
-  }
-  .landing-cta{
-    color:#FFF;
-    margin-bottom:-30%;
-  }
-  .usingConnext{
-    margin-bottom:5%;
+
+  .usingConnext {
+    margin-bottom: 5%;
   }
 }
 
-  @media screen and (max-width : 760px){
-    .landing-toplevel{
-      width:95%;
-    }
-    .above-fold{
-      display:flex;
-      justify-content: flex-start;
-      align-content:flex-start;
-      flex-direction: column;
-      padding-bottom:65%;
-    }
-    .usecase-desktop{
-        display:none;
-    }
-    .headline{
-      flex-wrap:wrap;
-      width:100% !important;
-      padding-bottom:75%; 
-      display:block;
-    }
-    .header-buttons{
-      display:flex;
-      width:100%;
-      flex-direction:row;
-      flex-flow:column wrap;
-      align-items: baseline !important;
-      vertical-align: top;
-    }
-    .header-buttons>a{
-      width:100%;
-      text-align:center;
-      margin-top:5px;
-    }
-    
-    .computer-header{
-      display:none;
-    }
-
-    .bestfor{
-      margin-bottom:0%;
-    }
-    .explainer{
-      margin-bottom:40%;
-    }
-    .viable{
-      margin-bottom:45%;
-    }
-    .demo{
-      margin-bottom:50% !important;
-    }
-    .usingConnext{
-      margin-bottom:2.5rem;
-    }
-    .landing-cta{
-      color:#fff;
-      position:absolute;
-      margin-top:-60%;
-      margin-left:auto;
-      margin-right:auto;
-    }
-    .gettingstarted-button2{
-      margin-left:3%;
-      margin-top:5%;
-      padding:2% 4% 2% 4%;
-      width:90% ;
-      float:left;
-    }
-    .signupnow-button{
-      margin-left:3% !important;
-      width:90%;
-      float:left;
-    }
-
+@media screen and (max-width: 760px) {
+  .landing-toplevel {
+    width: 95%;
   }
-  .gettingstarted-button2{
-    border:none;
-    margin-right:8px;
-    color:#FCA311 !important;
-    background-color:inherit;
-    /* border:1px solid #fca311; */
-    border-radius:4px;
-    box-shadow:inset 0 0 0 1px #FCA311;
-    font-weight:lighter;
-    font-family: 'proxima-nova',sans-serif;
+  .above-fold {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 65%;
+  }
+  .usecase-desktop {
+    display: none;
+  }
+  .headline {
+    flex-wrap: wrap;
+    width: 100% !important;
+    padding-bottom: 75%;
+    display: block;
+  }
+  .header-buttons {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-flow: column wrap;
+    align-items: baseline !important;
+    vertical-align: top;
+  }
+
+  .header-buttons > a {
+    width: 100%;
     text-align: center;
-    padding: 1.5% 3% 1.5% 3%;
+    margin-top: 5px;
   }
-  .gettingstarted-button2:hover{
-    box-shadow: inset 0 0 0 1px #FCA311, 1px 1px 1px #ADB5C1;
-    
+  .landing-cta {
+    position: absolute;
+    width: 80%;
+    margin-top: -30%;
+    margin-left: auto;
+    margin-right: auto;
   }
-  
+  .bottom-header-buttons {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-flow: column wrap;
+    align-items: baseline !important;
+    vertical-align: top;
+  }
+  .bottom-header-buttons > a {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .gettingstarted-button2 {
+    width:80% !important;
+    border: none;
+    margin-right: 8px;
+    color: #fca311 !important;
+    background-color: inherit;
+    /* border:1px solid #fca311; */
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 1px #fca311;
+    font-weight: lighter;
+    font-family: "proxima-nova", sans-serif;
+    text-align: center;
+    padding: 2% 4% 2% 4%  !important;
+  }
+  .gettingstarted-button2:hover {
+    box-shadow: inset 0 0 0 1px #fca311, 1px 1px 1px #adb5c1;
+  }
+  .joincommunity-button2 {
+    width:80% !important;
 
-.gettingstarted-button{
-  border:none;
-  color:#FCA311 !important;
-  background-color:inherit;
+    border: none;
+    background-image: linear-gradient(to right, #fca311, #fcd116);
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px #fca311;
+    /* box-shadow:inset 0 0 0 0px #FCA311; */
+    color: #fff;
+    font-weight: lighter;
+    padding: 2% 4% 2% 4%  !important;
+    text-align: "center";
+  }
+  .joincommunity-button2:hover {
+    /* box-shadow: none; */
+    box-shadow: 0 0 0 1px #fca311, 2px 2px 2px #adb5c1;
+  }
+
+  .computer-header {
+    display: none;
+  }
+
+  .bestfor {
+    margin-bottom: 0%;
+  }
+  .explainer {
+    margin-bottom: 40%;
+  }
+  .viable {
+    margin-bottom: 45%;
+  }
+  .demo {
+    margin-bottom: 50% !important;
+  }
+  .usingConnext {
+    margin-bottom: 2.5rem;
+  }
+}
+.gettingstarted-button2 {
+  border: none;
+  margin-right: 8px;
+  color: #fca311 !important;
+  background-color: inherit;
   /* border:1px solid #fca311; */
-  border-radius:4px;
-  box-shadow:inset 0 0 0 1px #FCA311;
-  font-weight:lighter;
-  font-family: 'proxima-nova',sans-serif;
-  padding:2% 4% 2% 4%;
-  width:22%;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px #fca311;
+  font-weight: lighter;
+  font-family: "proxima-nova", sans-serif;
+  text-align: center;
+  padding: 6% 12% 6% 12%;
+}
+.gettingstarted-button2:hover {
+  box-shadow: inset 0 0 0 1px #fca311, 1px 1px 1px #adb5c1;
+}
+
+.gettingstarted-button {
+  border: none;
+  color: #fca311 !important;
+  background-color: inherit;
+  /* border:1px solid #fca311; */
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px #fca311;
+  font-weight: lighter;
+  font-family: "proxima-nova", sans-serif;
+  padding: 2% 4% 2% 4%;
+  width: 22%;
   text-align: center;
 }
-.gettingstarted-button:hover{
-  box-shadow: inset 0 0 0 1px #FCA311, 1px 1px 1px #ADB5C1;
-  
+.gettingstarted-button:hover {
+  box-shadow: inset 0 0 0 1px #fca311, 1px 1px 1px #adb5c1;
 }
-.joincommunity-button{
-   border:none;
-   background-image:linear-gradient(to right, #fca311 , #FCD116);
-   border-radius:4px;
-   box-shadow: 0 0 0 1px #FCA311;
-   /* box-shadow:inset 0 0 0 0px #FCA311; */
-   color:#fff;
-   font-weight:lighter;
-    padding: 2% 4% 2% 4%;
-    width:40%;
-    text-align:"center";
+.joincommunity-button {
+  border: none;
+  background-image: linear-gradient(to right, #fca311, #fcd116);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #fca311;
+  /* box-shadow:inset 0 0 0 0px #FCA311; */
+  color: #fff;
+  font-weight: lighter;
+  padding: 2% 4% 2% 4%;
+  width: 40%;
+  text-align: "center";
 }
-.joincommunity-button:hover{
+.joincommunity-button:hover {
   /* box-shadow: none; */
-  box-shadow: 0 0 0 1px #FCA311, 2px 2px 2px #ADB5C1;
+  box-shadow: 0 0 0 1px #fca311, 2px 2px 2px #adb5c1;
 }
 
-.signupnow-button{
-  margin-left: 0%;
-  background-image:linear-gradient(to right, #fca311 , #FCD116);
-  border-radius:4px;
-  color:#002868;
-  font-weight:lighter;
- padding: 1.5% 3% 1.5% 3%;
+.joincommunity-button2 {
+  border: none;
+  background-image: linear-gradient(to right, #fca311, #fcd116);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #fca311;
+  /* box-shadow:inset 0 0 0 0px #FCA311; */
+  color: #fff;
+  font-weight: lighter;
+  padding: 6% 12% 6% 12%;
+  text-align: "center";
 }
-
-.signupnow-button:hover{
+.joincommunity-button2:hover {
   /* box-shadow: none; */
-  color:#fff;
-  box-shadow: 1px 1px 1px #ADB5C1;
+  box-shadow: 0 0 0 1px #fca311, 2px 2px 2px #adb5c1;
 }

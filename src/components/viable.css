@@ -1,18 +1,5 @@
 @media screen and (max-width : 760px){
-    .viable-text{
-        flex-direction: column;
-        left:0;
-        font-size:large;
 
-    }
-    .viable-block-1{
-        width:100%;
-        margin-bottom:10% !important;
-    }
-    .viable-block{
-        width:100%;
-        margin-bottom:10% !important;
-    }
     .viable-block-pic{
         position:relative;
         width:320px;
@@ -20,51 +7,32 @@
     }
     .viable-header{
         margin-left:-8%;
-        margin-bottom:-30%;
+        margin-bottom:5%;
         width:120%;
         font-size:30px;
+    }
+    .code-block{
+        width:110%
     }
     .divider{
         display:none;
     }
 }
 @media screen and (min-width : 760px){
-    .viable-text{
-        flex-direction:row;
-        left:0;
-        margin-left:-10%;
-        background-color:rgba(255, 255, 255,0.3);
-        border-radius:10px; 
-        height:290px;
-        margin-bottom:10%;
-        font-size:large;
-    }
+    
     .viable-header{
         margin-bottom:3%;
     }
-    .viable-block{
-        text-align:left;
-        width:27%;
-        padding-top:5% !important;
-        padding:0% 1% 0% 1%;
-    }
-    .viable-block>h4{
-        padding-bottom:4%;
-    }
-    .viable-block-1{
-        text-align:left;
 
-        width:27%;
-        padding-top:5% !important;
-        padding-left:1%;
+    .code-block{
+        width:50%
     }
-    .viable-block-1>h4{
-        padding-bottom:4%;
-    }
+  
     .viable-block-pic{
-        width:30%;
-        margin-left:-4%;
-        margin-top:2%;
+        position:absolute;
+        width:25%;
+        left:0;
+        margin-top:-2%;
     }
     .developer{
         width:130%;

@@ -26,7 +26,6 @@ class Home extends Component {
             <div
               className="footer-connext"
               style={{
-                width: "35%",
                 fontFamily: "'proxima-nova',sans-serif",
                 color: "white",
                 float: "left",
@@ -43,7 +42,6 @@ class Home extends Component {
               <br />
               <br />© 2019 Connext, Inc. All rights reserved.
             </div>
-            <div className="spacer" style={{ width: "35%", order: "2" }} />
             <div
               className="footer-company"
               style={{

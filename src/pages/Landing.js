@@ -1,41 +1,81 @@
-import React, {Component} from "react";
-import './Landing.css';
+import React, { Component } from "react";
+import "./Landing.css";
 import Demo from "../components/demo";
 import BestFor from "../components/bestfor";
 import Viable from "../components/viable";
 import Explainer from "../components/billions";
 import computer_header from "../assets/computer_header.svg";
+var ReactRotatingText = require("react-rotating-text");
 
 class Landing extends Component {
-
   render() {
-      
+    const items = [
+      "dApps",
+      "Wallets",
+      "Marketplaces",
+      "Networks",
+      "Games",
+      "Exchanges"
+    ];
+
     return (
-      <div className="landing-toplevel" style={{paddingTop:"6%"}}>
+      <div className="landing-toplevel" style={{ paddingTop: "6%" }}>
         <div className="above-fold">
-          <div className="headline" style={{display:"flex",color:"#fff"}}>
-              <div>
-                <h1 style={{fontFamily:"Comfortaa"}}>Cheaper, fairer payments</h1>
-                <br />
-                <p className="tagline" style={{fontWeight:"normal",
-                                  fontSize:"large",
-                                  color:"#FFF"}}> 
-                  Free, open source, p2p micropayment infrastructure. Built using payment channels on the Ethereum blockchain.
-            
-                </p>
-                <br />
-                </div>
-              <div className="header-buttons">
-                <a onClick="dataLayer.push({'event': 'getting-started-button-click'});" className="gettingstarted-button" href="https://docs.connext.network" style={{fontWeight:"normal", textDecoration:"none",color:"#FFF"}}>
-                  Get started (Docs)
-                </a>
-                <a className="joincommunity-button" href="https://discord.gg/yKkzZZm" style={{fontWeight:"normal", textDecoration:"none",color:"#002868"}}>
-                  Join the community
-                </a>
-              </div>
+          <div className="headline" style={{ display: "flex", color: "#fff" }}>
+            <div>
+              <h1 style={{ fontFamily: "Comfortaa" }}>
+                Scalable Ethereum <br className="mobile-spacer"/><ReactRotatingText items={items} />
+              </h1>
+              <br />
+              <p
+                className="tagline"
+                style={{
+                  fontWeight: "normal",
+                  fontSize: "large",
+                  color: "#FFF"
+                }}
+              >
+                Connext is an infrastructure layer that scales the Ethereum
+                blockchain. Developers that integrate support for Connext can
+                enable instant, low cost Ethereum transactions in their wallets,
+                browsers, and applications!
+              </p>
+              <br />
+            </div>
+            <div className="header-buttons">
+              <a
+                onClick="dataLayer.push({'event': 'getting-started-button-click'});"
+                className="gettingstarted-button"
+                href="https://docs.connext.network"
+                style={{
+                  fontWeight: "normal",
+                  textDecoration: "none",
+                  color: "#FFF"
+                }}
+              >
+                Get started (Docs)
+              </a>
+              <a
+                className="joincommunity-button"
+                href="https://discord.gg/yKkzZZm"
+                style={{
+                  fontWeight: "normal",
+                  textDecoration: "none",
+                  color: "#002868"
+                }}
+              >
+                Join the community
+              </a>
+            </div>
           </div>
           <div>
-            <object className="computer-header" type="image/svg+xml" data={computer_header} alt="Connext coding header" style={{width:"60%"}}></object>
+            <object
+              className="computer-header"
+              type="image/svg+xml"
+              data={computer_header}
+              alt="Connext coding header"
+              style={{ width: "60%" }}
+            />
           </div>
         </div>
         <div className="explainer">
@@ -44,29 +84,43 @@ class Landing extends Component {
         <div className="viable">
           <Viable />
         </div>
-        <div className="demo" >
+        {/* <div className="demo">
           <Demo />
-        </div>
+        </div> */}
         <div className="bestfor">
-          <BestFor/>
+          <BestFor />
         </div>
-        <div className="landing-cta" style={{textAlign:"center"}}>
-          <h1 style={{fontFamily:"Comfortaa", marginBottom:"4%"}}>Want to get started?</h1>
-          <div className="header-buttons">
-              <a onClick="dataLayer.push({'event': 'getting-started-button-click'});" className="gettingstarted-button" href="https://docs.connext.network" style={{fontWeight:"normal", textDecoration:"none",color:"#FFF"}}>
-                Get started (Docs)
-              </a>
-              <a className="joincommunity-button" href="https://discord.gg/yKkzZZm" style={{fontWeight:"normal", textDecoration:"none",color:"#002868"}}>
-                Join the community
-              </a>
-              </div>
+        <div className="landing-cta" style={{ width:"100%",display:"flex", justifyContent:"center",textAlign: "center" }}>
+
+          <div className="bottom-header-buttons">
+            <a
+              onClick="dataLayer.push({'event': 'getting-started-button-click'});"
+              className="gettingstarted-button2"
+              href="https://docs.connext.network"
+              style={{
+                fontWeight: "normal",
+                textDecoration: "none",
+                color: "#FFF"
+              }}
+            >
+              Get started (Docs)
+            </a>
+            <a
+              className="joincommunity-button2"
+              href="https://discord.gg/yKkzZZm"
+              style={{
+                fontWeight: "normal",
+                textDecoration: "none",
+                color: "#002868"
+              }}
+            >
+              Join the community
+            </a>
+          </div>
         </div>
       </div>
     );
   }
-};
+}
 
 export default Landing;
-
-
-
