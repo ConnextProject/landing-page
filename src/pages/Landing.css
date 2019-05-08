@@ -20,6 +20,7 @@
     padding-bottom: -70% !important;
   }
   .landing-cta {
+    color:#282B2E;
     margin-top: 24%;
     margin-bottom: -50%;
   }
@@ -101,7 +102,7 @@
   }
 
   .landing-cta {
-    color: #fff;
+    color:#282B2E;
     margin-bottom: -100%;
   }
 
@@ -145,11 +146,15 @@
     margin-top: 5px;
   }
   .landing-cta {
-    position: absolute;
+    color:#FFF ;
+    position:absolute;
     width: 80%;
-    margin-top: -30%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: -55%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .scale-eth-wrapper{
+    width:90% !important;
   }
   .bottom-header-buttons {
     display: flex;

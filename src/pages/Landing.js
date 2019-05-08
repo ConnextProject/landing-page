@@ -91,8 +91,8 @@ class Landing extends Component {
           <BestFor />
         </div>
         <div className="landing-cta" style={{ width:"100%",display:"flex", flexWrap:"wrap",justifyContent:"center",textAlign: "center" }}>
-          <div style={{width:"100%"}}>
-          <h3 style={{ fontFamily: "Comfortaa", color:"#282B2E", paddingBottom:"5%" }}>
+          <div className="scale-eth-wrapper" style={{display:"flex",width:"100%",textAlign:"center",justifyContent:"center"}}>
+          <h3 style={{ width:"90%" ,fontFamily: "Comfortaa", paddingBottom:"5%" }}>
               Want to help us scale Ethereum?
             </h3>
             </div>
