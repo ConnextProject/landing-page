@@ -19,7 +19,8 @@ class Home extends Component {
           <div
             className="footer"
             style={{
-              
+              display:"flex",
+              justifyContent:"center"
             }}
           >
             <div
@@ -46,12 +47,16 @@ class Home extends Component {
             <div
               className="footer-company"
               style={{
+                paddingTop:"20px",
+                display:"flex",
+                justifyContent:"center",
                 fontFamily: "'proxima-nova',sans-serif",
                 fontSize: "normal",
                 color: "white",
                 order: "3"
               }}
             >
+            <div style={{paddingRight:"20px"}}>
               <span style={{ fontFamily: "comfortaa" }}>COMPANY</span>
               <br />
               <a
@@ -64,17 +69,10 @@ class Home extends Component {
               >
                 Careers
               </a>
-            </div>
-            <div
-              className="footer-resources"
-              style={{
-                fontFamily: "'proxima-nova',sans-serif",
-                fontSize: "normal",
-                color: "white",
-                marginLeft: "5%",
-                order: "4"
-              }}
-            >
+              </div>
+            
+              <div>
+    
               <span style={{ fontFamily: "comfortaa" }}>RESOURCES</span>
               <br />
               <a
@@ -110,6 +108,7 @@ class Home extends Component {
                 Chat
               </a>
               <br />
+            </div>
             </div>
           </div>
         </div>

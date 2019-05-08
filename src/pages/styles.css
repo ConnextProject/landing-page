@@ -206,14 +206,9 @@
     .top{
         background-image:url("../assets/background_all.svg");
         background-size:cover;
-        background-position:0 0;
+        background-position:0 !important;
     }
-    .daicard-row{
-        top:60px !important;
-    }
-    .daicard-get-started{
-        margin-left:47%;
-    }
+   
     .baseMobile{
         width:100%;
         margin:auto;

@@ -12,7 +12,7 @@ class Landing extends Component {
       
     return (
       <div className="landing-toplevel" style={{paddingTop:"6%"}}>
-        <div className="above-fold" style={{display:"flex"}}>
+        <div className="above-fold">
           <div className="headline" style={{display:"flex",color:"#fff"}}>
               <div>
                 <h1 style={{fontFamily:"Comfortaa"}}>Cheaper, fairer payments</h1>
@@ -35,7 +35,7 @@ class Landing extends Component {
               </div>
           </div>
           <div>
-            <object className="computer-header" type="image/svg+xml" data={computer_header} alt="Man sits at computer coding. Woman stands with speech bubble containing Ethereum logo"></object>
+            <object className="computer-header" type="image/svg+xml" data={computer_header} alt="Connext coding header" style={{width:"60%"}}></object>
           </div>
         </div>
         <div className="explainer">
