@@ -3,7 +3,6 @@
 @media screen and (min-width:1441px){
     .top{
          background: url("../assets/background_all.svg") no-repeat center center absolute !important; 
-         background-position:0% 70% !important;
          -webkit-background-size: cover !important;
          -moz-background-size: cover !important;
          -o-background-size: cover !important;
@@ -106,16 +105,11 @@
 
 @media screen and (min-width : 770px){
     .top{
+        margin: 0 auto;
         background:url("../assets/background_all.svg") no-repeat center center;
         background-size:cover;
-        background-position:0 10%;
     }
-    .daicard-row{
-        left:10%;
-    }
-    .daicard-get-started{
-        margin-left:60%;
-    }
+
 
     .baseMobile{
         display:none;
@@ -397,6 +391,9 @@
 
 
 .footer{
+    display:flex;
+    position:absolute;
+    bottom:0;
     padding-bottom:5% !important;
     padding-top:4% !important;
     position:relative !important;

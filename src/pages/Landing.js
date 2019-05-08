@@ -13,23 +13,25 @@ class Landing extends Component {
     return (
       <div className="landing-toplevel" style={{paddingTop:"6%"}}>
         <div className="above-fold" style={{display:"flex"}}>
-          <div className="headline" style={{color:"#fff"}}>
-              <h1 style={{fontFamily:"Comfortaa"}}>Cheaper, fairer payments</h1>
-              <br />
-              <p className="tagline" style={{fontWeight:"normal",
-                                fontSize:"large",
-                                color:"#FFF"}}> 
-                Free, open source, p2p micropayment infrastructure. Built using payment channels on the Ethereum blockchain.
-           
-              </p>
-              <br />
+          <div className="headline" style={{display:"flex",color:"#fff"}}>
+              <div>
+                <h1 style={{fontFamily:"Comfortaa"}}>Cheaper, fairer payments</h1>
+                <br />
+                <p className="tagline" style={{fontWeight:"normal",
+                                  fontSize:"large",
+                                  color:"#FFF"}}> 
+                  Free, open source, p2p micropayment infrastructure. Built using payment channels on the Ethereum blockchain.
+            
+                </p>
+                <br />
+                </div>
               <div className="header-buttons">
-              <a onClick="dataLayer.push({'event': 'getting-started-button-click'});" className="gettingstarted-button" href="https://docs.connext.network" style={{fontWeight:"normal", textDecoration:"none",color:"#FFF"}}>
-                Get started (Docs)
-              </a>
-              <a className="joincommunity-button" href="https://discord.gg/yKkzZZm" style={{fontWeight:"normal", textDecoration:"none",color:"#002868"}}>
-                Join the community
-              </a>
+                <a onClick="dataLayer.push({'event': 'getting-started-button-click'});" className="gettingstarted-button" href="https://docs.connext.network" style={{fontWeight:"normal", textDecoration:"none",color:"#FFF"}}>
+                  Get started (Docs)
+                </a>
+                <a className="joincommunity-button" href="https://discord.gg/yKkzZZm" style={{fontWeight:"normal", textDecoration:"none",color:"#002868"}}>
+                  Join the community
+                </a>
               </div>
           </div>
           <div>
