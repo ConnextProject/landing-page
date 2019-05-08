@@ -90,8 +90,12 @@ class Landing extends Component {
         <div className="bestfor">
           <BestFor />
         </div>
-        <div className="landing-cta" style={{ width:"100%",display:"flex", justifyContent:"center",textAlign: "center" }}>
-
+        <div className="landing-cta" style={{ width:"100%",display:"flex", flexWrap:"wrap",justifyContent:"center",textAlign: "center" }}>
+          <div style={{width:"100%"}}>
+          <h3 style={{ fontFamily: "Comfortaa", color:"#282B2E", paddingBottom:"5%" }}>
+              Want to help us scale Ethereum?
+            </h3>
+            </div>
           <div className="bottom-header-buttons">
             <a
               onClick="dataLayer.push({'event': 'getting-started-button-click'});"
