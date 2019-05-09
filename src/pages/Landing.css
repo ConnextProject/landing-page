@@ -21,8 +21,8 @@
   }
   .landing-cta {
     color:#282B2E;
-    margin-top: 24%;
-    margin-bottom: -50%;
+    margin-top: 24% !important;
+    margin-bottom:-180% !important;
   }
   .landing-cta > h2 {
     font-size: 60px !important;
@@ -102,6 +102,7 @@
   }
 
   .landing-cta {
+    margin-top:5%;
     color:#282B2E;
     margin-bottom: -100%;
   }

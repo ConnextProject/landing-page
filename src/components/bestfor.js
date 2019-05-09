@@ -11,7 +11,8 @@ class BestFor extends Component {
   render() {
     var settings = {
       dots: true,
-      infinite: false
+      infinite: false,
+
     };
 
     return (
@@ -39,7 +40,7 @@ class BestFor extends Component {
           <Slider {...settings}>
             <div className="wrap" style={{ width: "50%", textAlign: "center" }}>
               <Row>
-                <Col xs="8">
+                <Col xs="8" style={{ }}>
                   <h5
                     style={{
                       color: "#FCA311",
