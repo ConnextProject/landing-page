@@ -33,18 +33,16 @@ class Explainer extends Component {
           >
             Meet Connext
           </h2>
-          Connext scales Ethereum using state channels. State channels let users
-          batch many Ethereum transactions into one netted transfer by sending
-          signed off-blockchain commitments to counterparties rather than direct
-          on-blockchain transactions. Transactions in state channels behave just
-          like their Ethereum counterparts, but with dramatically less data that
-          needs to end up on the blockchain itself.
+          Connext scales Ethereum using state channels. With Connext, users are able to
+          batch many Ethereum transactions into one netted transfer by using
+          signed off-blockchain commitments rather than direct
+          on-blockchain transactions. 
           <br />
           <br />
-          Connext builds state channel nodes which let anyone open channels and
+          Our state channel nodes let anyone easily open channels and
           route transactions to other channels in the network - all to create to
-          create one seamless experience between wallets, browsers, and
-          applications that developers can offer their users.
+          create one fast and seamless experience between wallets, browsers, and
+          applications.
           <br />
           <br />
           <a href="https://docs.connext.network">
@@ -64,16 +62,16 @@ class Explainer extends Component {
           >
             Production Ready
           </h2>
-          Rather than implementing from scratch, Connext builds on an ecosystem
-          of standards, libraries, and best practices such as the Counterfactual
-          framework, and the Dai Stablecoin. Our infrastructure also piggybacks
-          on existing Ethereum development patterns, making it easy for users to
-          easily access Connext anywhere they would also be interacting with the
-          blockchain.
-          <br />
-          <br /> Put together, these choices make our technology simple to
+          Our technology is simple to
           integrate, extensible for many use-cases, interoperable with other
-          infrastructure, and ready for use in production environments. <br />
+          infrastructure, and ready for use in production environments.
+          
+          <br />
+          <br />  
+          Connext builds on an ecosystem
+          of standards, libraries, and best practices such as the Counterfactual
+          framework and the Dai Stablecoin. 
+          <br />
           <br />
           Check out some of the innovative projects that are using Connext live
           on the Ethereum mainnet today:
