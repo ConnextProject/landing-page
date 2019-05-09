@@ -136,7 +136,7 @@
     width: 100%;
     flex-direction: row;
     flex-flow: column wrap;
-    align-items: baseline !important;
+    align-items: flex-start !important;
     vertical-align: top;
   }
 
@@ -251,7 +251,7 @@
   font-weight: lighter;
   font-family: "proxima-nova", sans-serif;
   padding: 2% 4% 2% 4%;
-  width: 22%;
+  width: 300px;
   text-align: center;
 }
 .gettingstarted-button:hover {
@@ -266,7 +266,7 @@
   color: #fff;
   font-weight: lighter;
   padding: 2% 4% 2% 4%;
-  width: 40%;
+  width: 300px;
   text-align: "center";
 }
 .joincommunity-button:hover {

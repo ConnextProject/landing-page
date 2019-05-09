@@ -50,13 +50,13 @@
         letter-spacing: 1px;
     }
     .footer{
-        justify-content: space-between;
+        justify-content: space-evenly;
+        padding-left:5%;
+        padding-right:5%;
         display:flex;
-        position:absolute;
-        bottom:0;
+        position:relative;
         padding-bottom:2%;
         padding-top:2% !important;
-        position:relative !important;
         bottom:0 !important;
         display:flex !important;
         background-color:#282B2E !important;
@@ -69,9 +69,7 @@
         background:url("../assets/background_all.svg") no-repeat center center;
         background-size:cover;
         background-position:0 1px;
-
     }
-
 
     .baseMobile{
         display:none;
@@ -112,13 +110,12 @@
         letter-spacing: 1px;
     }
     .footer{
-        justify-content: space-between;
-        display:flex;
-        position:absolute;
-        bottom:0;
+        justify-content: space-evenly;
+        padding-left:5%;
+        padding-right:5%;
+        position:relative;
         padding-bottom:2%;
         padding-top:2% !important;
-        position:relative !important;
         bottom:0 !important;
         display:flex !important;
         background-color:#282B2E !important;
@@ -153,7 +150,6 @@
     }
     .footer{
         display:flex;
-        position:absolute;
         bottom:0;
         flex-direction: column;
         flex-wrap:wrap;

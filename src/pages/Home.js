@@ -19,8 +19,6 @@ class Home extends Component {
           <div
             className="footer"
             style={{
-              display:"flex",
-              justifyContent:"center"
             }}
           >
             <div
