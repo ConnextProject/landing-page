@@ -53,7 +53,7 @@ class Landing extends Component {
                   color: "#FFF"
                 }}
               >
-                Get started (Docs)
+                Get started
               </a>
               <a
                 className="joincommunity-button"
@@ -90,12 +90,12 @@ class Landing extends Component {
         <div className="bestfor">
           <BestFor />
         </div>
-        <div className="landing-cta" style={{ width:"100%",display:"flex", flexWrap:"wrap",justifyContent:"center",textAlign: "center" }}>
-          <div className="scale-eth-wrapper" style={{display:"flex",width:"100%",textAlign:"center",justifyContent:"center"}}>
-          <h3 style={{ width:"90%" ,fontFamily: "Comfortaa", paddingBottom:"5%" }}>
+        <div className="landing-cta" style={{ width:"100%",justifyContent:"center",textAlign: "center" }}>
+          <div className="scale-eth-wrapper" style={{textAlign:"center",justifyContent:"center"}}>
+          <h3 style={{fontFamily: "Comfortaa", paddingBottom:"5%" }}>
               Want to help us scale Ethereum?
             </h3>
-            </div>
+          </div>
           <div className="bottom-header-buttons">
             <a
               onClick="dataLayer.push({'event': 'getting-started-button-click'});"
@@ -107,7 +107,7 @@ class Landing extends Component {
                 color: "#FFF"
               }}
             >
-              Get started (Docs)
+              Get started
             </a>
             <a
               className="joincommunity-button2"

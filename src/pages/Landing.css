@@ -21,14 +21,28 @@
   }
   .landing-cta {
     color:#282B2E;
-    margin-top: 24% !important;
+    margin-top: 15% !important;
     margin-bottom:-180% !important;
   }
-  .landing-cta > h2 {
-    font-size: 60px !important;
+
+  .scale-eth-wrapper{
+    padding-top:8%;
   }
-  .landing-cta > a {
-    font-size: 30px !important;
+
+
+  .bottom-header-buttons {
+    width:50%;
+    margin-left:25%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline !important;
+    justify-content: center;
+    vertical-align: top;
+  }
+  .bottom-header-buttons > a {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
   }
   .mobile-spacer {
     display: none;
@@ -75,9 +89,23 @@
     display: none;
   }
   .joincommunity-button {
-    margin-left: 5%;
-    margin-top: 1%;
+    margin-left: 2%;
+    margin-top: 2%;
   }
+  .gettingstarted-button{
+    height:60px !important;
+    margin-top:-10px !important;
+  }
+
+  .gettingstarted-button2{
+    height:60px !important;
+  }
+
+  .joincommunity-button2{
+    height:60px !important;
+  }
+
+
 
   .headline {
     margin-top: 2%;
@@ -101,10 +129,29 @@
     margin-bottom: 10%;
   }
 
+  .scale-eth-wrapper{
+    padding-top:8%;
+  }
   .landing-cta {
     margin-top:5%;
     color:#282B2E;
     margin-bottom: -100%;
+    justify-content:center;
+  }
+
+  .bottom-header-buttons {
+    width:50%;
+    margin-left:25%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline !important;
+    justify-content: center;
+    vertical-align: top;
+  }
+  .bottom-header-buttons > a {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
   }
 
   .usingConnext {
@@ -147,22 +194,26 @@
     margin-top: 5px;
   }
   .landing-cta {
+    margin-top:-150% !important;
     color:#FFF ;
-    position:absolute;
-    width: 80%;
+    width: 70%;
     margin-top: -55%;
-    margin-left:auto;
     margin-right:auto;
+    text-align: center;
   }
   .scale-eth-wrapper{
+    margin-left:5%;
     width:90% !important;
   }
   .bottom-header-buttons {
+    margin-left:10%;
+    margin-bottom:-25%;
     display: flex;
     width: 100%;
     flex-direction: row;
     flex-flow: column wrap;
     align-items: baseline !important;
+    justify-content: center;
     vertical-align: top;
   }
   .bottom-header-buttons > a {
@@ -174,7 +225,7 @@
     width:80% !important;
     border: none;
     margin-right: 8px;
-    color: #fca311 !important;
+    color: #FFF !important;
     background-color: inherit;
     /* border:1px solid #fca311; */
     border-radius: 4px;
@@ -188,17 +239,20 @@
     box-shadow: inset 0 0 0 1px #fca311, 1px 1px 1px #adb5c1;
   }
   .joincommunity-button2 {
-    width:80% !important;
 
+    width:80% !important;
     border: none;
-    background-image: linear-gradient(to right, #fca311, #fcd116);
+    margin-right: 8px;
+    color: #fca311 !important;
+    background-color: inherit;
+    /* border:1px solid #fca311; */
     border-radius: 4px;
-    box-shadow: 0 0 0 1px #fca311;
-    /* box-shadow:inset 0 0 0 0px #FCA311; */
-    color: #fff;
+    box-shadow: inset 0 0 0 1px #fca311;
     font-weight: lighter;
+    font-family: "proxima-nova", sans-serif;
+    text-align: center;
     padding: 2% 4% 2% 4%  !important;
-    text-align: "center";
+  
   }
   .joincommunity-button2:hover {
     /* box-shadow: none; */
@@ -226,6 +280,61 @@
   }
 }
 .gettingstarted-button2 {
+  margin-right:1%;
+  border: none;
+  background-image: linear-gradient(to right, #fca311, #fcd116);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #fca311;
+  /* box-shadow:inset 0 0 0 0px #FCA311; */
+  color: #fff;
+  font-weight: lighter;
+  padding: 3% 6% 3% 6%;
+  text-align: "center";
+}
+.gettingstarted-button2:hover {
+  box-shadow: 0 0 0 1px #fca311, 2px 2px 2px #adb5c1;
+
+}
+
+.gettingstarted-button {
+  margin-top:-5px;
+  border: none;
+  background-image: linear-gradient(to right, #fca311, #fcd116);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #fca311;
+  /* box-shadow:inset 0 0 0 0px #FCA311; */
+  color: #fff;
+  font-weight: lighter;
+  padding: 2% 4% 2% 4%;
+  width: 300px;
+  text-align: "center";
+
+}
+.gettingstarted-button:hover {
+  box-shadow: 0 0 0 1px #fca311, 2px 2px 2px #adb5c1;
+
+}
+.joincommunity-button {
+  border: none;
+  color: #fca311 !important;
+  background-color: inherit;
+  /* border:1px solid #fca311; */
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px #fca311;
+  font-weight: lighter;
+  font-family: "proxima-nova", sans-serif;
+  padding: 2% 4% 2% 4%;
+  width: 300px;
+  text-align: center;
+
+}
+.joincommunity-button:hover {
+  /* box-shadow: none; */
+  box-shadow: inset 0 0 0 1px #fca311, 1px 1px 1px #adb5c1;
+
+}
+
+.joincommunity-button2 {
   border: none;
   margin-right: 8px;
   color: #fca311 !important;
@@ -236,57 +345,12 @@
   font-weight: lighter;
   font-family: "proxima-nova", sans-serif;
   text-align: center;
-  padding: 6% 12% 6% 12%;
-}
-.gettingstarted-button2:hover {
-  box-shadow: inset 0 0 0 1px #fca311, 1px 1px 1px #adb5c1;
-}
+  padding: 3% 6% 3% 6%;
 
-.gettingstarted-button {
-  border: none;
-  color: #fca311 !important;
-  background-color: inherit;
-  /* border:1px solid #fca311; */
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 1px #fca311;
-  font-weight: lighter;
-  font-family: "proxima-nova", sans-serif;
-  padding: 2% 4% 2% 4%;
-  width: 300px;
-  text-align: center;
-}
-.gettingstarted-button:hover {
-  box-shadow: inset 0 0 0 1px #fca311, 1px 1px 1px #adb5c1;
-}
-.joincommunity-button {
-  border: none;
-  background-image: linear-gradient(to right, #fca311, #fcd116);
-  border-radius: 4px;
-  box-shadow: 0 0 0 1px #fca311;
-  /* box-shadow:inset 0 0 0 0px #FCA311; */
-  color: #fff;
-  font-weight: lighter;
-  padding: 2% 4% 2% 4%;
-  width: 300px;
-  text-align: "center";
-}
-.joincommunity-button:hover {
-  /* box-shadow: none; */
-  box-shadow: 0 0 0 1px #fca311, 2px 2px 2px #adb5c1;
-}
-
-.joincommunity-button2 {
-  border: none;
-  background-image: linear-gradient(to right, #fca311, #fcd116);
-  border-radius: 4px;
-  box-shadow: 0 0 0 1px #fca311;
-  /* box-shadow:inset 0 0 0 0px #FCA311; */
-  color: #fff;
-  font-weight: lighter;
-  padding: 6% 12% 6% 12%;
-  text-align: "center";
+ 
 }
 .joincommunity-button2:hover {
   /* box-shadow: none; */
-  box-shadow: 0 0 0 1px #fca311, 2px 2px 2px #adb5c1;
+  box-shadow: inset 0 0 0 1px #fca311, 1px 1px 1px #adb5c1;
+
 }
