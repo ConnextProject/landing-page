@@ -6,6 +6,7 @@ import spank from "../assets/spank.svg";
 import provide from "../assets/provide.png";
 import mosendo from "../assets/mosendo.svg";
 import ujo from "../assets/ujo.png";
+import metamask from "../assets/metamask.png";
 
 class Explainer extends Component {
   render() {
@@ -77,16 +78,19 @@ class Explainer extends Component {
           on the Ethereum mainnet today:
           <div className="projects">
             <a href="https://mosendo.com/">
-                <img src={mosendo} alt="mosendo logo" style={{width:"100px" }} />
+                <img src={mosendo} alt="mosendo logo" style={{width:"75px" }} />
             </a>
             <a href="https://spankchain.com/">
-            <img src={spank} alt="spank logo" style={{ width:"50px"}} />
+            <img src={spank} alt="spank logo" style={{ width:"40px"}} />
             </a>
             <a href="https://provide.services/">
-            <img src={provide} alt="provide logo" style={{width:"100px" }} />
+            <img src={provide} alt="provide logo" style={{width:"75px" }} />
             </a>
             <a href="https://ujomusic.com/">
-            <img src={ujo} alt="ujo logo" style={{width:"100px" }} />
+            <img src={ujo} alt="ujo logo" style={{width:"75px" }} />
+            </a>
+            <a href="https://mobile.metamask.io/">
+            <img src={metamask} alt="metamask mobile logo" style={{width:"75px"}}/>
             </a>
           </div>
         </div>

@@ -19,7 +19,7 @@ class NotFound extends Component{
                         About
                     </Link>
                 </div>
-                <img className="gif" src={nothing_to_see_here} alt="Please disperse gif" style={{borderRadius:"8px"}}/>
+                {/* <img className="gif" src={nothing_to_see_here} alt="Please disperse gif" style={{borderRadius:"8px"}}/> */}
             </div>
         )
     }

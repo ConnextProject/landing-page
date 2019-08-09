@@ -11,7 +11,7 @@ class Home extends Component {
 
   render() {
     return (
-        <div className="top" style={{ width:"100.5%", height: "100.5%", display: "block", overflow: "hidden" }}>
+        <div className="top" style={{ width:"100.5%", display: "block", overflow: "hidden" }}>
               
         <HeaderMenu/>
     
@@ -55,16 +55,17 @@ class Home extends Component {
             <div style={{paddingRight:"20px"}}>
               <span style={{ fontFamily: "comfortaa" }}>COMPANY</span>
               <br />
-              <a
-                href="mailto:support@connext.network"
+              <Link
+                to="/team"
+                onClick={window.scrollTo(0,0)}
                 style={{
                   fontFamily: "'proxima-nova',sans-serif",
                   fontSize: "normal",
                   color: "white"
                 }}
               >
-                Careers
-              </a>
+                About
+              </Link>
               </div>
             
               <div>

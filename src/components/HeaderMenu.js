@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Landing from "../pages/Landing";
+import Team from "../pages/Team";
 import NotFound from "../pages/NotFound";
 import { Link, Switch, Route } from "react-router-dom";
 import logoHorizontal from "../assets/logoHorizontal.png";
@@ -88,7 +89,6 @@ class HeaderMenu extends Component {
                     justifyContent: "space-evenly"
                   }}
                 >
-
                   <a
                     href="https://medium.com/connext"
                     className="topNavLinkMobile"
@@ -116,6 +116,7 @@ class HeaderMenu extends Component {
                   >
                     Docs
                   </a>
+                  <Link to="/team">About</Link>
                 </li>
               </ul>
             </div>
@@ -123,6 +124,7 @@ class HeaderMenu extends Component {
           <div style={{ width: "80%", margin: "auto", zIndex: "auto" }}>
             <Switch>
               <Route exact path="/" component={Landing} />
+              <Route exact path="/team" component={Team} />
               <Route component={NotFound} />
             </Switch>
           </div>
@@ -189,11 +191,17 @@ class HeaderMenu extends Component {
                   FAQ
                 </a>
               </li>
+              <li style={{ position: "relative", float: "right" }}>
+                <Link to="/team" className="topNavLinkDesktop">
+                  About
+                </Link>
+              </li>
             </ul>
           </div>
           <div style={{ width: "84%", margin: "auto" }}>
             <Switch>
               <Route exact path="/" component={Landing} />
+              <Route path="/team" component={Team} />
               <Route component={NotFound} />
             </Switch>
           </div>

@@ -1,15 +1,6 @@
-@media screen and (min-width: 1441px){
-    .team-toplevel{
-        margin-bottom: -110% !important;
-    }
-    .team-header>h1{
-        padding-top:2% !important;
-        color: #0F1012 !important;
-    }
-    .team-readdocs-button{
-        background-color:#FFF !important;
-    }
-}
+
+
+
 @media screen and (max-width : 769px){
 
     .team-header{
@@ -17,10 +8,13 @@
     }
     .bio-container{
         height:100%;
-        padding-top:90%;
+        padding-top:10%;
         flex-direction: column;
         text-align: center;
         padding-bottom:20%;
+        background-color:rgba(255, 255, 255,0.9);
+        border-radius: 30px;
+
     }
     .bio-name{
         padding-bottom:5%;
@@ -35,9 +29,6 @@
         padding-bottom:10%;
 
         width:100%;
-    }
-    .jobs{
-        padding-top:10%;
     }
     
     .team-joincommunity-button{
@@ -56,12 +47,17 @@
     }
 }
 @media screen and (min-width : 769px){
+
+    .team-toplevel{
+        margin-bottom: -100%;
+    }
     .team-header{
         color:#FFF!important;
         padding-bottom:5%;
         margin-bottom:0% !important;
     }
     .bio-container{
+        height:100%;
         padding:5%  0% 0% 0%;
         flex-direction:row;
         flex-wrap:wrap;
@@ -92,6 +88,58 @@
         margin-top:8%;
     }
 
+}
+
+@media screen and (min-width: 1439px){
+    .team-toplevel{
+        height: 45vmax !important;
+    }
+    .team-toplevel{
+        margin-bottom: -100%;
+    }
+    .team-header{
+        color:#FFF!important;
+        padding-bottom:5%;
+        margin-bottom:0% !important;
+    }
+    .bio-container{
+        height:100%;
+        padding:5%  0% 0% 0%;
+        flex-direction:row;
+        flex-wrap:wrap;
+        align-items:flex-start;
+        justify-content: space-between;
+        background-color:rgba(255, 255, 255,0.9);
+        border-radius: 30px;
+    }
+    .bio-name{
+        width: 20%;
+        margin-left:3%;
+        margin-bottom:3%;
+    }
+    .bio-pic{
+        width: 10%;
+        margin-top:-1%;
+        margin-left:10%;
+        margin-bottom:3%;
+    }
+    .bio-bio{
+        width:40%;
+        margin-left:-5%;
+        margin-right:10%;
+        margin-bottom:3%;
+    }
+    .team-cta{
+        flex-direction:column;
+        margin-top:8%;
+    }
+    .team-header>h1{
+        padding-top:2% !important;
+        color: #0F1012 !important;
+    }
+    .team-readdocs-button{
+        background-color:#FFF !important;
+    }
 }
 
 .team-readdocs-button{
