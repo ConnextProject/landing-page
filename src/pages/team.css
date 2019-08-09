@@ -1,4 +1,98 @@
+@media screen and (min-width: 1439px){
+    .team-toplevel{
+        height: 100% !important;
+    }
+    .team-toplevel{
+        margin-bottom: -100%;
+    }
+    .team-header{
+        color:#FFF!important;
+        padding-bottom:5%;
+        margin-bottom:0% !important;
+    }
+    .bio-container{
+        height:100%;
+        padding:5%  0% 0% 0%;
+        flex-direction:row;
+        flex-wrap:wrap;
+        align-items:flex-start;
+        justify-content: space-between;
+        background-color:rgba(255, 255, 255,0.9);
+        border-radius: 30px;
+    }
+    .bio-name{
+        width: 20%;
+        margin-left:3%;
+        padding-bottom:2%;
+    }
+    .bio-pic{
+        width: 10%;
+        margin-top:-1%;
+        margin-left:10%;
+        padding-bottom:2%;
+    }
+    .bio-bio{
+        width:40%;
+        margin-left:-5%;
+        margin-right:10%;
+        padding-bottom:2%;
+    }
+    .team-cta{
+        flex-direction:column;
+        margin-top:8%;
+    }
+    .team-header>h1{
+        padding-top:2% !important;
+        color: #0F1012 !important;
+    }
+    .team-readdocs-button{
+        background-color:#FFF !important;
+    }
+}
 
+@media screen and (min-width : 769px){
+
+    .team-toplevel{
+       margin-bottom: -100%;
+   } 
+   .team-header{
+       color:#FFF!important;
+       padding-bottom:5%;
+       margin-bottom:0% !important;
+   }
+   .bio-container{
+       height:100%;
+       padding:5%  0% 0% 0% ;
+       flex-direction:row;
+       flex-wrap:wrap;
+       align-items:flex-start;
+       justify-content: space-between;
+       background-color:rgba(255, 255, 255,0.9);
+       border-radius: 30px;
+   }
+   .bio-name{
+       width: 20%;
+       margin-left:3%;
+       padding-bottom:3%;
+   }
+   .bio-pic{
+       width: 10%;
+       margin-top:-1%;
+       margin-left:10%;
+       padding-bottom:3%;
+   }
+   .bio-bio{
+       width:40%;
+       margin-left:-5%;
+       margin-right:10%;
+       padding-bottom:3%;
+   }
+   .team-cta{
+       flex-direction:column;
+       margin-top:8%;
+   }
+
+}
 
 
 @media screen and (max-width : 769px){
@@ -46,103 +140,10 @@
         margin:auto;
     }
 }
-@media screen and (min-width : 769px){
 
-    .team-toplevel{
-        margin-bottom: -100%;
-    }
-    .team-header{
-        color:#FFF!important;
-        padding-bottom:5%;
-        margin-bottom:0% !important;
-    }
-    .bio-container{
-        height:100%;
-        padding:5%  0% 0% 0%;
-        flex-direction:row;
-        flex-wrap:wrap;
-        align-items:flex-start;
-        justify-content: space-between;
-        background-color:rgba(255, 255, 255,0.9);
-        border-radius: 30px;
-    }
-    .bio-name{
-        width: 20%;
-        margin-left:3%;
-        margin-bottom:3%;
-    }
-    .bio-pic{
-        width: 10%;
-        margin-top:-1%;
-        margin-left:10%;
-        margin-bottom:3%;
-    }
-    .bio-bio{
-        width:40%;
-        margin-left:-5%;
-        margin-right:10%;
-        margin-bottom:3%;
-    }
-    .team-cta{
-        flex-direction:column;
-        margin-top:8%;
-    }
-
-}
-
-@media screen and (min-width: 1439px){
-    .team-toplevel{
-        height: 45vmax !important;
-    }
-    .team-toplevel{
-        margin-bottom: -100%;
-    }
-    .team-header{
-        color:#FFF!important;
-        padding-bottom:5%;
-        margin-bottom:0% !important;
-    }
-    .bio-container{
-        height:100%;
-        padding:5%  0% 0% 0%;
-        flex-direction:row;
-        flex-wrap:wrap;
-        align-items:flex-start;
-        justify-content: space-between;
-        background-color:rgba(255, 255, 255,0.9);
-        border-radius: 30px;
-    }
-    .bio-name{
-        width: 20%;
-        margin-left:3%;
-        margin-bottom:3%;
-    }
-    .bio-pic{
-        width: 10%;
-        margin-top:-1%;
-        margin-left:10%;
-        margin-bottom:3%;
-    }
-    .bio-bio{
-        width:40%;
-        margin-left:-5%;
-        margin-right:10%;
-        margin-bottom:3%;
-    }
-    .team-cta{
-        flex-direction:column;
-        margin-top:8%;
-    }
-    .team-header>h1{
-        padding-top:2% !important;
-        color: #0F1012 !important;
-    }
-    .team-readdocs-button{
-        background-color:#FFF !important;
-    }
-}
 
 .team-readdocs-button{
+
     color:#fca311;
     background-color:inherit;
     border:1px solid #fca311;

@@ -92,7 +92,7 @@ class Landing extends Component {
         </div>
         <div className="landing-cta" style={{ width:"100%",justifyContent:"center",textAlign: "center" }}>
           <div className="scale-eth-wrapper" style={{textAlign:"center",justifyContent:"center"}}>
-          <h3 style={{fontFamily: "Comfortaa", paddingBottom:"5%" }}>
+          <h3 style={{fontFamily: "Comfortaa", marginTop:"2%",paddingBottom:"5%" }}>
               Want to help us scale Ethereum?
             </h3>
           </div>

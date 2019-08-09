@@ -17,7 +17,6 @@
     .baseDesktop{
         width:95%;
         margin:auto;
-        padding-bottom:60%;
         z-index: 1;
     }
     .header{
@@ -117,7 +116,7 @@
         position:relative;
         padding-bottom:2%;
         padding-top:2% !important;
-        bottom:0 !important;
+        /* bottom:0 !important; */
         display:flex !important;
         background-color:#282B2E !important;
         z-index: 0 !important;

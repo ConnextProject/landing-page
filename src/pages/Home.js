@@ -11,7 +11,7 @@ class Home extends Component {
 
   render() {
     return (
-        <div className="top" style={{ width:"100.5%", display: "block", overflow: "hidden" }}>
+        <div className="top" style={{ width:"100.5%", height:"100.5%",display: "block", overflow: "hidden" }}>
               
         <HeaderMenu/>
     
