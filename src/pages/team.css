@@ -17,12 +17,12 @@
         flex-wrap:wrap;
         align-items:flex-start;
         justify-content: space-between;
-        background-color:rgba(255, 255, 255,0.9);
+        background-color:rgba(255, 255, 255,0.95);
         border-radius: 30px;
     }
-    .bio-name{
+    /* .bio-name{
         width: 20%;
-        margin-left:3%;
+        margin-left:%;
         padding-bottom:2%;
     }
     .bio-pic{
@@ -30,13 +30,17 @@
         margin-top:-1%;
         margin-left:10%;
         padding-bottom:2%;
-    }
+    } */
     .bio-bio{
         width:40%;
         margin-left:-5%;
         margin-right:10%;
         padding-bottom:2%;
     }
+    .backed-by{
+        background-color:rgba(255, 255, 255,0.95);
+        border-radius: 30px;
+       }
     .team-cta{
         flex-direction:column;
         margin-top:8%;
@@ -67,10 +71,26 @@
        flex-wrap:wrap;
        align-items:flex-start;
        justify-content: space-between;
-       background-color:rgba(255, 255, 255,0.9);
+       background-color:rgba(255, 255, 255,0.95);
        border-radius: 30px;
    }
+   .bio-pic{
+    justify-content:center;
+    width:100%;
+
+}
    .bio-name{
+       padding-top:5%;
+       justify-content: center;
+       width:100%;
+
+   }
+
+   .backed-by{
+    background-color:rgba(255, 255, 255,0.95);
+    border-radius: 30px;
+   }
+   /* .bio-name{
        width: 20%;
        margin-left:3%;
        padding-bottom:3%;
@@ -78,9 +98,9 @@
    .bio-pic{
        width: 10%;
        margin-top:-1%;
-       margin-left:10%;
+       margin-left:9%;
        padding-bottom:3%;
-   }
+   } */
    .bio-bio{
        width:40%;
        margin-left:-5%;
@@ -106,7 +126,7 @@
         flex-direction: column;
         text-align: center;
         padding-bottom:20%;
-        background-color:rgba(255, 255, 255,0.9);
+        background-color:rgba(255, 255, 255,0.95);
         border-radius: 30px;
 
     }
@@ -124,6 +144,10 @@
 
         width:100%;
     }
+    .backed-by{
+        background-color:rgba(255, 255, 255,0.95);
+        border-radius: 30px;
+       }
     
     .team-joincommunity-button{
         margin-top:3%;
