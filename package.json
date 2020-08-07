@@ -6,7 +6,7 @@
     "@glorious/demo": "^0.7.0",
     "axios": "^0.18.0",
     "bootstrap": "^4.1.3",
-    "prismjs": "^1.15.0",
+    "prismjs": "^1.21.0",
     "react": "^16.4.2",
     "react-animated-number": "^0.4.4",
     "react-delay": "^0.1.0",
